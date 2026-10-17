@@ -14,6 +14,8 @@
   --accent: #e56f51;
   --success: #8bc8a3;
   --error: #e39b8c;
+  --radius-control: 4px;
+  --radius-panel: 6px;
 }
 :root[data-theme='light'] {
   color-scheme: light;
@@ -117,7 +119,7 @@ main {
   opacity: 0;
   padding: 7px 10px;
   border: 1px solid var(--border);
-  border-radius: 7px;
+  border-radius: var(--radius-control);
   background: var(--surface);
   color: var(--text);
   font:
@@ -361,7 +363,7 @@ legend {
   min-height: 48px;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 9px;
+  border-radius: var(--radius-control);
   font-size: 14px;
   text-align: left;
 }
@@ -385,7 +387,7 @@ legend {
 .language-popup {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: var(--radius-panel);
   box-shadow: 0 12px 40px rgb(0 0 0 / 20%);
   overflow: hidden;
 }
@@ -428,7 +430,7 @@ legend {
   align-items: center;
   gap: 12px;
   min-height: 44px;
-  border-radius: 6px;
+  border-radius: var(--radius-control);
   padding: 9px;
   font-size: 13px;
   cursor: pointer;
@@ -471,7 +473,7 @@ legend {
   min-height: 44px;
   margin-top: 6px;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: var(--radius-control);
   padding: 10px 12px;
   color: var(--text);
   background: var(--surface);
@@ -542,7 +544,7 @@ legend {
 .segmented {
   display: flex;
   border: 1px solid var(--border);
-  border-radius: 9px;
+  border-radius: var(--radius-control);
   padding: 4px;
   gap: 4px;
   background: var(--surface);
@@ -568,7 +570,7 @@ legend {
   display: block;
   min-height: 40px;
   padding: 11px 10px;
-  border-radius: 6px;
+  border-radius: var(--radius-control);
   color: var(--muted);
 }
 .segmented input:checked + span {
