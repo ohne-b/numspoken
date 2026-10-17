@@ -20,6 +20,11 @@
   --safe-right: env(safe-area-inset-right, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
   --safe-left: env(safe-area-inset-left, 0px);
+  --topbar-padding-top: max(20px, var(--safe-top));
+  --topbar-padding-bottom: 12px;
+  scroll-padding-top: calc(
+    var(--topbar-padding-top) + 44px + var(--topbar-padding-bottom)
+  );
 }
 :root[data-theme='light'] {
   color-scheme: light;
@@ -118,8 +123,8 @@ a svg {
   z-index: 10;
   width: 100%;
   background: var(--background);
-  padding: max(20px, var(--safe-top)) max(28px, var(--safe-right)) 12px
-    max(28px, var(--safe-left));
+  padding: var(--topbar-padding-top) max(28px, var(--safe-right))
+    var(--topbar-padding-bottom) max(28px, var(--safe-left));
 }
 main {
   display: grid;
@@ -639,9 +644,13 @@ legend {
     max(24px, var(--safe-bottom)) max(24px, var(--safe-left));
 }
 @media (max-width: 480px) {
+  :root {
+    --topbar-padding-top: max(12px, var(--safe-top));
+    --topbar-padding-bottom: 4px;
+  }
   .topbar {
-    padding: max(12px, var(--safe-top)) max(16px, var(--safe-right)) 4px
-      max(16px, var(--safe-left));
+    padding-right: max(16px, var(--safe-right));
+    padding-left: max(16px, var(--safe-left));
   }
   .practice-view {
     padding: 32px 20px;

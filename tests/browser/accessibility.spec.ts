@@ -134,3 +134,41 @@ test('phone safe areas and solid chrome follow both themes and keep short views 
     ),
   ).toBe(true);
 });
+
+test('reverse tabbing keeps settings controls below the sticky header on short screens', async ({
+  page,
+}) => {
+  await page.goto('./#/settings');
+  await page.getByLabel('Fixed round', { exact: true }).check();
+  for (const viewport of [
+    { width: 844, height: 390, top: 0 },
+    { width: 390, height: 300, top: 59 },
+  ]) {
+    await page.setViewportSize(viewport);
+    await page.addStyleTag({
+      content: `:root { --safe-top: ${viewport.top}px; }`,
+    });
+    await page.getByRole('link', { name: 'Source on GitHub' }).focus();
+    let controls = 0;
+    for (let i = 0; i < 12; i++) {
+      await page.keyboard.press('Shift+Tab');
+      if (await page.locator('.topbar :focus').count()) break;
+      controls++;
+      await expect
+        .poll(() =>
+          page.evaluate(() => {
+            const header = document
+              .querySelector('.topbar')!
+              .getBoundingClientRect();
+            const focused = document.activeElement!.getBoundingClientRect();
+            return (
+              focused.top >= header.bottom - 1 &&
+              focused.bottom <= innerHeight + 1
+            );
+          }),
+        )
+        .toBe(true);
+    }
+    expect(controls).toBeGreaterThanOrEqual(6);
+  }
+});
