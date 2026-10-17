@@ -53,7 +53,12 @@ export function AnswerField({
       className={`answer-field ${composing ? 'is-composing' : ''} ${revealed ? 'is-revealed' : ''}`}
       style={{ fontFamily: `"${fontFamilies[language.font]}", sans-serif` }}
     >
-      <div className="answer-mirror" aria-hidden="true" ref={mirrorRef}>
+      <div
+        className="answer-mirror"
+        aria-hidden="true"
+        dir={language.direction}
+        ref={mirrorRef}
+      >
         <div
           className="answer-text"
           ref={innerRef}

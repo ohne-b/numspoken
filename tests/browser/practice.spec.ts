@@ -147,6 +147,20 @@ test('native selection, multiline mirroring and RTL stay aligned', async ({
   expect(Math.abs(metrics.scroll - metrics.mirrorScroll)).toBeLessThan(2);
   expect(metrics.start).toBe(0);
   expect(metrics.end).toBe(7);
+  await page.setViewportSize({ width: 366, height: 640 });
+  await field.fill('x'.repeat(1000));
+  const wrapped = await page.evaluate(() => {
+    const input = document.querySelector('textarea')!;
+    const mirror = document.querySelector('.answer-mirror')!;
+    return {
+      inputWidth: input.clientWidth,
+      mirrorWidth: mirror.clientWidth,
+      inputHeight: input.scrollHeight,
+      mirrorHeight: mirror.scrollHeight,
+    };
+  });
+  expect(wrapped.inputWidth).toBe(wrapped.mirrorWidth);
+  expect(Math.abs(wrapped.inputHeight - wrapped.mirrorHeight)).toBeLessThan(2);
 });
 
 test('failed locale assets show retry and recover without grading stale answers', async ({
