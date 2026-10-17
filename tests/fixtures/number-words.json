@@ -1,0 +1,12 @@
+[
+  { "locale": "en-US", "number": 42, "words": "forty-two" },
+  { "locale": "en-GB", "number": 101, "words": "one hundred and one" },
+  { "locale": "de-DE", "number": 42, "words": "zweiundvierzig" },
+  { "locale": "fr-FR", "number": 21, "words": "vingt et un" },
+  { "locale": "es-ES", "number": 16, "words": "dieciséis" },
+  { "locale": "it-IT", "number": 21, "words": "ventuno" },
+  { "locale": "pt-PT", "number": 42, "words": "quarenta e dois" },
+  { "locale": "ru-RU", "number": 42, "words": "сорок два" },
+  { "locale": "ja-JP", "number": 42, "words": "四十二" },
+  { "locale": "zh-Hans-CN", "number": 42, "words": "四十二" }
+]

@@ -1,0 +1,9 @@
+node_modules
+dist
+coverage
+playwright-report
+test-results
+public/licenses
+LICENSE.md
+package-lock.json
+.local
