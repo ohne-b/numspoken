@@ -62,8 +62,7 @@ button:focus-visible,
 a:focus-visible,
 input:focus-visible,
 [tabindex]:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 4px;
+  outline: none;
 }
 button svg,
 a svg {
@@ -160,9 +159,6 @@ main {
   position: relative;
   width: 100%;
   border-bottom: 1px solid var(--border);
-}
-.answer-field:focus-within {
-  border-color: var(--accent);
 }
 .answer-text {
   width: 100%;
@@ -407,7 +403,6 @@ legend {
   border: 0;
   color: var(--text);
   font-size: 14px;
-  outline-offset: 0;
 }
 .language-search input::placeholder {
   color: var(--muted);
@@ -481,6 +476,12 @@ legend {
 }
 .range-fields input[aria-invalid='true'] {
   border-color: var(--error);
+}
+.language-trigger:focus-visible,
+.range-fields input:focus-visible,
+.language-search:focus-within,
+.switch:focus-visible {
+  background: var(--hover);
 }
 .field-help {
   margin: 8px 0 0;
@@ -578,8 +579,8 @@ legend {
   color: var(--text);
 }
 .segmented input:focus-visible + span {
-  outline: 2px solid var(--accent);
-  outline-offset: 1px;
+  background: color-mix(in srgb, var(--accent) 20%, var(--surface));
+  color: var(--text);
 }
 .settings-note {
   color: var(--muted);
@@ -653,8 +654,15 @@ legend {
     color: CanvasText;
     caret-color: CanvasText;
   }
-  .answer-field:focus-within {
-    outline: 2px solid Highlight;
+  .icon-button:focus-visible,
+  .language-trigger:focus-visible,
+  .range-fields input:focus-visible,
+  .language-search input:focus-visible,
+  .switch:focus-visible,
+  .segmented input:focus-visible + span {
+    forced-color-adjust: none;
+    background: Highlight;
+    color: HighlightText;
   }
   .switch::before,
   .segmented input:checked + span {
