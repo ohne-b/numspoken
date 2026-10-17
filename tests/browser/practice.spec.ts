@@ -151,11 +151,12 @@ test('native selection, multiline mirroring and RTL stay aligned', async ({
 
 test('failed locale assets show retry and recover without grading stale answers', async ({
   page,
-  browserName,
 }) => {
   let block = true;
   await page.route('**/assets/de-DE-*.js', (route) =>
-    block ? route.abort() : route.continue(),
+    block
+      ? route.fulfill({ status: 503, body: 'Temporarily unavailable' })
+      : route.continue(),
   );
   await openPractice(page);
   await page.getByRole('button', { name: 'Open settings' }).click();
@@ -166,8 +167,8 @@ test('failed locale assets show retry and recover without grading stale answers'
   await expect(page.getByText('Couldn’t load this language.')).toBeVisible();
   block = false;
   await page.getByRole('button', { name: 'Retry loading language' }).click();
-  if (browserName === 'webkit')
-    await page.getByRole('button', { name: 'Reload numspoken' }).click();
-  await expect(answerField(page)).toBeVisible();
+  await expect(answerField(page)).toBeEditable();
   await expect(answerField(page)).toHaveAttribute('lang', 'de-DE');
+  await answerField(page).fill('zweiundvierzig');
+  await expect(page.getByRole('status')).toContainText('Correct.');
 });
