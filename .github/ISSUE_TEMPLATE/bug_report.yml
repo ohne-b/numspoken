@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a problem with practice, spelling or the interface.
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include steps to reproduce and what you expected.
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language and regional/script variant
+      placeholder: English · United States (en-US)
+  - type: textarea
+    id: spelling
+    attributes:
+      label: Number and answer
+      description: For spelling issues, give the number, typed/generated answer, expected spelling and a reliable source.
+  - type: input
+    id: browser
+    attributes:
+      label: Browser, version and device
+    validations:
+      required: true
