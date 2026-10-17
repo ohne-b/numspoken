@@ -24,6 +24,16 @@ export default function SettingsView({
   useEffect(() => {
     titleRef.current?.focus();
   }, []);
+  useEffect(() => {
+    const close = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && !pickerOpen && !event.defaultPrevented) {
+        event.preventDefault();
+        navigate('practice');
+      }
+    };
+    window.addEventListener('keydown', close);
+    return () => window.removeEventListener('keydown', close);
+  }, [pickerOpen]);
   const rangeValid =
     /^\d+$/.test(range.min) &&
     /^\d+$/.test(range.max) &&
@@ -39,16 +49,7 @@ export default function SettingsView({
       update({ min: Number(next.min), max: Number(next.max) });
   }
   return (
-    <section
-      className="settings-view"
-      aria-labelledby="settings-title"
-      onKeyDown={(event) => {
-        if (event.key === 'Escape' && !pickerOpen && !event.defaultPrevented) {
-          event.preventDefault();
-          navigate('practice');
-        }
-      }}
-    >
+    <section className="settings-view" aria-labelledby="settings-title">
       <div className="settings-heading">
         <IconButton
           label="Back to practice"

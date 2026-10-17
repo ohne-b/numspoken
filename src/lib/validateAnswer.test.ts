@@ -42,6 +42,16 @@ describe('answer feedback', () => {
       validateAnswer('e\u0301x', ['één'], languageFor('nl-NL'), false),
     ).toMatchObject({ correctEnd: 2, errorStart: 2, errorEnd: 3 });
   });
+  it('folds Greek/Cyrillic stress accents without erasing distinct letters', () => {
+    const el = languageFor('el-GR');
+    expect(validateAnswer('ενα', ['ένα'], el, true).complete).toBe(true);
+    expect(validateAnswer('ενα', ['ένα'], el, false).complete).toBe(false);
+    expect(validateAnswer('ΕΝΑ', ['ένα'], el, true).complete).toBe(true);
+    const ru = languageFor('ru-RU');
+    expect(validateAnswer('оди́н', ['один'], ru, true).complete).toBe(true);
+    expect(validateAnswer('й', ['и'], ru, true).complete).toBe(false);
+    expect(validateAnswer('ё', ['е'], ru, true).complete).toBe(false);
+  });
   it('preserves Indic vowel marks and Cyrillic letters', () => {
     const hi = languageFor('hi-IN');
     expect(validateAnswer('तन', ['तीन'], hi, true).complete).toBe(false);

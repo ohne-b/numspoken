@@ -1,6 +1,22 @@
 import { expect, test } from '@playwright/test';
 import { answerField, openPractice } from './helpers';
 
+test('Escape closes settings when the header or footer has focus', async ({
+  page,
+}) => {
+  await openPractice(page);
+  for (const control of [
+    page.getByRole('button', { name: 'Switch to light mode' }),
+    page.getByRole('link', { name: 'Source on GitHub' }),
+  ]) {
+    await page.getByRole('button', { name: 'Open settings' }).click();
+    await expect(page.getByRole('heading', { name: 'Settings' })).toBeVisible();
+    await control.focus();
+    await page.keyboard.press('Escape');
+    await expect(answerField(page)).toBeVisible();
+  }
+});
+
 test('starts in English dark mode with GitHub branding and no practice counters', async ({
   page,
 }) => {

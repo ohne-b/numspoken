@@ -31,6 +31,12 @@ function normalize(
       value = value.replace(/[\s\p{Dash_Punctuation},،、]/gu, '');
       if (language.latin)
         value = value.normalize('NFD').replace(/\p{M}/gu, '').normalize('NFC');
+      // Fold stress accents in Greek/Cyrillic, retaining distinct letters such as й and ё.
+      if (['el-GR', 'ru-RU', 'uk-UA', 'sr-Cyrl-RS'].includes(language.code))
+        value = value
+          .normalize('NFD')
+          .replace(/[\u0300\u0301\u0342]/g, '')
+          .normalize('NFC');
       if (language.font === 'arabic')
         value = value.replace(/[\u064b-\u0652\u0670\u200c]/g, '');
       if (language.font === 'hebrew')

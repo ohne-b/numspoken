@@ -1,6 +1,18 @@
 import { expect, test } from '@playwright/test';
 import { answerField, openPractice } from './helpers';
 
+test('a new round does not repeat the last visible number in a two-number range', async ({
+  page,
+}) => {
+  await openPractice(page, { min: 0, max: 1, mode: 'round', roundLength: 10 });
+  for (let i = 0; i < 9; i++)
+    await page.getByRole('button', { name: 'Skip number' }).click();
+  const last = await page.locator('.number').textContent();
+  await page.getByRole('button', { name: 'Skip number' }).click();
+  await page.getByRole('button', { name: 'Start another round' }).click();
+  await expect(page.locator('.number')).not.toHaveText(last!);
+});
+
 test('colors typed characters, underlines an error, then advances after success', async ({
   page,
 }) => {

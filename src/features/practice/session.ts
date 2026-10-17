@@ -35,11 +35,12 @@ export function sessionReducer(state: Session, action: SessionAction): Session {
     case 'next': {
       if (state.complete) return state;
       const departed = state.departed + 1;
+      const complete = action.limit !== null && departed >= action.limit;
       return {
-        ...createSession(action.number),
+        ...createSession(complete ? state.number : action.number),
         departed,
         questionId: state.questionId + 1,
-        complete: action.limit !== null && departed >= action.limit,
+        complete,
       };
     }
     case 'restart':

@@ -1,5 +1,20 @@
 import { expect, it } from 'vitest';
 import { createSession, sessionReducer } from './session';
+import { randomNumber } from '../../lib/randomNumber';
+
+it('excludes the last displayed number when restarting a completed round', () => {
+  const completed = sessionReducer(createSession(0), {
+    type: 'next',
+    number: 1,
+    limit: 1,
+  });
+  expect(completed.number).toBe(0);
+  const restarted = sessionReducer(completed, {
+    type: 'restart',
+    number: randomNumber(0, 1, completed.number),
+  });
+  expect(restarted.number).toBe(1);
+});
 
 it('reveal is read-only and counts only when departing', () => {
   const revealed = sessionReducer(createSession(42), {
