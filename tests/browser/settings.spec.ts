@@ -38,8 +38,14 @@ test('grouped picker exposes all variants, searches native names and supports Es
 }) => {
   await openPractice(page);
   await page.getByRole('button', { name: 'Open settings' }).click();
+  const pageHeight = await page.evaluate(
+    () => document.documentElement.scrollHeight,
+  );
   await page.getByRole('combobox', { name: /Practice language/ }).click();
   await expect(page.getByRole('option')).toHaveCount(72);
+  await expect
+    .poll(() => page.evaluate(() => document.documentElement.scrollHeight))
+    .toBe(pageHeight);
   const search = page.getByRole('combobox', { name: 'Search languages' });
   await search.fill('Deutsch');
   await expect(page.getByRole('option')).toHaveCount(1);

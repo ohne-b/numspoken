@@ -421,6 +421,7 @@ legend {
   letter-spacing: 0.04em;
 }
 .language-option {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 12px;
