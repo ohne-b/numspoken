@@ -13,6 +13,8 @@ Type the number in words. Correct letters turn green. Choose from 50 languages a
 
 **[Open numspoken](https://ohne-b.github.io/numspoken/)**
 
+Installable from your browser. Internet needed to open the app.
+
 ## Run locally
 
 Install the Node version in [.nvmrc](.nvmrc), then:

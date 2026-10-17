@@ -52,7 +52,12 @@ export function App() {
           />
         )}
       </header>
-      <main>
+      <main
+        onFocusCapture={(event) => {
+          // Native focus scrolling does not honor the header offset in every browser.
+          event.target.scrollIntoView({ block: 'nearest' });
+        }}
+      >
         <PracticeView
           key={practiceKey(practicePreferences)}
           preferences={practicePreferences}

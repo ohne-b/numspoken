@@ -16,6 +16,15 @@
   --error: #e39b8c;
   --radius-control: 4px;
   --radius-panel: 6px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --topbar-padding-top: max(20px, var(--safe-top));
+  --topbar-padding-bottom: 12px;
+  scroll-padding-top: calc(
+    var(--topbar-padding-top) + 44px + var(--topbar-padding-bottom)
+  );
 }
 :root[data-theme='light'] {
   color-scheme: light;
@@ -64,6 +73,7 @@
 body {
   margin: 0;
   min-width: 0;
+  background: var(--background);
 }
 button,
 input,
@@ -108,15 +118,21 @@ a svg {
   grid-template-columns: minmax(0, 1fr);
 }
 .topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   width: 100%;
-  padding: max(20px, env(safe-area-inset-top))
-    max(28px, env(safe-area-inset-right)) 12px;
+  background: var(--background);
+  padding: var(--topbar-padding-top) max(28px, var(--safe-right))
+    var(--topbar-padding-bottom) max(28px, var(--safe-left));
 }
 main {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   align-items: center;
   min-width: 0;
+  padding-left: var(--safe-left);
+  padding-right: var(--safe-right);
 }
 .icon-button {
   position: relative;
@@ -305,7 +321,9 @@ main {
   justify-content: center;
   align-items: center;
   gap: 11px;
-  padding: 20px 24px max(24px, env(safe-area-inset-bottom));
+  background: var(--background);
+  padding: 20px max(24px, var(--safe-right)) max(24px, var(--safe-bottom))
+    max(24px, var(--safe-left));
   color: var(--muted);
 }
 .brand {
@@ -622,11 +640,17 @@ legend {
   flex-direction: column;
   text-align: center;
   gap: 20px;
-  padding: 24px;
+  padding: max(24px, var(--safe-top)) max(24px, var(--safe-right))
+    max(24px, var(--safe-bottom)) max(24px, var(--safe-left));
 }
 @media (max-width: 480px) {
+  :root {
+    --topbar-padding-top: max(12px, var(--safe-top));
+    --topbar-padding-bottom: 4px;
+  }
   .topbar {
-    padding: 12px 16px 4px;
+    padding-right: max(16px, var(--safe-right));
+    padding-left: max(16px, var(--safe-left));
   }
   .practice-view {
     padding: 32px 20px;
@@ -635,7 +659,7 @@ legend {
     margin-bottom: 24px;
   }
   .brand-footer {
-    padding-bottom: max(16px, env(safe-area-inset-bottom));
+    padding-bottom: max(16px, var(--safe-bottom));
   }
   .settings-view {
     width: calc(100% - 40px);
@@ -644,7 +668,8 @@ legend {
 @media (max-width: 320px) {
   .brand-footer {
     gap: 4px;
-    padding-inline: 8px;
+    padding-left: max(8px, var(--safe-left));
+    padding-right: max(8px, var(--safe-right));
   }
   .footer-divider {
     margin-left: 0;
@@ -662,6 +687,12 @@ legend {
   }
   .range-fields input {
     padding-inline: 6px;
+  }
+}
+@media (display-mode: standalone) {
+  html,
+  body {
+    overscroll-behavior-y: none;
   }
 }
 @media (prefers-reduced-motion: reduce) {

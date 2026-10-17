@@ -1,0 +1,32 @@
+{
+  "id": "/numspoken/",
+  "name": "numspoken",
+  "short_name": "numspoken",
+  "description": "Practise writing numbers in different languages.",
+  "lang": "en",
+  "start_url": "/numspoken/",
+  "scope": "/numspoken/",
+  "display": "standalone",
+  "background_color": "#17191d",
+  "theme_color": "#17191d",
+  "icons": [
+    {
+      "src": "brand/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "brand/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "brand/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
