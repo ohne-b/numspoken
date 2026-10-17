@@ -230,7 +230,7 @@ main {
   font-size: 18px;
   opacity: 0.8;
 }
-.answer-input:focus:not([readonly])::placeholder {
+.answer-input:focus::placeholder {
   opacity: 0;
 }
 .answer-input::selection {

@@ -49,7 +49,7 @@ test('editing, settings and loss of focus cancel pending advancement', async ({
   await expect(field).toHaveValue('');
 });
 
-test('keeps the native editor and its focus between numbers', async ({
+test('keeps the focused editor placeholder hidden while the next number loads', async ({
   page,
 }) => {
   await openPractice(page);
@@ -57,8 +57,44 @@ test('keeps the native editor and its focus between numbers', async ({
   await field.evaluate((element) =>
     element.setAttribute('data-original-editor', 'true'),
   );
-  await field.fill('forty-two');
-  await expect(field).toHaveValue('');
+  const resumeFontLoad = await page.evaluateHandle(() => {
+    const load = document.fonts.load.bind(document.fonts);
+    let resume!: () => void;
+    const pending = new Promise<void>((resolve) => {
+      resume = resolve;
+    });
+    document.fonts.load = async (...args) => {
+      await pending;
+      return load(...args);
+    };
+    return () => {
+      document.fonts.load = load;
+      resume();
+    };
+  });
+  try {
+    await field.fill('forty-two');
+    await expect(field).toHaveAttribute('aria-busy', 'true');
+    await expect(field).toHaveValue('');
+    await expect(field).toHaveAttribute('readonly', '');
+    await expect(field).toBeFocused();
+    expect(
+      await field.evaluate(
+        (element) => getComputedStyle(element, '::placeholder').opacity,
+      ),
+    ).toBe('0');
+    await field.blur();
+    expect(
+      await field.evaluate(
+        (element) => getComputedStyle(element, '::placeholder').opacity,
+      ),
+    ).toBe('0.8');
+    await field.focus();
+  } finally {
+    await resumeFontLoad.evaluate((resume) => resume());
+    await resumeFontLoad.dispose();
+  }
+  await expect(field).toBeEditable();
   await expect(field).toHaveAttribute('data-original-editor', 'true');
   await expect(field).toBeFocused();
 });
