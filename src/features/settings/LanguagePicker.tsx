@@ -75,7 +75,7 @@ export function LanguagePicker({
           aria-labelledby="language-label language-value"
         >
           <Flag country={selected.flag} />
-          <span id="language-value">{selected.label}</span>
+          <span id="language-value">{selected.label.replace(' · ', ', ')}</span>
           <Icon path={mdiChevronDown} size={0.8} aria-hidden="true" />
         </Combobox.Trigger>
         <Combobox.Portal>
