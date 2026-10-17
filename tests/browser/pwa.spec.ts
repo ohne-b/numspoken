@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { answerField, openPractice } from './helpers';
+import { answerField } from './helpers';
 
 test('serves installable app metadata and decodable icons under the Pages base path', async ({
   page,
