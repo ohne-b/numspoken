@@ -205,7 +205,7 @@ main {
 .answer-mirror {
   position: absolute;
   inset: 0;
-  overflow: hidden;
+  overflow: auto;
   pointer-events: none;
   color: var(--text);
 }
