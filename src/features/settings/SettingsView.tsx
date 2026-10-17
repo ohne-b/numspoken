@@ -157,11 +157,11 @@ export default function SettingsView({
           </fieldset>
         )}
       </div>
-      <p className="settings-note" role="status">
-        {storageAvailable
-          ? 'Changes are saved automatically on this device.'
-          : 'Preferences can’t be saved in this browser. They work for this visit.'}
-      </p>
+      {!storageAvailable && (
+        <p className="settings-note" role="status">
+          Preferences can’t be saved in this browser. They work for this visit.
+        </p>
+      )}
     </section>
   );
 }
