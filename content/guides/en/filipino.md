@@ -22,14 +22,14 @@
 | Number | Filipino    |
 | -----: | ----------- |
 |     10 | sampu       |
-|     11 | labinisa    |
+|     11 | labing-isa  |
 |     12 | labindalawa |
 |     13 | labintatlo  |
-|     14 | labinapat   |
+|     14 | labing-apat |
 |     15 | labinlima   |
-|     16 | labinanum   |
+|     16 | labing-anim |
 |     17 | labimpito   |
-|     18 | labingwalo  |
+|     18 | labing-walo |
 |     19 | labinsiyam  |
 
 ### 20–29
@@ -117,3 +117,4 @@ English loan _zero_.
 ## Sources
 
 - [Filipino numbers — Omniglot](https://www.omniglot.com/language/numbers/tagalog.htm)
+- [Numbers — JBLM Tagalog course, lesson 3](https://jblmflc.com/Tagalog/SF%20200%20Hour%20Tagalog%20Familiarization%20Course/SF_FAM_TAGALOG_SUPPORT%20FILES/TAGALOG%20PDF%20%26%20SOUND/PDF/Lesson%203.pdf)

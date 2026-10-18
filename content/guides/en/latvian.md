@@ -101,8 +101,7 @@ With a feminine noun, these may become _viena_ and _divas_.
 
 ## Building hundreds
 
-100 on its own is _simts_. Before a smaller remainder, the chart uses
-_simtu_: _simtu viens_ is 101.
+100 on its own is _simts_. The chart uses _simtu viens_ for 101.
 
 The hundreds may be written as separate count-and-place words,
 such as _divi simti_, or as compounds such as _divsimt_. Practice

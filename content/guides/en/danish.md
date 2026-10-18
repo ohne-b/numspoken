@@ -55,7 +55,7 @@
 |     31 | enogtredive  |
 |     40 | fyrre        |
 |     50 | halvtreds    |
-|     60 | treds        |
+|     60 | tres         |
 |     70 | halvfjerds   |
 |     80 | firs         |
 |     90 | halvfems     |
@@ -116,3 +116,4 @@ several million take _millioner_.
 ## Sources
 
 - [Danish numbers — Omniglot](https://www.omniglot.com/language/numbers/danish.htm)
+- [Tres — Den Danske Ordbog](https://ordnet.dk/ddo/ordbog/tres)

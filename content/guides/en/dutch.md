@@ -106,9 +106,11 @@ The group before _duizend_ stays attached too. Put a space after that group
 when more follows: _tweeduizend vierhonderd_.
 
 The chart uses accented _één_ for a standalone 1. Inside compounds it is
-_een_, as in _eenentwintig_. Don’t add a second _en_ after _honderd_:
-101 is _honderdeen_.
+_een_, as in _eenentwintig_. The chart uses _honderdeen_ for 101;
+_honderdeneen_ is also correct. An extra _en_ is optional before a
+remainder of 1–12 after hundreds or thousands.
 
 ## Sources
 
 - [Dutch numbers — Omniglot](https://www.omniglot.com/language/numbers/dutch.htm)
+- [Optional en in numbers — Taaladvies](https://taaladvies.net/tweeduizend-zes-of-tweeduizend-en-zes/)

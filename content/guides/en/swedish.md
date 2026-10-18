@@ -101,8 +101,8 @@ _arton_. Compare those with the tens _trettio_, _fyrtio_, _åttio_.
 
 ## En and ett
 
-Both mean one. The chart uses the neuter _ett_ for counting. Use
-_ett tusen_ for 1,000, but _en miljon_ for 1,000,000.
+Both mean one. The chart uses the neuter _ett_ for counting.
+At 1,000 it leaves out the optional _ett_: _tusen_. A million is _en miljon_.
 
 ## Hundreds and thousands
 
@@ -115,3 +115,4 @@ Zero places add nothing: 105 has no word for zero between _hundra_ and _fem_.
 ## Sources
 
 - [Swedish numbers — Omniglot](https://www.omniglot.com/language/numbers/swedish.htm)
+- [Repeated consonants — Swedish Language Council](https://frageladan.isof.se/faqs/31080)

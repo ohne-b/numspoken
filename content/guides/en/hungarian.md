@@ -114,3 +114,4 @@ Exact multiples keep their joined form: _tízezer_.
 ## Sources
 
 - [Hungarian numbers — Omniglot](https://www.omniglot.com/language/numbers/hungarian.htm)
+- [Két in compound numbers — Research Institute for Linguistics](https://archive.nytud.hu/oszt/nyelvmuvelo/gyik/huszonotezren.html)

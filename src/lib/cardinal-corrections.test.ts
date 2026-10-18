@@ -22,3 +22,20 @@ it('keeps zero gaps and complete groups when rebuilding Finnish numbers', async 
     'yhdeksänsataayhdeksänkymmentäyhdeksäntuhattayhdeksänsataayhdeksänkymmentäyhdeksän',
   );
 });
+
+it.each(['zh-Hans-CN', 'zh-Hant-TW'] as const)(
+  '%s keeps meaningful zeros and corrects both everyday and financial forms',
+  async (locale) => {
+    const convert = await loadConverter(locale);
+    const wan = locale === 'zh-Hans-CN' ? '万' : '萬';
+    expect(convert(100001).canonical).toBe(`十${wan}零一`);
+    expect(convert(100100).canonical).toBe(`十${wan}零一百`);
+    expect(convert(201000).canonical).toBe(`二十${wan}一千`);
+    expect(convert(101001).candidates).toContain(`壹拾${wan}壹仟零壹`);
+  },
+);
+
+it('keeps standalone Italian tre and Croatian hundreds unchanged', async () => {
+  expect((await loadConverter('it-IT'))(3).canonical).toBe('tre');
+  expect((await loadConverter('hr-HR'))(600).canonical).toBe('šesto');
+});

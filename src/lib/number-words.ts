@@ -20,6 +20,9 @@ export function loadConverter(locale: LocaleCode): Promise<Converter> {
             })
           : module.toCardinal(value),
       );
+      const formal = locale.startsWith('zh-')
+        ? correctCardinal(locale, (value) => module.toCardinal(value))
+        : undefined;
       return (value: number): Answer => {
         const canonical = convert(value);
         // n2words documents optional American English “and”; keep whole alternatives.
@@ -31,8 +34,8 @@ export function loadConverter(locale: LocaleCode): Promise<Converter> {
                   and: true,
                 }),
               ]
-            : locale.startsWith('zh-')
-              ? [canonical, module.toCardinal(value)]
+            : formal
+              ? [canonical, formal(value)]
               : [canonical];
         if (!canonical || candidates.some((answer) => answer.length > 2048)) {
           throw new Error('The language returned an unsupported answer.');

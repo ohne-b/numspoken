@@ -121,3 +121,4 @@ The rest of the joining pattern is the same.
 ## Sources
 
 - [Portuguese numbers — Omniglot](https://www.omniglot.com/language/numbers/portuguese.htm)
+- [Joining number groups — Ciberdúvidas](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-conjuncao-e-nos-numerais/31900)

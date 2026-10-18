@@ -73,10 +73,10 @@
 |    300 | триста    |
 |    400 | четиристо |
 |    500 | петсто    |
-|    600 | шесто     |
+|    600 | шестсто   |
 |    700 | седамсто  |
 |    800 | осамсто   |
-|    900 | девестo   |
+|    900 | деветсто  |
 
 ### Thousands and millions
 
@@ -127,3 +127,4 @@ that differ most visibly.
 ## Sources
 
 - [Serbian numbers — Omniglot](https://www.omniglot.com/language/numbers/serbian.htm)
+- [Number spelling — Serbian school workbook](https://skolaplus.rs/storage/uploads/books/10-2021/easy-start-srpski-jezik-3-177-C9.pdf)

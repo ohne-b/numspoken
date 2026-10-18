@@ -186,7 +186,7 @@ Practice stops at 999,999. The million is here for reference.
 
 The number words below 100 need their own spellings. They share
 pieces, but a single joining rule won't produce them all.
-Compare _एकवीस_ (21), _एकतीस_ (31) and _एक्केचाळीस_ (41).
+Compare _एकवीस_ (21), _एकतीस_ (31) and _एकेचाळीस_ (41).
 
 Forms such as _एकोणीस_ and _एकोणतीस_ name one below the next ten.
 There are exceptions, so the chart includes every number.

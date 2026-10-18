@@ -178,5 +178,191 @@
     "number": 23000,
     "words": "ventitremila",
     "source": "https://www.treccani.it/enciclopedia/numerali_(Enciclopedia-dell%27Italiano)/"
+  },
+  {
+    "locale": "da-DK",
+    "number": 60,
+    "words": "tres",
+    "source": "https://ordnet.dk/ddo/ordbog/tres"
+  },
+  {
+    "locale": "da-DK",
+    "number": 61,
+    "words": "enogtres",
+    "source": "https://ordnet.dk/ddo/ordbog/tres"
+  },
+  {
+    "locale": "da-DK",
+    "number": 50,
+    "words": "halvtreds",
+    "source": "https://ordnet.dk/ddo/ordbog/halvtreds"
+  },
+  {
+    "locale": "sr-Cyrl-RS",
+    "number": 600,
+    "words": "шестсто",
+    "source": "https://skolaplus.rs/storage/uploads/books/10-2021/easy-start-srpski-jezik-3-177-C9.pdf"
+  },
+  {
+    "locale": "sr-Cyrl-RS",
+    "number": 900,
+    "words": "деветсто",
+    "source": "https://pravopis.elektronskaknjiga.com/brojevi/devesto.php"
+  },
+  {
+    "locale": "sr-Latn-RS",
+    "number": 600,
+    "words": "šeststo",
+    "source": "https://skolaplus.rs/storage/uploads/books/10-2021/easy-start-srpski-jezik-3-177-C9.pdf"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 21000,
+    "words": "tjugoettusen",
+    "source": "https://frageladan.isof.se/faqs/31080"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 21001,
+    "words": "tjugoettusenett",
+    "source": "https://frageladan.isof.se/faqs/31080"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 101000,
+    "words": "hundraettusen",
+    "source": "https://frageladan.isof.se/faqs/31080"
+  },
+  {
+    "locale": "it-IT",
+    "number": 2003,
+    "words": "duemilatré",
+    "source": "https://accademiadellacrusca.it/it/consulenza/quarantaquattro-gatti-in-fila-per-sei-col-resto-di-due-o-di-quando-e-come-scrivere-i-numeri-in-lettere/1077"
+  },
+  {
+    "locale": "it-IT",
+    "number": 23003,
+    "words": "ventitremilatré",
+    "source": "https://accademiadellacrusca.it/it/consulenza/quarantaquattro-gatti-in-fila-per-sei-col-resto-di-due-o-di-quando-e-come-scrivere-i-numeri-in-lettere/1077"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 12300,
+    "words": "tizenkétezer-háromszáz",
+    "source": "https://archive.nytud.hu/oszt/nyelvmuvelo/gyik/huszonotezren.html"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 22000,
+    "words": "huszonkétezer",
+    "source": "https://archive.nytud.hu/oszt/nyelvmuvelo/gyik/huszonotezren.html"
+  },
+  {
+    "locale": "pt-PT",
+    "number": 1200,
+    "words": "mil e duzentos",
+    "source": "https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-conjuncao-e-nos-numerais/31900"
+  },
+  {
+    "locale": "pt-PT",
+    "number": 1201,
+    "words": "mil duzentos e um",
+    "source": "https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-conjuncao-e-nos-numerais/31900"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 11,
+    "words": "labing-isa",
+    "source": "https://jblmflc.com/Tagalog/SF%20200%20Hour%20Tagalog%20Familiarization%20Course/SF_FAM_TAGALOG_SUPPORT%20FILES/TAGALOG%20PDF%20%26%20SOUND/PDF/Lesson%203.pdf"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 14,
+    "words": "labing-apat",
+    "source": "https://jblmflc.com/Tagalog/SF%20200%20Hour%20Tagalog%20Familiarization%20Course/SF_FAM_TAGALOG_SUPPORT%20FILES/TAGALOG%20PDF%20%26%20SOUND/PDF/Lesson%203.pdf"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 16,
+    "words": "labing-anim",
+    "source": "https://jblmflc.com/Tagalog/SF%20200%20Hour%20Tagalog%20Familiarization%20Course/SF_FAM_TAGALOG_SUPPORT%20FILES/TAGALOG%20PDF%20%26%20SOUND/PDF/Lesson%203.pdf"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 11000,
+    "words": "labing-isang libo",
+    "source": "https://jblmflc.com/Tagalog/SF%20200%20Hour%20Tagalog%20Familiarization%20Course/SF_FAM_TAGALOG_SUPPORT%20FILES/TAGALOG%20PDF%20%26%20SOUND/PDF/Lesson%203.pdf"
+  },
+  {
+    "locale": "fa-IR",
+    "number": 300,
+    "words": "سیصد",
+    "source": "https://www.laits.utexas.edu/persian_teaching_resources/Persian_of_Iran_Today_Book_2_Vocabulary_List.pdf"
+  },
+  {
+    "locale": "fa-IR",
+    "number": 1001,
+    "words": "هزار و یک",
+    "source": "https://www.laits.utexas.edu/persian_teaching_resources/Persian_of_Iran_Today_Book_2_Vocabulary_List.pdf"
+  },
+  {
+    "locale": "fa-IR",
+    "number": 123589,
+    "words": "صد و بیست و سه هزار و پانصد و هشتاد و نه",
+    "source": "https://www.laits.utexas.edu/persian_teaching_resources/Persian_of_Iran_Today_Book_2_Vocabulary_List.pdf"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 13,
+    "words": "பதின்மூன்று",
+    "source": "https://www.tamilvu.org/courses/hg100/hg112/html/hg112kt1.htm"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 500,
+    "words": "ஐந்நூறு",
+    "source": "https://www.tamilvu.org/slet/pmdictionary/ldttamls.jsp?x=13961&y=14134"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 800,
+    "words": "எண்ணூறு",
+    "source": "https://www.tamilvu.org/slet/lA100/lA100pd3.jsp?bookid=171&pno=264"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 300,
+    "words": "முந்நூறு",
+    "source": "https://www.tamilvu.org/ta/courses-degree-a051-a0514-html-a051423-10061"
+  },
+  {
+    "locale": "ur-PK",
+    "number": 46,
+    "words": "چھیالیس",
+    "source": "https://rekhtadictionary.com/meaning-of-chhiyaaliis"
+  },
+  {
+    "locale": "yo-NG",
+    "number": 60,
+    "words": "ọgọ́ta",
+    "source": "https://www.omniglot.com/language/numbers/yoruba.htm"
+  },
+  {
+    "locale": "yo-NG",
+    "number": 80,
+    "words": "ọgọ́rin",
+    "source": "https://www.omniglot.com/language/numbers/yoruba.htm"
+  },
+  {
+    "locale": "zh-Hans-CN",
+    "number": 101000,
+    "words": "十万一千",
+    "source": "https://www.goken-net.co.jp/goken_sample/163.pdf"
+  },
+  {
+    "locale": "zh-Hant-TW",
+    "number": 101001,
+    "words": "十萬一千零一",
+    "source": "https://files.knihi.com/Knihi/skola/zvycajnyja/kitajskaja_mova/kitajskaja_mova.07kl.2019.belrus.pdf.zip/kitajskaja_mova.07kl.2019_2.belrus.pdf"
   }
 ]

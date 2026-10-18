@@ -34,18 +34,18 @@
 
 ### 20–29
 
-| Number | Bangla    |
-| -----: | --------- |
-|     20 | বিশ       |
-|     21 | **এক**ুশ  |
-|     22 | বাইশ      |
-|     23 | তেইশ      |
-|     24 | চব্বিশ    |
-|     25 | পঁচিশ     |
-|     26 | ছাব্বিশ   |
-|     27 | **সাত**াশ |
-|     28 | আঠাশ      |
-|     29 | উনত্রিশ   |
+| Number | Bangla  |
+| -----: | ------- |
+|     20 | বিশ     |
+|     21 | একুশ    |
+|     22 | বাইশ    |
+|     23 | তেইশ    |
+|     24 | চব্বিশ  |
+|     25 | পঁচিশ   |
+|     26 | ছাব্বিশ |
+|     27 | সাতাশ   |
+|     28 | আঠাশ    |
+|     29 | উনত্রিশ |
 
 ### 30–39
 
@@ -189,7 +189,7 @@ _এক_ (1), _এগারো_ (11), _একুশ_ (21) and _একত্র�
 Use the full chart for the individual spellings.
 
 Numbers just below a new ten often start with _ঊন-_ or _উন-_:
-_উনিশ_ is 19 and _ঊনত্রিশ_ is 29. That pattern has exceptions.
+_উনিশ_ is 19 and _উনত্রিশ_ is 29. That pattern has exceptions.
 
 ## Thousands and lakh
 

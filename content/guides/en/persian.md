@@ -70,7 +70,7 @@
 |    100 | صد      |
 |    101 | صد و یک |
 |    200 | دویست   |
-|    300 | سيصد    |
+|    300 | سیصد    |
 |    400 | چهار صد |
 |    500 | پانصد   |
 |    600 | ششصد    |
@@ -80,14 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Persian                                  |
-| --------: | ---------------------------------------- |
-|     1,000 | هزار                                     |
-|     2,000 | دو هزار                                  |
-|    10,000 | ده هزار                                  |
-|   100,000 | صد هزار                                  |
-|   123,456 | صد و بیست و سه هزار چهار صد و پنجاه و شش |
-| 1,000,000 | یک میلیون                                |
+|    Number | Persian                                    |
+| --------: | ------------------------------------------ |
+|     1,000 | هزار                                       |
+|     2,000 | دو هزار                                    |
+|    10,000 | ده هزار                                    |
+|   100,000 | صد هزار                                    |
+|   123,456 | صد و بیست و سه هزار و چهار صد و پنجاه و شش |
+| 1,000,000 | یک میلیون                                  |
 
 Practice stops at 999,999. The million is here for reference.
 
@@ -116,3 +116,4 @@ letters _ي_ and _ك_ are different characters.
 ## Sources
 
 - [Persian numbers — Omniglot](https://www.omniglot.com/language/numbers/persian.htm)
+- [Number vocabulary — University of Texas](https://www.laits.utexas.edu/persian_teaching_resources/Persian_of_Iran_Today_Book_2_Vocabulary_List.pdf)

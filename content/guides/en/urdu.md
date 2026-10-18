@@ -72,7 +72,7 @@
 |     43 | تینتالیس |
 |     44 | چوالیس   |
 |     45 | پینتالیس |
-|     46 | چھالیس   |
+|     46 | چھیالیس  |
 |     47 | سینتالیس |
 |     48 | اڑتالیس  |
 |     49 | انچاس    |
@@ -208,3 +208,4 @@ it right to left. Short vowel marks are usually omitted.
 ## Sources
 
 - [Urdu numbers — Omniglot](https://www.omniglot.com/language/numbers/urdu.htm)
+- [Forty-six — Rekhta Dictionary](https://rekhtadictionary.com/meaning-of-chhiyaaliis)

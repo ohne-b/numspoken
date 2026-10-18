@@ -11,8 +11,40 @@ export function correctCardinal(locale: LocaleCode, raw: Cardinal): Cardinal {
     if (locale.startsWith('es-'))
       return raw(n).replace(/\bdieciseis\b/g, 'dieciséis');
     if (locale === 'uk-UA') return raw(n).replaceAll('i', 'і');
-    if (locale.startsWith('zh-')) return raw(n).replace(/^一十/, '十');
-    if (locale === 'it-IT') return raw(n).replace(/tré(?=.)/g, 'tre');
+    if (locale.startsWith('zh-'))
+      return raw(n)
+        .replace(/^一十/, '十')
+        .replace(
+          /([万萬])零(?=[一二三四五六七八九壹贰貳叁參肆伍陆陸柒捌玖][千仟])/g,
+          '$1',
+        );
+    if (locale === 'it-IT') {
+      const words = raw(n).replace(/tré(?=.)/g, 'tre');
+      return n > 3 ? words.replace(/tre$/, 'tré') : words;
+    }
+    if (locale === 'sr-Cyrl-RS')
+      return raw(n)
+        .replaceAll('девестo', 'деветсто')
+        .replaceAll('шесто', 'шестсто');
+    if (locale === 'sr-Latn-RS') return raw(n).replaceAll('šesto', 'šeststo');
+    if (locale === 'hu-HU') return raw(n).replace(/kettő(?=ezer)/g, 'két');
+    if (locale === 'pt-PT' && n >= 1000 && n % 1000 > 0 && n % 100 === 0)
+      return raw(n - (n % 1000)) + ' e ' + raw(n % 1000);
+    if (locale === 'ur-PK') return raw(n).replaceAll('چھالیس', 'چھیالیس');
+    if (locale === 'ta-IN')
+      return raw(n)
+        .replaceAll('பதிமூன்று', 'பதின்மூன்று')
+        .replaceAll('ஐநூ', 'ஐந்நூ')
+        .replaceAll('எண்நூ', 'எண்ணூ')
+        .replaceAll('முன்னூ', 'முந்நூ');
+    if (locale === 'fa-IR')
+      return raw(n)
+        .replaceAll('ي', 'ی')
+        .replace(/هزار (?!و )/g, 'هزار و ');
+    if (locale === 'yo-NG')
+      return raw(n)
+        .replace(/(^| )ogóta(?= |$)/g, '$1ọgọ́ta')
+        .replace(/(^| )ogórin(?= |$)/g, '$1ọgọ́rin');
 
     if (locale === 'fi-FI') {
       if (n < 100) return raw(n);
@@ -34,10 +66,15 @@ export function correctCardinal(locale: LocaleCode, raw: Cardinal): Cardinal {
         (count === 1 ? '' : convert(count)) +
         (scale === 100 ? 'hundra' : 'tusen') +
         (n % scale ? convert(n % scale) : '')
-      );
+      ).replace(/ttt/g, 'tt');
     }
     if (locale === 'nb-NO' || locale === 'da-DK') {
-      if (n < 100) return raw(n).replaceAll('-', '');
+      if (n < 100) {
+        const words = raw(n).replaceAll('-', '');
+        return locale === 'da-DK' && n >= 60 && n < 70
+          ? words.replace(/treds$/, 'tres')
+          : words;
+      }
       if (n === 1_000_000) return 'en million';
       const danish = locale === 'da-DK';
       const scale = n < 1000 ? 100 : 1000;
@@ -98,6 +135,10 @@ export function correctCardinal(locale: LocaleCode, raw: Cardinal): Cardinal {
       );
     }
     if (locale === 'fil-PH') {
+      if (n === 11) return 'labing-isa';
+      if (n === 14) return 'labing-apat';
+      if (n === 16) return 'labing-anim';
+      if (n === 18) return 'labing-walo';
       if (n < 20) return raw(n);
       if (n < 100)
         return raw(n - (n % 10)) + (n % 10 ? "'t " + raw(n % 10) : '');

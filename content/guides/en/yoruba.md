@@ -96,7 +96,7 @@
 
 | Number | Yoruba           |
 | -----: | ---------------- |
-|     60 | ogóta            |
+|     60 | ọgọ́ta            |
 |     61 | ọ̀kan lé lógóta   |
 |     62 | èjì lé lógóta    |
 |     63 | ẹ̀ta lé lógóta    |
@@ -126,7 +126,7 @@
 
 | Number | Yoruba           |
 | -----: | ---------------- |
-|     80 | ogórin           |
+|     80 | ọgọ́rin           |
 |     81 | ọ̀kan lé lógórin  |
 |     82 | èjì lé lógórin   |
 |     83 | ẹ̀ta lé lógórin   |
