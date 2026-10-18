@@ -223,6 +223,15 @@ test('keeps reading and returning usable at 200% zoom and without storage', asyn
     page.getByRole('heading', { name: 'Sources', exact: true }),
   ).toBeVisible();
   await page.addStyleTag({ content: 'html { zoom: 2; }' });
+  const table = page.getByRole('group', { name: 'Thousands and above' });
+  await page.locator('#guide-thousands-and-above').focus();
+  await page.keyboard.press('Tab');
+  await expect(table).toBeFocused();
+  await page.keyboard.press('ArrowRight');
+  await expect
+    .poll(() => table.evaluate((node) => node.scrollLeft))
+    .toBeGreaterThan(0);
+  expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth + 1,

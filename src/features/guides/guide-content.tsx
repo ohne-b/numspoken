@@ -41,7 +41,12 @@ export function GuideContent({
       remarkPlugins={[remarkGfm, [guideSections, guide]]}
       components={{
         table: ({ children, ...props }) => (
-          <div className="guide-table-wrap">
+          <div
+            className="guide-table-wrap"
+            role="group"
+            aria-labelledby={props['aria-labelledby']}
+            tabIndex={0}
+          >
             <table aria-labelledby={props['aria-labelledby']}>{children}</table>
           </div>
         ),
