@@ -54,7 +54,7 @@ export default function GuideView({
     window.scrollTo(0, 0);
   }, [title]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const save = () => {
       scrollPositions.set(slug, window.scrollY);
     };
@@ -83,7 +83,8 @@ export default function GuideView({
       target.focus({ preventScroll: true });
       target.scrollIntoView({ block: 'start' });
     } else window.scrollTo(0, savedScroll.current);
-  }, [markdown, section]);
+    scrollPositions.set(slug, window.scrollY);
+  }, [markdown, section, slug]);
 
   return (
     <article className="guide-view" lang="en" aria-labelledby="guide-title">
@@ -107,9 +108,11 @@ export default function GuideView({
             <>
               <p>Couldn’t load this guide.</p>
               <IconButton
-                label="Retry loading guide"
+                label={retry > 0 ? 'Reload guide' : 'Retry loading guide'}
                 path={mdiRefresh}
-                onClick={() => setRetry((value) => value + 1)}
+                onClick={() =>
+                  retry > 0 ? location.reload() : setRetry((value) => value + 1)
+                }
               />
             </>
           ) : (

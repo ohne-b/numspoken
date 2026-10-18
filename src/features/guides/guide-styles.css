@@ -7,6 +7,7 @@
   margin: 40px auto 64px;
   font-size: 15px;
   line-height: 1.8;
+  overflow-wrap: anywhere;
 }
 .guide-heading {
   display: flex;
@@ -15,6 +16,7 @@
   margin-bottom: 36px;
 }
 .guide-heading h1 {
+  min-width: 0;
   margin: 0;
   font-size: clamp(24px, 4vw, 30px);
   line-height: 1.4;
