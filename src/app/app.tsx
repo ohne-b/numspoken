@@ -70,7 +70,7 @@ export function App() {
             }
           />
         )}
-        {view.name === 'practice' && (
+        {view.name !== 'settings' && (
           <IconButton
             label="Open settings"
             tooltip={false}

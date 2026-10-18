@@ -30,6 +30,30 @@ test('opens the selected language guide and preserves the answer and selection',
   await expect(page).toHaveTitle('numspoken');
 });
 
+test('opens settings from a guide and uses the newly selected language', async ({
+  page,
+}) => {
+  await openPractice(page);
+  await answerField(page).fill('fort');
+  await page.getByRole('button', { name: 'Number guide' }).click();
+  await expect(
+    page.getByRole('heading', { name: 'English numbers' }),
+  ).toBeVisible();
+  await page.getByRole('button', { name: 'Open settings' }).click();
+  await page.getByRole('combobox', { name: /Practice language/ }).click();
+  const search = page.getByRole('combobox', { name: 'Search languages' });
+  await search.fill('German');
+  await search.press('ArrowDown');
+  await search.press('Enter');
+  await page.getByRole('button', { name: 'Back to practice' }).click();
+  await expect(answerField(page)).toHaveAttribute('lang', 'de-DE');
+  await expect(answerField(page)).toHaveValue('');
+  await page.getByRole('button', { name: 'Number guide' }).click();
+  await expect(
+    page.getByRole('heading', { name: 'German numbers' }),
+  ).toBeVisible();
+});
+
 test('pauses a completed answer while reading and resumes it on return', async ({
   page,
 }) => {
