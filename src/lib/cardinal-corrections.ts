@@ -37,6 +37,7 @@ export function correctCardinal(locale: LocaleCode, raw: Cardinal): Cardinal {
     if (locale === 'ta-IN')
       return raw(n)
         .replaceAll('பதிமூன்று', 'பதின்மூன்று')
+        .replace(/த்தி(?=மூன்று|நான்கு)/g, 'த்து')
         .replaceAll('ஐநூ', 'ஐந்நூ')
         .replaceAll('எண்நூ', 'எண்ணூ')
         .replaceAll('முன்னூ', 'முந்நூ');
