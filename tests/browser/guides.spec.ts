@@ -227,6 +227,10 @@ test('keeps reading and returning usable at 200% zoom and without storage', asyn
   await page.locator('#guide-thousands-and-above').focus();
   await page.keyboard.press('Tab');
   await expect(table).toBeFocused();
+  const wordCell = table.locator('tbody tr:last-child td:last-child');
+  expect(
+    await wordCell.evaluate((node) => node.clientWidth),
+  ).toBeGreaterThanOrEqual(90);
   await page.keyboard.press('ArrowRight');
   await expect
     .poll(() => table.evaluate((node) => node.scrollLeft))

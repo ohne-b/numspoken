@@ -121,6 +121,9 @@
 .guide-view td:last-child {
   padding-right: 0;
 }
+.guide-view td:not(.guide-number) {
+  min-width: 12ch;
+}
 .guide-view .guide-number {
   text-align: right;
   color: var(--muted);
