@@ -412,5 +412,137 @@
     "number": 22,
     "words": "huszonkettő",
     "source": "https://e-nyelv.hu/2025-01-01/ketezer-egy-es-ketezeregy/"
+  },
+  {
+    "locale": "da-DK",
+    "number": 21000000,
+    "words": "enogtyve millioner",
+    "source": "https://sproget.dk/sprogviden/artikler-fra-blade-og-tidsskrifter/sprogbrevetdr/sprogbrev-nr-72/"
+  },
+  {
+    "locale": "da-DK",
+    "number": 101000000,
+    "words": "et hundrede og en million",
+    "source": "https://sproget.dk/sprogviden/artikler-fra-blade-og-tidsskrifter/sprogbrevetdr/sprogbrev-nr-72/"
+  },
+  {
+    "locale": "da-DK",
+    "number": 301000000,
+    "words": "tre hundrede og en million",
+    "source": "https://sproget.dk/sprogviden/artikler-fra-blade-og-tidsskrifter/sprogbrevetdr/sprogbrev-nr-72/"
+  },
+  {
+    "locale": "da-DK",
+    "number": 591000000,
+    "words": "fem hundrede og enoghalvfems millioner",
+    "source": "https://sproget.dk/sprogviden/artikler-fra-blade-og-tidsskrifter/sprogbrevetdr/sprogbrev-nr-72/"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 21000000,
+    "words": "tjugoen miljoner",
+    "source": "https://svenska.se/SAG.pdf"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 101000000,
+    "words": "hundraen miljoner",
+    "source": "https://svenska.se/SAG.pdf"
+  },
+  {
+    "locale": "fi-FI",
+    "number": 2000000001,
+    "words": "kaksimiljardiayksi",
+    "source": "https://kielitoimistonohjepankki.fi/ohje/luvut-ja-numerot-numeroiden-ryhmittely/"
+  },
+  {
+    "locale": "el-GR",
+    "number": 3000000,
+    "words": "τρία εκατομμύρια",
+    "source": "https://ebooks.edu.gr/ebooks/v/html/8547/2334/Grammatiki-Neas-Ellinikis-Glossas_A-B-G-Gymnasiou_html-apli/index_C_04.html"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 22000000,
+    "words": "huszonkétmillió",
+    "source": "https://mnl.gov.hu/mnl/fml/i_vilaghaborus_emlekmuvek_patka"
+  },
+  {
+    "locale": "it-IT",
+    "number": 1000003,
+    "words": "un milione tre",
+    "source": "https://www.treccani.it/enciclopedia/numerali_(Enciclopedia-dell%27Italiano)/"
+  },
+  {
+    "locale": "it-IT",
+    "number": 23000000,
+    "words": "ventitré milioni",
+    "source": "https://www.treccani.it/enciclopedia/numerali_(Enciclopedia-dell%27Italiano)/"
+  },
+  {
+    "locale": "pt-PT",
+    "number": 1000000000,
+    "words": "mil milhões",
+    "source": "https://ciberduvidas-ql.iscte-iul.pt/artigos/rubricas/idioma/um-biliao-ou-mil-milhoes/5134"
+  },
+  {
+    "locale": "pt-PT",
+    "number": 1000000200,
+    "words": "mil milhões e duzentos",
+    "source": "https://ciberduvidas-ql.iscte-iul.pt/artigos/rubricas/idioma/um-biliao-ou-mil-milhoes/5134"
+  },
+  {
+    "locale": "pt-PT",
+    "number": 101000000000,
+    "words": "cento e um mil milhões",
+    "source": "https://ciberduvidas-ql.iscte-iul.pt/artigos/rubricas/idioma/um-biliao-ou-mil-milhoes/5134"
+  },
+  {
+    "locale": "he-IL",
+    "number": 2000000,
+    "words": "שני מיליון",
+    "source": "https://www.teachmehebrew.com/numbers-in-hebrew.html"
+  },
+  {
+    "locale": "he-IL",
+    "number": 3000000,
+    "words": "שלושה מיליון",
+    "source": "https://www.teachmehebrew.com/numbers-in-hebrew.html"
+  },
+  {
+    "locale": "hbo-IL",
+    "number": 300000000,
+    "words": "שלש מאות מיליון",
+    "source": "https://www.teachmehebrew.com/numbers-in-hebrew.html"
+  },
+  {
+    "locale": "ha-NG",
+    "number": 1000000000,
+    "words": "biliyan ɗaya",
+    "source": "https://casirmediapublishing.com/wp-content/uploads/2020/02/Pages-30-34-2019-4205.pdf"
+  },
+  {
+    "locale": "mr-IN",
+    "number": 1000000000,
+    "words": "एक अब्ज",
+    "source": "https://www.unicode.org/cldr/charts/43/verify/numbers/mr.html"
+  },
+  {
+    "locale": "mr-IN",
+    "number": 100000000000,
+    "words": "एक खर्व",
+    "source": "https://www.unicode.org/cldr/charts/43/verify/numbers/mr.html"
+  },
+  {
+    "locale": "te-IN",
+    "number": 101000000,
+    "words": "పది కోట్లు పది లక్షలు",
+    "source": "https://www.eduinfo4all.com/download/5_Maths_SEM-1_Workbook.pdf"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 1234567,
+    "words": "பன்னிரண்டு இலட்சத்து முப்பத்துநான்காயிரத்து ஐந்நூற்று அறுபத்தேழு",
+    "source": "https://www.tamildigitallibrary.in/admin/assets/book/TVA_BOK_0000960_%E0%AE%95%E0%AE%A3%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81.pdf"
   }
 ]

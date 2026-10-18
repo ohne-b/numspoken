@@ -100,7 +100,6 @@ it.each(guides)(
             offset = end;
           }
           expect(words).not.toMatch(/undefined|NaN|�|\{\{/);
-          if (value > 999999) continue; // Larger reference values are outside practice.
           const answer = (await loadConverter(locale))(value);
           expect(
             validateAnswer(words, answer.candidates, languageFor(locale), false)

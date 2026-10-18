@@ -50,7 +50,7 @@ test('large grouped numbers and long answers fit small screens in both themes', 
       ),
     ).toBe(true);
     await expect(answerField(page)).toBeVisible();
-    await page.getByRole('button', { name: 'Skip number' }).click();
+    await page.getByRole('button', { name: 'Next number' }).click();
   }
 });
 
