@@ -1,4 +1,5 @@
 import { afterEach, expect, it, vi } from 'vitest';
+import { MAX_NUMBER } from '../lib/random-number';
 import {
   defaults,
   parsePreferences,
@@ -32,6 +33,12 @@ it('validates untrusted preferences field by field and drops unknown data', () =
     }),
   ).toMatchObject({ locale: 'zh-Hant-TW', min: 999999 });
   expect(validRange(NaN, 100)).toBe(false);
+  expect(
+    parsePreferences({ ...defaults, min: MAX_NUMBER, max: MAX_NUMBER }),
+  ).toMatchObject({ min: MAX_NUMBER, max: MAX_NUMBER });
+  expect(validRange(0, MAX_NUMBER + 1)).toBe(false);
+  expect(validRange(0, Infinity)).toBe(false);
+  expect(validRange(0, 1.5)).toBe(false);
 });
 it('falls back to a usable session when storage throws', () => {
   vi.spyOn(Storage.prototype, 'getItem').mockImplementation(() => {

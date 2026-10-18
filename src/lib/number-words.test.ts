@@ -4,6 +4,7 @@ import fixtures from '../../tests/fixtures/number-words.json';
 import { languages, localeLoaders, isLocale, formatNumber } from './languages';
 import { loadConverter } from './number-words';
 import { validateAnswer } from './validate-answer';
+import { MAX_NUMBER } from './random-number';
 
 it('exposes every regional/script variant shipped by the library', async () => {
   const exported = (await readdir('node_modules/n2words/src'))
@@ -18,8 +19,32 @@ describe.each(languages)('$code converter', (language) => {
   it('handles boundaries and irregular values, with coherent grading', async () => {
     const convert = await loadConverter(language.code);
     for (const number of [
-      0, 1, 2, 11, 16, 21, 71, 80, 99, 100, 101, 111, 999, 1000, 1001, 10001,
-      100000, 999999,
+      0,
+      1,
+      2,
+      11,
+      16,
+      21,
+      71,
+      80,
+      99,
+      100,
+      101,
+      111,
+      999,
+      1000,
+      1001,
+      10001,
+      100000,
+      999999,
+      1_000_000,
+      1_234_567,
+      1_000_001,
+      999_999_999,
+      1_000_000_000,
+      1_000_000_001,
+      1_001_001_001,
+      MAX_NUMBER,
     ]) {
       const answer = convert(number);
       expect(answer.canonical.length).toBeGreaterThan(0);

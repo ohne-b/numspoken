@@ -149,7 +149,7 @@ export function PracticeView({
       ) : (
         <div className="practice-content">
           <h1
-            className="number"
+            className={`number${session.number >= 1_000_000 ? ' number-long' : ''}`}
             aria-label={`Write ${formatNumber(session.number, language)} in words`}
           >
             <span dir="ltr">{formatNumber(session.number, language)}</span>

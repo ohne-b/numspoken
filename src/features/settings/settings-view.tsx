@@ -4,6 +4,9 @@ import { mdiArrowLeft } from '@mdi/js';
 import { validRange, type Preferences } from '../../app/preferences';
 import { IconButton } from '../../ui/icon-button';
 import { LanguagePicker } from './language-picker';
+import { MAX_NUMBER } from '../../lib/random-number';
+
+const rangeLimit = MAX_NUMBER.toLocaleString('en-US');
 
 export default function SettingsView({
   preferences,
@@ -78,7 +81,6 @@ export default function SettingsView({
               <input
                 inputMode="numeric"
                 autoComplete="off"
-                maxLength={6}
                 value={range.min}
                 aria-invalid={!rangeValid}
                 aria-describedby="range-help"
@@ -91,7 +93,6 @@ export default function SettingsView({
               <input
                 inputMode="numeric"
                 autoComplete="off"
-                maxLength={6}
                 value={range.max}
                 aria-invalid={!rangeValid}
                 aria-describedby="range-help"
@@ -104,8 +105,8 @@ export default function SettingsView({
             className={`field-help ${rangeValid ? '' : 'field-error'}`}
           >
             {rangeValid
-              ? 'Whole numbers from 0 to 999,999.'
-              : 'Use a valid range from 0 to 999,999. Your last valid range is kept.'}
+              ? `Whole numbers from 0 to ${rangeLimit}.`
+              : `Use a valid range from 0 to ${rangeLimit}. Your last valid range is kept.`}
           </p>
         </fieldset>
         <div className="switch-row">

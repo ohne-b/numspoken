@@ -209,6 +209,10 @@ main {
   width: 100%;
   border-bottom: 1px solid var(--border);
 }
+.number-long {
+  font-size: clamp(24px, 6vw, 64px);
+  overflow-wrap: anywhere;
+}
 .answer-text {
   width: 100%;
   padding: 18px 8px;

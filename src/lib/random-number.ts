@@ -5,13 +5,15 @@ export function randomNumber(
   random = Math.random,
 ): number {
   if (
-    !Number.isInteger(min) ||
-    !Number.isInteger(max) ||
+    !Number.isSafeInteger(min) ||
+    !Number.isSafeInteger(max) ||
     min < 0 ||
-    max > 999_999 ||
+    max > MAX_NUMBER ||
     min > max
   ) {
-    throw new RangeError('Use a whole-number range between 0 and 999,999.');
+    throw new RangeError(
+      `Use a whole-number range between 0 and ${MAX_NUMBER}.`,
+    );
   }
   const count = max - min + 1;
   if (count === 1) return min;
@@ -19,3 +21,4 @@ export function randomNumber(
   const pick = min + Math.floor(random() * (count - Number(omit)));
   return omit && pick >= previous ? pick + 1 : pick;
 }
+export const MAX_NUMBER = 999_999_999_999;

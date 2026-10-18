@@ -56,7 +56,7 @@ and direction. Keep layout, HTML and JSX out of the Markdown.
 Use concrete rules and examples. Leave out introductions, encouragement and
 recaps. Check number spellings against a linguistic reference before comparing
 them with n2words; agreement with the converter alone proves nothing. Cite the
-references under Sources. Numbers beyond 999,999 are reference material only.
+references under Sources. Practice supports whole numbers through 999,999,999,999.
 
 `npm test` checks language coverage, heading links and table examples against
 practice grading. Browser tests cover guide navigation, fonts, themes and layout.

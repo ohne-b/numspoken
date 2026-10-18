@@ -1,4 +1,5 @@
 import { isLocale, type LocaleCode } from '../lib/languages';
+import { MAX_NUMBER } from '../lib/random-number';
 
 export interface Preferences {
   version: 1;
@@ -24,10 +25,10 @@ export const defaults: Preferences = {
 
 export function validRange(min: number, max: number): boolean {
   return (
-    Number.isInteger(min) &&
-    Number.isInteger(max) &&
+    Number.isSafeInteger(min) &&
+    Number.isSafeInteger(max) &&
     min >= 0 &&
-    max <= 999_999 &&
+    max <= MAX_NUMBER &&
     min <= max
   );
 }

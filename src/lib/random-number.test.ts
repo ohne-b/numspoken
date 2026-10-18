@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest';
-import { randomNumber } from './random-number';
+import { MAX_NUMBER, randomNumber } from './random-number';
 
 it('samples every allowed value once across evenly spaced probability buckets', () => {
   for (const previous of [undefined, 0, 1, 2, 3]) {
@@ -11,10 +11,19 @@ it('samples every allowed value once across evenly spaced probability buckets', 
   }
 });
 it('handles singleton and extreme ranges without loops', () => {
-  expect(randomNumber(999999, 999999, 999999)).toBe(999999);
-  expect(randomNumber(0, 999999, undefined, () => 0.999999)).toBe(999999);
+  expect(randomNumber(MAX_NUMBER, MAX_NUMBER, MAX_NUMBER)).toBe(MAX_NUMBER);
+  expect(randomNumber(0, MAX_NUMBER, undefined, () => 0.999999999999)).toBe(
+    MAX_NUMBER,
+  );
+  expect(randomNumber(0, MAX_NUMBER, undefined, () => 0)).toBe(0);
+  expect(randomNumber(MAX_NUMBER - 1, MAX_NUMBER, MAX_NUMBER)).toBe(
+    MAX_NUMBER - 1,
+  );
+  expect(randomNumber(MAX_NUMBER - 1, MAX_NUMBER, MAX_NUMBER - 1)).toBe(
+    MAX_NUMBER,
+  );
   expect(() => randomNumber(1, 0)).toThrow(RangeError);
   expect(() => randomNumber(-1, 10)).toThrow(RangeError);
-  expect(() => randomNumber(0, 1000000)).toThrow(RangeError);
+  expect(() => randomNumber(0, MAX_NUMBER + 1)).toThrow(RangeError);
   expect(() => randomNumber(0.5, 10)).toThrow(RangeError);
 });

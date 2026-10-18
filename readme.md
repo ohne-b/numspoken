@@ -10,6 +10,7 @@
 ![numspoken in dark mode](.github/assets/practice-dark.png)
 
 Type the number in words. Correct letters turn green. Choose from 50 languages and 72 variants.
+Set any whole-number range from 0 to 999,999,999,999.
 The book opens number tables and a short guide for your language.
 
 **[Open numspoken](https://ohne-b.github.io/numspoken/)**
