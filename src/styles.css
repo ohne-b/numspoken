@@ -455,6 +455,13 @@ legend {
 .language-trigger {
   width: 100%;
 }
+.language-trigger:has([aria-expanded='true']) {
+  --mtrl-text-field-outline-color: var(--accent);
+  --mtrl-text-field-outline-width: 2px;
+}
+.language-trigger:has([aria-expanded='true']) .mtrl-text-field__label {
+  color: var(--accent);
+}
 .language-trigger .mtrl-text-field__field {
   background: var(--surface);
 }

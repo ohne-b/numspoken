@@ -108,6 +108,41 @@ test('language search preserves typing, empty results, dismissal and small-scree
   await expect(picker).toHaveAttribute('aria-expanded', 'false');
 });
 
+test('language outline stays active while its search has focus', async ({
+  page,
+}) => {
+  await page.goto('./#/settings');
+  const picker = page.getByRole('combobox', {
+    name: 'Practice language',
+    exact: true,
+  });
+  const search = page.getByRole('combobox', { name: 'Search languages' });
+  const outline = page.locator(
+    '.language-trigger .mtrl-text-field__outline-leading',
+  );
+  const label = page.locator('.language-trigger .mtrl-text-field__label');
+  for (const theme of ['dark', 'light']) {
+    if (theme === 'light')
+      await page.getByRole('button', { name: 'Switch to light mode' }).click();
+    const accent = theme === 'dark' ? 'rgb(229, 111, 81)' : 'rgb(173, 69, 44)';
+    await expect(outline).toHaveCSS('border-left-width', '1px');
+    await picker.click();
+    await expect(search).toBeFocused();
+    await expect(outline).toHaveCSS('border-left-color', accent);
+    await expect(outline).toHaveCSS('border-left-width', '2px');
+    await expect(label).toHaveCSS('color', accent);
+    await search.fill('Deutsch');
+    await expect(outline).toHaveCSS('border-left-color', accent);
+    await picker.click();
+    await expect(search).toBeHidden();
+    await expect(picker).toBeFocused();
+    await expect(outline).toHaveCSS('border-left-color', accent);
+    await page.getByRole('textbox', { name: 'From', exact: true }).click();
+    await expect(outline).toHaveCSS('border-left-width', '1px');
+    await expect(outline).not.toHaveCSS('border-left-color', accent);
+  }
+});
+
 test('saves twelve-digit ranges and rejects oversized input without truncating it', async ({
   page,
 }) => {
