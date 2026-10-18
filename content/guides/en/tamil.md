@@ -78,16 +78,21 @@
 |    800 | எண்ணூறு      |
 |    900 | தொள்ளாயிரம்  |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Tamil                                                            |
-| --------: | ---------------------------------------------------------------- |
-|     1,000 | ஒரு ஆயிரம்                                                       |
-|     2,000 | இரண்டு ஆயிரம்                                                    |
-|    10,000 | பத்து ஆயிரம்                                                     |
-|  1,00,000 | ஒரு லட்சம்                                                       |
-| 10,00,000 | பத்து லட்சம்                                                     |
-| 12,34,567 | பன்னிரண்டு இலட்சத்து முப்பத்துநான்காயிரத்து ஐந்நூற்று அறுபத்தேழு |
+|            Number | Tamil                                                            |
+| ----------------: | ---------------------------------------------------------------- |
+|             1,000 | ஒரு ஆயிரம்                                                       |
+|             2,000 | இரண்டு ஆயிரம்                                                    |
+|            10,000 | பத்து ஆயிரம்                                                     |
+|          1,00,000 | ஒரு லட்சம்                                                       |
+|         10,00,000 | பத்து லட்சம்                                                     |
+|         12,34,567 | பன்னிரண்டு இலட்சத்து முப்பத்துநான்காயிரத்து ஐந்நூற்று அறுபத்தேழு |
+|       1,00,00,000 | ஒரு கோடி                                                         |
+|      10,00,00,000 | பத்து கோடி                                                       |
+|    1,00,00,00,000 | நூறு கோடி                                                        |
+|   10,00,00,00,000 | ஆயிரம் கோடி                                                      |
+| 1,00,00,00,00,000 | பத்தாயிரம் கோடி                                                  |
 
 ## Joining forms
 
@@ -119,3 +124,4 @@ remain part of the answer.
 - [Number spellings — Tamil Virtual Academy](https://www.tamilvu.org/courses/hg100/hg112/html/hg112kt1.htm)
 - [Joining large numbers — Tamil Virtual Academy](https://www.tamilvu.org/slet/lA100/lA100pd3.jsp?bookid=171&pno=16)
 - [Written number forms — Magudeshwaran](https://www.dinamalar.com/weekly/pattam/pattam/67109)
+- [Billion — Tamil Virtual Academy computing dictionary, p. 148](https://www.tamildigitallibrary.in/admin/assets/book/TVA_BOK_0002316_%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A9%E0%AE%BF_%E0%AE%95%E0%AE%B3%E0%AE%9E%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%AA%E0%AF%8D_%E0%AE%AA%E0%AF%87%E0%AE%B0%E0%AE%95%E0%AE%B0%E0%AE%BE%E0%AE%A4%E0%AE%BF.pdf)

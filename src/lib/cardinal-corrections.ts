@@ -11,6 +11,7 @@ export function correctCardinal(locale: LocaleCode, raw: Cardinal): Cardinal {
     if (!Number.isSafeInteger(n) || n < 0 || n > MAX_NUMBER) return raw(n);
     if (locale.startsWith('es-'))
       return raw(n).replace(/\bdieciseis\b/g, 'dieciséis');
+    if (locale === 'az-AZ') return raw(n).replace(/\bmilyar\b/g, 'milyard');
     if (locale === 'uk-UA') return raw(n).replaceAll('i', 'і');
     if (locale.startsWith('zh-'))
       return raw(n)
@@ -73,7 +74,9 @@ export function correctCardinal(locale: LocaleCode, raw: Cardinal): Cardinal {
         const rest = value % scale;
         if (scale === 10_000_000)
           return (
-            spelling(raw(value - rest)) + (rest ? ' ' + compound(rest) : '')
+            (count === 1 ? 'ஒரு' : compound(count)) +
+            ' கோடி' +
+            (rest ? ' ' + compound(rest) : '')
           );
         if (scale === 100_000)
           return (
@@ -327,39 +330,40 @@ export function correctCardinal(locale: LocaleCode, raw: Cardinal): Cardinal {
         (n % scale ? ' ' + convert(n % scale) : '')
       );
     }
-    if (locale === 'te-IN' && n >= 1000) {
-      if (n >= 10_000_000) {
-        const scale =
-          n < 1_000_000_000
-            ? 10_000_000
-            : n < 100_000_000_000
-              ? 1_000_000_000
-              : 100_000_000_000;
-        const count = Math.floor(n / scale);
-        const rest = n % scale;
-        const prefix =
-          scale === 10_000_000
-            ? count === 1
-              ? 'కోటి'
-              : raw(count) + ' కోట్లు'
-            : raw(n - rest);
-        return prefix + (rest ? ' ' + convert(rest) : '');
+    if (locale === 'te-IN' && n >= 100) {
+      const attributive = (words: string) =>
+        words
+          .replaceAll('వందలు', 'వందల')
+          .replaceAll('వేలు', 'వేల')
+          .replaceAll('లక్షలు', 'లక్షల')
+          .replaceAll('కోట్లు', 'కోట్ల');
+      if (n < 1000) {
+        if (n % 100 === 0) return raw(n);
+        return (
+          (n < 200 ? 'నూట' : raw(Math.floor(n / 100)) + ' వందల') +
+          ' ' +
+          raw(n % 100)
+        );
       }
-      const scale = n < 100_000 ? 1000 : 100_000;
+      const scale = n < 100_000 ? 1000 : n < 10_000_000 ? 100_000 : 10_000_000;
       const count = Math.floor(n / scale);
       const word =
         scale === 1000
           ? count === 1
             ? 'వెయ్యి'
             : 'వేలు'
-          : count === 1
-            ? 'లక్ష'
-            : 'లక్షలు';
-      return (
-        (count === 1 ? '' : raw(count) + ' ') +
-        word +
-        (n % scale ? ' ' + convert(n % scale) : '')
-      );
+          : scale === 100_000
+            ? count === 1
+              ? 'లక్ష'
+              : 'లక్షలు'
+            : count === 1
+              ? 'కోటి'
+              : 'కోట్లు';
+      const prefix =
+        (count === 1 ? '' : attributive(convert(count)) + ' ') + word;
+      return n % scale
+        ? attributive(prefix) + ' ' + convert(n % scale)
+        : prefix;
     }
     if (locale === 'he-IL' || locale === 'hbo-IL') {
       const biblical = locale === 'hbo-IL';

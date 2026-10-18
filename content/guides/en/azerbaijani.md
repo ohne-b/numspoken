@@ -78,16 +78,21 @@
 |    800 | səkkiz yüz  |
 |    900 | doqquz yüz  |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Azerbaijani                                           |
-| --------: | ----------------------------------------------------- |
-|     1.000 | min                                                   |
-|     2.000 | iki min                                               |
-|    10.000 | on min                                                |
-|   100.000 | yüz min                                               |
-| 1.000.000 | bir milyon                                            |
-| 1.234.567 | bir milyon iki yüz otuz dörd min beş yüz altmış yeddi |
+|          Number | Azerbaijani                                           |
+| --------------: | ----------------------------------------------------- |
+|           1.000 | min                                                   |
+|           2.000 | iki min                                               |
+|          10.000 | on min                                                |
+|         100.000 | yüz min                                               |
+|       1.000.000 | bir milyon                                            |
+|       1.234.567 | bir milyon iki yüz otuz dörd min beş yüz altmış yeddi |
+|      10.000.000 | on milyon                                             |
+|     100.000.000 | yüz milyon                                            |
+|   1.000.000.000 | bir milyard                                           |
+|  10.000.000.000 | on milyard                                            |
+| 100.000.000.000 | yüz milyard                                           |
 
 ## Tens before units
 
@@ -114,3 +119,4 @@ The chart uses the Latin alphabet used in Azerbaijan.
 ## Sources
 
 - [Azerbaijani numbers — Omniglot](https://www.omniglot.com/language/numbers/azeri.htm)
+- [Milyard — Azerbaijani explanatory dictionary](https://azleks.az/en/dictionary/milyard)
