@@ -67,10 +67,12 @@ test('settings returns to the same guide and reading position with the arrow or 
   await expect(
     page.getByRole('heading', { name: 'Sources', exact: true }),
   ).toBeVisible();
-  await page.evaluate(() => scrollTo(0, 800));
-  await expect.poll(() => page.evaluate(() => scrollY)).toBe(800);
   for (const back of ['arrow', 'Escape']) {
-    await page.getByRole('button', { name: 'Open settings' }).click();
+    // Keyboard activation avoids Playwright's WebKit click scrolling the sticky header.
+    await page.getByRole('button', { name: 'Open settings' }).focus();
+    await page.evaluate(() => scrollTo(0, 800));
+    await expect.poll(() => page.evaluate(() => scrollY)).toBe(800);
+    await page.getByRole('button', { name: 'Open settings' }).press('Enter');
     const button = page.getByRole('button', { name: 'Back to guide' });
     await expect(button).toBeVisible();
     if (back === 'arrow') await button.click();
