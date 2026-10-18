@@ -1,4 +1,5 @@
 import { localeLoaders, type LocaleCode } from './languages';
+import { correctCardinal } from './cardinal-corrections';
 
 export interface Answer {
   canonical: string;
@@ -12,16 +13,15 @@ export function loadConverter(locale: LocaleCode): Promise<Converter> {
   if (cached) return cached;
   const promise = localeLoaders[locale]()
     .then((module) => {
-      return (value: number): Answer => {
-        let canonical = locale.startsWith('zh-')
+      const convert = correctCardinal(locale, (value) =>
+        locale.startsWith('zh-')
           ? (module as typeof import('n2words/zh-Hans-CN')).toCardinal(value, {
               formal: false,
             })
-          : module.toCardinal(value);
-        // n2words 6.3.0 omits this accent: https://dle.rae.es/diecis%C3%A9is
-        // Remove this compatibility correction when the upstream spelling is fixed.
-        if (locale.startsWith('es-'))
-          canonical = canonical.replace(/\bdieciseis\b/g, 'dieciséis');
+          : module.toCardinal(value),
+      );
+      return (value: number): Answer => {
+        const canonical = convert(value);
         // n2words documents optional American English “and”; keep whole alternatives.
         const candidates =
           locale === 'en-US'

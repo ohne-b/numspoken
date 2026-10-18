@@ -1,0 +1,182 @@
+[
+  {
+    "locale": "fi-FI",
+    "number": 200,
+    "words": "kaksisataa",
+    "source": "https://www.omniglot.com/language/numbers/finnish.htm"
+  },
+  {
+    "locale": "fi-FI",
+    "number": 10000,
+    "words": "kymmenentuhatta",
+    "source": "https://www.omniglot.com/language/numbers/finnish.htm"
+  },
+  {
+    "locale": "fi-FI",
+    "number": 2105,
+    "words": "kaksituhattasataviisi",
+    "source": "https://fsi-languages.yojik.eu/languages/FSI/Finnish/Conversational/Fsi-ConversationalFinnish-Textbook.pdf"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 21,
+    "words": "tjugoett",
+    "source": "https://www.omniglot.com/language/numbers/swedish.htm"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 105,
+    "words": "hundrafem",
+    "source": "https://www.omniglot.com/language/numbers/swedish.htm"
+  },
+  {
+    "locale": "nb-NO",
+    "number": 100,
+    "words": "ett hundre",
+    "source": "https://www.omniglot.com/language/numbers/norwegian.htm"
+  },
+  {
+    "locale": "nb-NO",
+    "number": 1005,
+    "words": "ett tusen og fem",
+    "source": "https://www.ntnu.edu/now2/4/yc"
+  },
+  {
+    "locale": "da-DK",
+    "number": 100,
+    "words": "et hundrede",
+    "source": "https://www.omniglot.com/language/numbers/danish.htm"
+  },
+  {
+    "locale": "da-DK",
+    "number": 142,
+    "words": "et hundrede og toogfyrre",
+    "source": "https://snl.no/danske_tall"
+  },
+  {
+    "locale": "ka-GE",
+    "number": 2000,
+    "words": "ორი ათასი",
+    "source": "https://www.pinhok.com/kb/georgian/694/numbers-in-georgian/"
+  },
+  {
+    "locale": "ka-GE",
+    "number": 2002,
+    "words": "ორი ათას ორი",
+    "source": "https://www.pinhok.com/kb/georgian/694/numbers-in-georgian/"
+  },
+  {
+    "locale": "el-GR",
+    "number": 101,
+    "words": "εκατόν ένα",
+    "source": "https://greek-talk.com/wp-content/uploads/2024/02/Greek-language-basics-sample.pdf"
+  },
+  {
+    "locale": "el-GR",
+    "number": 3000,
+    "words": "τρεις χιλιάδες",
+    "source": "https://www.omniglot.com/language/numbers/greek.htm"
+  },
+  {
+    "locale": "el-GR",
+    "number": 13000,
+    "words": "δεκατρείς χιλιάδες",
+    "source": "https://www.omniglot.com/language/numbers/greek.htm"
+  },
+  {
+    "locale": "ha-NG",
+    "number": 200,
+    "words": "ɗari biyu",
+    "source": "https://www.omniglot.com/language/numbers/hausa.htm"
+  },
+  {
+    "locale": "ha-NG",
+    "number": 2000,
+    "words": "dubu biyu",
+    "source": "https://www.omniglot.com/language/numbers/hausa.htm"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 21,
+    "words": "dalawampu't isa",
+    "source": "https://www.omniglot.com/language/numbers/tagalog.htm"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 400,
+    "words": "apat na daan",
+    "source": "https://www.omniglot.com/language/numbers/tagalog.htm"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 1000,
+    "words": "isang libo",
+    "source": "https://www.omniglot.com/language/numbers/tagalog.htm"
+  },
+  {
+    "locale": "mr-IN",
+    "number": 100,
+    "words": "शंभर",
+    "source": "https://www.omniglot.com/language/numbers/marathi.htm"
+  },
+  {
+    "locale": "mr-IN",
+    "number": 300,
+    "words": "तीनशे",
+    "source": "https://rmvs.marathi.gov.in/wp-content/uploads/2022/02/MayMarathi-Short-Bank.pdf"
+  },
+  {
+    "locale": "te-IN",
+    "number": 2000,
+    "words": "రెండు వేలు",
+    "source": "https://www.omniglot.com/language/numbers/telugu.htm"
+  },
+  {
+    "locale": "he-IL",
+    "number": 10000,
+    "words": "עשרת אלפים",
+    "source": "https://www.teachmehebrew.com/numbers-in-hebrew.html"
+  },
+  {
+    "locale": "he-IL",
+    "number": 13000,
+    "words": "שלושה עשר אלף",
+    "source": "https://www.teachmehebrew.com/numbers-in-hebrew.html"
+  },
+  {
+    "locale": "hbo-IL",
+    "number": 300,
+    "words": "שלש מאות",
+    "source": "https://en.wikisource.org/wiki/Gesenius%27_Hebrew_Grammar/97._Numerals._%28a%29_Cardinal_Numbers"
+  },
+  {
+    "locale": "uk-UA",
+    "number": 6,
+    "words": "шість",
+    "source": "https://www.omniglot.com/language/numbers/ukrainian.htm"
+  },
+  {
+    "locale": "uk-UA",
+    "number": 2000,
+    "words": "дві тисячі",
+    "source": "https://www.omniglot.com/language/numbers/ukrainian.htm"
+  },
+  {
+    "locale": "zh-Hans-CN",
+    "number": 12,
+    "words": "十二",
+    "source": "https://www.omniglot.com/language/numbers/chinese.htm"
+  },
+  {
+    "locale": "zh-Hant-TW",
+    "number": 12,
+    "words": "十二",
+    "source": "https://www.omniglot.com/language/numbers/chinese.htm"
+  },
+  {
+    "locale": "it-IT",
+    "number": 23000,
+    "words": "ventitremila",
+    "source": "https://www.treccani.it/enciclopedia/numerali_(Enciclopedia-dell%27Italiano)/"
+  }
+]
