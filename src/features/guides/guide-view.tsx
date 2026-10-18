@@ -65,13 +65,17 @@ export default function GuideView({
         !event.isComposing
       ) {
         event.preventDefault();
+        save();
         navigate('practice');
       }
     };
     window.addEventListener('scroll', save, { passive: true });
+    // Capture the position before navigation, even if a scroll event is still queued.
+    document.addEventListener('click', save, true);
     window.addEventListener('keydown', close);
     return () => {
       window.removeEventListener('scroll', save);
+      document.removeEventListener('click', save, true);
       window.removeEventListener('keydown', close);
     };
   }, [slug]);
