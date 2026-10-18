@@ -688,5 +688,24 @@
     "number": 30000001,
     "words": "மூன்று கோடியே ஒன்று",
     "source": "https://chennaicorporation.gov.in/council/resolution/Council%20Resolution%2030.04.2025.pdf"
+  },
+  {
+    "locale": "pa-IN",
+    "number": 67,
+    "words": "ਸਤਾਠ",
+    "source": "https://centralbankofindia.co.in/sites/default/files/%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A4%BE%E0%A4%AC%E0%A5%80.pdf"
+  },
+  {
+    "locale": "pa-IN",
+    "number": 89,
+    "words": "ਉਨਾਨਵੇਂ",
+    "source": "https://www.ncertbooks.net/textbook/pdf/apjm108.pdf"
+  },
+  {
+    "locale": "pa-IN",
+    "number": 6789000,
+    "words": "ਸਤਾਠ ਲੱਖ ਉਨਾਨਵੇਂ ਹਜ਼ਾਰ",
+    "source": "https://centralbankofindia.co.in/sites/default/files/%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A4%BE%E0%A4%AC%E0%A5%80.pdf",
+    "additionalSource": "https://www.ncertbooks.net/textbook/pdf/apjm108.pdf"
   }
 ]

@@ -23,6 +23,10 @@ export function correctCardinal(locale: LocaleCode, raw: Cardinal): Cardinal {
       return raw(n).replace(/\bdieciseis\b/g, 'dieciséis');
     }
     if (locale === 'az-AZ') return raw(n).replace(/\bmilyar\b/g, 'milyard');
+    if (locale === 'pa-IN')
+      return raw(n)
+        .replace(/(^| )ਸੜਸਠ(?= |$)/g, '$1ਸਤਾਠ')
+        .replace(/(^| )ਨਵਾਸੀ(?= |$)/g, '$1ਉਨਾਨਵੇਂ');
     if ((locale === 'bn-BD' || locale === 'kn-IN') && n >= 1_000_000_000) {
       const scale = locale === 'bn-BD' ? 10_000_000 : 1_000_000_000;
       return (
