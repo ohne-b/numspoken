@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react';
 import { Switch } from '@base-ui/react/switch';
 import { mdiArrowLeft } from '@mdi/js';
 import { validRange, type Preferences } from '../../app/preferences';
-import { navigate } from '../../app/use-view';
 import { IconButton } from '../../ui/icon-button';
 import { LanguagePicker } from './language-picker';
 
@@ -10,10 +9,14 @@ export default function SettingsView({
   preferences,
   update,
   storageAvailable,
+  backLabel,
+  onBack,
 }: {
   preferences: Preferences;
   update: (changes: Partial<Preferences>) => void;
   storageAvailable: boolean;
+  backLabel: string;
+  onBack: () => void;
 }) {
   const [range, setRange] = useState({
     min: String(preferences.min),
@@ -28,12 +31,12 @@ export default function SettingsView({
     const close = (event: KeyboardEvent) => {
       if (event.key === 'Escape' && !pickerOpen && !event.defaultPrevented) {
         event.preventDefault();
-        navigate('practice');
+        onBack();
       }
     };
     window.addEventListener('keydown', close);
     return () => window.removeEventListener('keydown', close);
-  }, [pickerOpen]);
+  }, [pickerOpen, onBack]);
   const rangeValid =
     /^\d+$/.test(range.min) &&
     /^\d+$/.test(range.max) &&
@@ -52,10 +55,10 @@ export default function SettingsView({
     <section className="settings-view" aria-labelledby="settings-title">
       <div className="settings-heading">
         <IconButton
-          label="Back to practice"
+          label={backLabel}
           tooltip={false}
           path={mdiArrowLeft}
-          onClick={() => navigate('practice')}
+          onClick={onBack}
         />
         <h1 id="settings-title" tabIndex={-1} ref={titleRef}>
           Settings

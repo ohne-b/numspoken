@@ -19,6 +19,10 @@ const GuideView = lazy(() => import('../features/guides/guide-view'));
 export function App() {
   const { preferences, update, storageAvailable } = usePreferences();
   const view = useView();
+  const [settingsOrigin, setSettingsOrigin] = useState<{
+    guide: string;
+    locale: string;
+  } | null>(null);
   const [practicePreferences, setPracticePreferences] = useState(preferences);
   if (
     view.name === 'practice' &&
@@ -40,6 +44,18 @@ export function App() {
       window.scrollTo(0, 0);
     }
   }, [view.name]);
+  function closeSettings() {
+    if (!settingsOrigin) {
+      navigate('practice');
+      return;
+    }
+    navigate({
+      guide:
+        settingsOrigin.locale === preferences.locale
+          ? settingsOrigin.guide
+          : guideForLanguage(languageFor(preferences.locale)).slug,
+    });
+  }
   return (
     <div className={`app-shell${view.name === 'guide' ? ' has-guide' : ''}`}>
       <header className="topbar flex items-center justify-end gap-1">
@@ -75,7 +91,14 @@ export function App() {
             label="Open settings"
             tooltip={false}
             path={mdiCogOutline}
-            onClick={() => navigate('settings')}
+            onClick={() => {
+              setSettingsOrigin(
+                view.name === 'guide'
+                  ? { guide: view.slug, locale: preferences.locale }
+                  : null,
+              );
+              navigate('settings');
+            }}
           />
         )}
       </header>
@@ -117,6 +140,8 @@ export function App() {
               preferences={preferences}
               update={update}
               storageAvailable={storageAvailable}
+              backLabel={settingsOrigin ? 'Back to guide' : 'Back to practice'}
+              onBack={closeSettings}
             />
           </Suspense>
         )}

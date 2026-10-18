@@ -45,13 +45,47 @@ test('opens settings from a guide and uses the newly selected language', async (
   await search.fill('German');
   await search.press('ArrowDown');
   await search.press('Enter');
-  await page.getByRole('button', { name: 'Back to practice' }).click();
-  await expect(answerField(page)).toHaveAttribute('lang', 'de-DE');
-  await expect(answerField(page)).toHaveValue('');
-  await page.getByRole('button', { name: 'Number guide' }).click();
+  await page.getByRole('button', { name: 'Back to guide' }).click();
   await expect(
     page.getByRole('heading', { name: 'German numbers' }),
   ).toBeVisible();
+  await expect(page.locator('.practice-view')).toBeHidden();
+  await expect(page.locator('textarea')).toHaveValue('fort');
+  await page.getByRole('button', { name: 'Back to practice' }).click();
+  await expect(answerField(page)).toHaveAttribute('lang', 'de-DE');
+  await expect(answerField(page)).toHaveValue('');
+});
+
+test('settings returns to the same guide and reading position with the arrow or Escape', async ({
+  page,
+}) => {
+  await openPractice(page);
+  await answerField(page).fill('fort');
+  await page.evaluate(() => {
+    location.hash = '/guides/spanish';
+  });
+  await expect(
+    page.getByRole('heading', { name: 'Sources', exact: true }),
+  ).toBeVisible();
+  await page.evaluate(() => scrollTo(0, 800));
+  await expect.poll(() => page.evaluate(() => scrollY)).toBe(800);
+  for (const back of ['arrow', 'Escape']) {
+    await page.getByRole('button', { name: 'Open settings' }).click();
+    const button = page.getByRole('button', { name: 'Back to guide' });
+    await expect(button).toBeVisible();
+    if (back === 'arrow') await button.click();
+    else await page.keyboard.press('Escape');
+    await expect(
+      page.getByRole('heading', { name: 'Spanish numbers' }),
+    ).toBeVisible();
+    await expect.poll(() => page.evaluate(() => scrollY)).toBe(800);
+    await expect(page.locator('.practice-view')).toBeHidden();
+  }
+  await page.getByRole('button', { name: 'Back to practice' }).click();
+  await expect(answerField(page)).toHaveValue('fort');
+  await page.getByRole('button', { name: 'Open settings' }).click();
+  await page.getByRole('button', { name: 'Back to practice' }).click();
+  await expect(answerField(page)).toBeFocused();
 });
 
 test('pauses a completed answer while reading and resumes it on return', async ({
