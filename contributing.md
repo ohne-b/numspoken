@@ -36,6 +36,36 @@ and regression fixture. Never add fuzzy grading or unconditional accent removal 
 When upgrading n2words, compare its exported locale files with the registry and rerun all
 language checks. Font additions need the original license and representative script checks.
 
+## Guides
+
+Guide text lives in `content/guides/en/<language>.md`, one English-written guide
+per language. Regional and script differences belong in that same file. The
+registry in `src/lib/guides/guide-registry.ts` connects languages to filenames
+and assigns scripts to variant sections. Files load only when opened.
+
+Start with one `# <Language> numbers` title, then `## Quick reference` with
+`###` groups and ordinary Number/Word tables. `## Larger numbers` uses the same
+table format. Follow with short explanations and a final `## Sources` list.
+Each heading must have a unique slug within the file. Link to a section with
+`[text](#heading-slug)`; the renderer keeps it in the guide's hash route.
+
+Use `**bold**` for the part of a number worth noticing and `*italics*` for a
+word in the practice language. The app gives those words their language, font
+and direction. Keep layout, HTML and JSX out of the Markdown.
+
+Use concrete rules and examples. Leave out introductions, encouragement and
+recaps. Check number spellings against a linguistic reference before comparing
+them with n2words; agreement with the converter alone proves nothing. Cite the
+references under Sources. Numbers beyond 999,999 are reference material only.
+
+`npm test` checks language coverage, heading links and table examples against
+practice grading. Browser tests cover guide navigation, fonts, themes and layout.
+These checks do not replace native-speaker proofreading.
+
+Use kebab-case filenames throughout the repository. `npm run check:names` checks
+tracked and unignored files. `AGENTS.md`, `ISSUE_TEMPLATE` and GitHub's
+`pull_request_template.md` retain the names required by their tools.
+
 ## Licensing
 
 Contributions are offered under [PolyForm Noncommercial 1.0.0](license.md).
