@@ -154,7 +154,7 @@ export function LanguagePicker({
     };
   }, [open, id]);
 
-  useEffect(() => onOpenChange(open), [open, onOpenChange]);
+  useLayoutEffect(() => onOpenChange(open), [open, onOpenChange]);
 
   useLayoutEffect(() => {
     const option = active && document.getElementById(`${id}-${active}`);

@@ -6,6 +6,7 @@
 - Separate range hints and errors for From and To.
 - Keep the language field highlighted while its dropdown is open.
 - Keep icon buttons circular when pressed.
+- Let a second Escape press leave settings immediately after closing the language picker.
 
 ## 0.1.0 - 2026-10-18
 
