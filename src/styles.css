@@ -177,7 +177,11 @@ main {
   transition: opacity 0s 0.4s;
 }
 .topbar .icon-tooltip {
-  display: none;
+  top: calc(100% + 8px);
+  bottom: auto;
+  left: auto;
+  right: 0;
+  transform: none;
 }
 .round-complete .icon-tooltip {
   top: calc(100% + 8px);

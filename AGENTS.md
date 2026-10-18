@@ -14,7 +14,8 @@ do not create alternate agent instruction files or checked-in planning documents
 
 ## Architecture and contracts
 
-React + TypeScript + Vite + Tailwind, browser-only. Hash navigation has two views.
+React + TypeScript + Vite + Tailwind, browser-only. Hash navigation has practice,
+settings and language guides. Guides pause practice without clearing the answer.
 No backend, analytics, accounts, runtime CDN, or saved answers. Preferences alone use localStorage.
 Use @mdi/react with individual @mdi/js paths; icon-only actions need accessible names and tooltips.
 The footer links to GitHub using mdiGithub. The supplied coral SVG is the brand.

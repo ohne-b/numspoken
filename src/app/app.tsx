@@ -1,19 +1,27 @@
 import { lazy, Suspense, useLayoutEffect, useState } from 'react';
-import { mdiCogOutline, mdiWeatherNight, mdiWhiteBalanceSunny } from '@mdi/js';
+import {
+  mdiBookOpenPageVariantOutline,
+  mdiCogOutline,
+  mdiWeatherNight,
+  mdiWhiteBalanceSunny,
+} from '@mdi/js';
 import { IconButton } from '../ui/icon-button';
 import { BrandFooter } from '../ui/brand-footer';
 import { PracticeView } from '../features/practice/practice-view';
 import { usePreferences } from './use-preferences';
 import { practiceKey } from './preferences';
 import { navigate, useView } from './use-view';
+import { guideForLanguage } from '../lib/guides/guide-registry';
+import { languageFor } from '../lib/languages';
 
 const SettingsView = lazy(() => import('../features/settings/settings-view'));
+const GuideView = lazy(() => import('../features/guides/guide-view'));
 export function App() {
   const { preferences, update, storageAvailable } = usePreferences();
   const view = useView();
   const [practicePreferences, setPracticePreferences] = useState(preferences);
   if (
-    view === 'practice' &&
+    view.name === 'practice' &&
     practiceKey(preferences) !== practiceKey(practicePreferences)
   )
     setPracticePreferences(preferences);
@@ -26,10 +34,17 @@ export function App() {
         preferences.theme === 'dark' ? '#17191d' : '#faf9f6',
       );
   }, [preferences.theme]);
+  useLayoutEffect(() => {
+    if (view.name !== 'guide') {
+      document.title = 'numspoken';
+      window.scrollTo(0, 0);
+    }
+  }, [view.name]);
   return (
-    <div className="app-shell">
+    <div className={`app-shell${view.name === 'guide' ? ' has-guide' : ''}`}>
       <header className="topbar flex items-center justify-end gap-1">
         <IconButton
+          tooltip={false}
           label={
             preferences.theme === 'dark'
               ? 'Switch to light mode'
@@ -44,9 +59,21 @@ export function App() {
             update({ theme: preferences.theme === 'dark' ? 'light' : 'dark' })
           }
         />
-        {view === 'practice' && (
+        {view.name === 'practice' && (
+          <IconButton
+            label="Number guide"
+            path={mdiBookOpenPageVariantOutline}
+            onClick={() =>
+              navigate({
+                guide: guideForLanguage(languageFor(preferences.locale)).slug,
+              })
+            }
+          />
+        )}
+        {view.name === 'practice' && (
           <IconButton
             label="Open settings"
+            tooltip={false}
             path={mdiCogOutline}
             onClick={() => navigate('settings')}
           />
@@ -61,9 +88,24 @@ export function App() {
         <PracticeView
           key={practiceKey(practicePreferences)}
           preferences={practicePreferences}
-          active={view === 'practice'}
+          active={view.name === 'practice'}
         />
-        {view === 'settings' && (
+        {view.name === 'guide' && (
+          <Suspense
+            fallback={
+              <p className="load-state" role="status">
+                Loading guide…
+              </p>
+            }
+          >
+            <GuideView
+              key={view.slug}
+              slug={view.slug}
+              section={view.section}
+            />
+          </Suspense>
+        )}
+        {view.name === 'settings' && (
           <Suspense
             fallback={
               <p className="load-state" role="status">

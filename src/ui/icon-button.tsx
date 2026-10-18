@@ -4,8 +4,15 @@ import type { ComponentProps } from 'react';
 interface Props extends ComponentProps<'button'> {
   label: string;
   path: string;
+  tooltip?: boolean;
 }
-export function IconButton({ label, path, className = '', ...props }: Props) {
+export function IconButton({
+  label,
+  path,
+  tooltip = true,
+  className = '',
+  ...props
+}: Props) {
   return (
     <button
       type="button"
@@ -14,9 +21,11 @@ export function IconButton({ label, path, className = '', ...props }: Props) {
       {...props}
     >
       <Icon path={path} size={0.9} aria-hidden="true" />
-      <span className="icon-tooltip" aria-hidden="true">
-        {label}
-      </span>
+      {tooltip && (
+        <span className="icon-tooltip" aria-hidden="true">
+          {label}
+        </span>
+      )}
     </button>
   );
 }

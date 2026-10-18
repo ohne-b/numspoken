@@ -1,0 +1,201 @@
+.has-guide main {
+  align-items: start;
+}
+.guide-view {
+  width: min(1040px, calc(100% - 48px));
+  min-width: 0;
+  margin: 40px auto 64px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.guide-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+.guide-heading h1 {
+  margin: 0;
+  font-size: clamp(24px, 4vw, 30px);
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+.guide-view h2 {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 0 0 16px;
+}
+.guide-view h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 24px 0 12px;
+}
+.guide-view p {
+  margin: 12px 0;
+}
+.guide-view ul,
+.guide-view ol {
+  padding-left: 24px;
+  margin: 12px 0;
+}
+.guide-view li {
+  margin: 6px 0;
+}
+.guide-view a {
+  color: var(--accent);
+  text-underline-offset: 4px;
+  text-decoration: underline;
+  overflow-wrap: anywhere;
+}
+.guide-view a:focus-visible {
+  background: var(--hover);
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.guide-view em {
+  font-style: normal;
+  unicode-bidi: isolate;
+}
+.guide-view strong {
+  font-weight: 600;
+}
+.guide-view h2,
+.guide-view h3,
+.guide-view h4 {
+  scroll-margin-top: calc(var(--topbar-padding-top) + 68px);
+}
+.guide-reference {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 205px), 1fr));
+  gap: 20px 32px;
+}
+.guide-reference > h2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.guide-reference-group {
+  min-width: 0;
+}
+.guide-reference-group h3 {
+  color: var(--muted);
+  font-size: 12px;
+  margin: 0 0 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.guide-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+}
+.guide-view table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: start;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.guide-view th {
+  text-align: start;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--muted);
+  padding: 4px 12px 8px 0;
+}
+.guide-view td {
+  padding: 4px 12px 4px 0;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+.guide-view td:last-child {
+  padding-right: 0;
+}
+.guide-view .guide-number {
+  text-align: right;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  width: 1%;
+  padding-right: 16px;
+}
+.guide-reference thead {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.guide-reference strong,
+.guide-large-numbers strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+.guide-large-numbers {
+  margin-top: 36px;
+  padding: 24px;
+  border-radius: var(--radius-panel);
+  background: var(--surface);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+  gap: 20px 32px;
+}
+.guide-large-numbers > h2,
+.guide-large-numbers > p {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+.guide-large-numbers blockquote {
+  margin: 16px 0 0;
+  padding: 0;
+  overflow-wrap: anywhere;
+}
+.guide-prose {
+  max-width: 65ch;
+  margin: 40px auto 0;
+}
+.guide-prose table {
+  margin: 16px 0;
+}
+.guide-prose td,
+.guide-prose th {
+  border-bottom: 1px solid var(--border);
+  padding-block: 8px;
+}
+.guide-prose:has(#guide-sources) {
+  font-size: 13px;
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+}
+.guide-prose:has(#guide-sources) h2 {
+  font-size: 15px;
+}
+@media (max-width: 600px) {
+  .guide-view {
+    width: calc(100% - 40px);
+    margin-top: 24px;
+  }
+  .guide-heading {
+    gap: 6px;
+    margin-bottom: 28px;
+  }
+  .guide-reference {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
+    gap: 24px 20px;
+  }
+  .guide-large-numbers {
+    padding: 20px;
+  }
+}
+@media (forced-colors: active) {
+  .guide-large-numbers {
+    border: 1px solid CanvasText;
+  }
+  .guide-view a:focus-visible {
+    outline-color: Highlight;
+  }
+}
