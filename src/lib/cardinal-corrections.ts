@@ -93,10 +93,9 @@ export function correctCardinal(locale: LocaleCode, raw: Cardinal): Cardinal {
             ? 'tusind'
             : 'tusen';
       const prefix = count === 1 ? (danish ? 'et' : 'ett') : convert(count);
-      const gap = danish && scale === 100 && count > 1 ? '' : ' ';
       return (
         prefix +
-        gap +
+        ' ' +
         word +
         (rest ? (rest < 100 ? ' og ' : ' ') + convert(rest) : '')
       );

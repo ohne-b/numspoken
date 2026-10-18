@@ -69,25 +69,25 @@
 | -----: | ----------------- |
 |    100 | et hundrede       |
 |    101 | et hundrede og et |
-|    200 | tohundrede        |
-|    300 | trehundrede       |
-|    400 | firehundrede      |
-|    500 | femhundrede       |
-|    600 | sekshundrede      |
-|    700 | syvhundrede       |
-|    800 | ottehundrede      |
-|    900 | nihundrede        |
+|    200 | to hundrede       |
+|    300 | tre hundrede      |
+|    400 | fire hundrede     |
+|    500 | fem hundrede      |
+|    600 | seks hundrede     |
+|    700 | syv hundrede      |
+|    800 | otte hundrede     |
+|    900 | ni hundrede       |
 
 ### Thousands and millions
 
-|    Number | Danish                                                                 |
-| --------: | ---------------------------------------------------------------------- |
-|     1.000 | et tusind                                                              |
-|     2.000 | to tusind                                                              |
-|    10.000 | ti tusind                                                              |
-|   100.000 | et hundrede tusind                                                     |
-| 1.000.000 | en million                                                             |
-| 1.234.567 | en million tohundrede og fireogtredive tusind femhundrede og syvogtres |
+|    Number | Danish                                                                   |
+| --------: | ------------------------------------------------------------------------ |
+|     1.000 | et tusind                                                                |
+|     2.000 | to tusind                                                                |
+|    10.000 | ti tusind                                                                |
+|   100.000 | et hundrede tusind                                                       |
+| 1.000.000 | en million                                                               |
+| 1.234.567 | en million to hundrede og fireogtredive tusind fem hundrede og syvogtres |
 
 ## Reading backwards within the tens
 
@@ -115,3 +115,4 @@ several million take _millioner_.
 
 - [Danish numbers — Omniglot](https://www.omniglot.com/language/numbers/danish.htm)
 - [Tres — Den Danske Ordbog](https://ordnet.dk/ddo/ordbog/tres)
+- [Spacing in numbers - Danish Language Council](https://sproget.dk/typiske-problemer/et-eller-flere-ord/)

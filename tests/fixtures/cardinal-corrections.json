@@ -1,5 +1,17 @@
 [
   {
+    "locale": "da-DK",
+    "number": 200,
+    "words": "to hundrede",
+    "source": "https://sproget.dk/typiske-problemer/et-eller-flere-ord/"
+  },
+  {
+    "locale": "da-DK",
+    "number": 567,
+    "words": "fem hundrede og syvogtres",
+    "source": "https://sproget.dk/typiske-problemer/et-eller-flere-ord/"
+  },
+  {
     "locale": "ta-IN",
     "number": 23,
     "words": "இருபத்துமூன்று",
