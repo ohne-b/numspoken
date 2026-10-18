@@ -78,16 +78,21 @@
 |    800 | שמונה מאות      |
 |    900 | תשע מאות        |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Biblical Hebrew                                    |
-| --------: | -------------------------------------------------- |
-|     1,000 | אלף                                                |
-|     2,000 | אלפיים                                             |
-|    10,000 | עשרת אלפים                                         |
-|   100,000 | מאה אלף                                            |
-| 1,000,000 | מיליון                                             |
-| 1,234,567 | מיליון מאתיים שלשים וארבעה אלף חמש מאות ששים ושבעה |
+|          Number | Biblical Hebrew                                    |
+| --------------: | -------------------------------------------------- |
+|           1,000 | אלף                                                |
+|           2,000 | אלפיים                                             |
+|          10,000 | עשרת אלפים                                         |
+|         100,000 | מאה אלף                                            |
+|       1,000,000 | מיליון                                             |
+|       1,234,567 | מיליון מאתיים שלשים וארבעה אלף חמש מאות ששים ושבעה |
+|      10,000,000 | עשרה מיליון                                        |
+|     100,000,000 | מאה מיליון                                         |
+|   1,000,000,000 | מיליארד                                            |
+|  10,000,000,000 | עשרה מיליארד                                       |
+| 100,000,000,000 | מאה מיליארד                                        |
 
 ## Masculine counting forms
 
@@ -109,7 +114,7 @@ forms such as _שלש מאות_ and _ארבע מאות_. 200 has the dual form _
 largest-to-smallest order, with _ו_ joining parts. Biblical texts can
 arrange compound numbers in other orders too.
 
-Zero and _מיליון_ are modern convenience labels in this practice mode.
+Zero, _מיליון_ and _מיליארד_ are modern convenience labels in this practice mode.
 They should not be read as examples of biblical numerical vocabulary.
 
 ## Sources

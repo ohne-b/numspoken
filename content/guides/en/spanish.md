@@ -79,16 +79,21 @@
 |    800 | ochocientos     |
 |    900 | **novecientos** |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Spanish                                                              |
-| --------: | -------------------------------------------------------------------- |
-|     1.000 | mil                                                                  |
-|     2.000 | dos mil                                                              |
-|    10.000 | diez mil                                                             |
-|   100.000 | cien mil                                                             |
-| 1.000.000 | un millón                                                            |
-| 1.234.567 | un millón doscientos treinta y cuatro mil quinientos sesenta y siete |
+|          Number | Spanish                                                              |
+| --------------: | -------------------------------------------------------------------- |
+|           1.000 | mil                                                                  |
+|           2.000 | dos mil                                                              |
+|          10.000 | diez mil                                                             |
+|         100.000 | cien mil                                                             |
+|       1.000.000 | un millón                                                            |
+|       1.234.567 | un millón doscientos treinta y cuatro mil quinientos sesenta y siete |
+|      10.000.000 | diez millones                                                        |
+|     100.000.000 | cien millones                                                        |
+|   1.000.000.000 | mil millones                                                         |
+|  10.000.000.000 | diez mil millones                                                    |
+| 100.000.000.000 | cien mil millones                                                    |
 
 ## Joining the parts
 

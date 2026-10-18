@@ -78,16 +78,21 @@
 |    800 | sekiz yüz |
 |    900 | dokuz yüz |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Turkish                                              |
-| --------: | ---------------------------------------------------- |
-|     1.000 | bin                                                  |
-|     2.000 | iki bin                                              |
-|    10.000 | on bin                                               |
-|   100.000 | yüz bin                                              |
-| 1.000.000 | bir milyon                                           |
-| 1.234.567 | bir milyon iki yüz otuz dört bin beş yüz altmış yedi |
+|          Number | Turkish                                              |
+| --------------: | ---------------------------------------------------- |
+|           1.000 | bin                                                  |
+|           2.000 | iki bin                                              |
+|          10.000 | on bin                                               |
+|         100.000 | yüz bin                                              |
+|       1.000.000 | bir milyon                                           |
+|       1.234.567 | bir milyon iki yüz otuz dört bin beş yüz altmış yedi |
+|      10.000.000 | on milyon                                            |
+|     100.000.000 | yüz milyon                                           |
+|   1.000.000.000 | bir milyar                                           |
+|  10.000.000.000 | on milyar                                            |
+| 100.000.000.000 | yüz milyar                                           |
 
 ## Largest part first
 

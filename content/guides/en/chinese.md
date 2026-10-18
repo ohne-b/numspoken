@@ -78,16 +78,21 @@
 |    800 | 八百     |
 |    900 | 九百     |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Chinese                    |
-| --------: | -------------------------- |
-|     1,000 | 一千                       |
-|     2,000 | 二千                       |
-|    10,000 | 一万                       |
-|   100,000 | 十万                       |
-| 1,000,000 | 一百万                     |
-| 1,234,567 | 一百二十三万四千五百六十七 |
+|          Number | Chinese                    |
+| --------------: | -------------------------- |
+|           1,000 | 一千                       |
+|           2,000 | 二千                       |
+|          10,000 | 一万                       |
+|         100,000 | 十万                       |
+|       1,000,000 | 一百万                     |
+|       1,234,567 | 一百二十三万四千五百六十七 |
+|      10,000,000 | 一千万                     |
+|     100,000,000 | 一亿                       |
+|   1,000,000,000 | 十亿                       |
+|  10,000,000,000 | 一百亿                     |
+| 100,000,000,000 | 一千亿                     |
 
 ## Place values
 
@@ -106,17 +111,23 @@ _一千零一_. Several consecutive empty places need only one _零_.
 _万_ means 10,000. Read 1,234,567 as 123 ten-thousands, then 4,567:
 _一百二十三万四千五百六十七_. This grouping differs from English thousands.
 
+The next group is _亿_ (100,000,000), written _億_ in traditional
+characters. A billion is ten of these: _十亿_.
+
 ## Scripts
 
 The main chart uses simplified characters. The Taiwan setting uses
 traditional characters. The value and word order stay the same.
 
-|    Number | Simplified                 | Traditional                |
-| --------: | -------------------------- | -------------------------- |
-|        10 | 十                         | 十                         |
-|        12 | 十二                       | 十二                       |
-|    10,000 | 一万                       | 一萬                       |
-| 1,234,567 | 一百二十三万四千五百六十七 | 一百二十三萬四千五百六十七 |
+|          Number | Simplified                 | Traditional                |
+| --------------: | -------------------------- | -------------------------- |
+|              10 | 十                         | 十                         |
+|              12 | 十二                       | 十二                       |
+|          10,000 | 一万                       | 一萬                       |
+|       1,234,567 | 一百二十三万四千五百六十七 | 一百二十三萬四千五百六十七 |
+|     100,000,000 | 一亿                       | 一億                       |
+|   1,000,000,000 | 十亿                       | 十億                       |
+| 100,000,000,000 | 一千亿                     | 一千億                     |
 
 ## Everyday and financial characters
 

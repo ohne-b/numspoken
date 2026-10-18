@@ -78,16 +78,21 @@
 |    800 | osiemset    |
 |    900 | dziewięćset |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Polish                                                                  |
-| --------: | ----------------------------------------------------------------------- |
-|      1000 | tysiąc                                                                  |
-|      2000 | dwa tysiące                                                             |
-|    10 000 | dziesięć tysięcy                                                        |
-|   100 000 | sto tysięcy                                                             |
-| 1 000 000 | milion                                                                  |
-| 1 234 567 | milion dwieście trzydzieści cztery tysiące pięćset sześćdziesiąt siedem |
+|          Number | Polish                                                                  |
+| --------------: | ----------------------------------------------------------------------- |
+|            1000 | tysiąc                                                                  |
+|            2000 | dwa tysiące                                                             |
+|          10 000 | dziesięć tysięcy                                                        |
+|         100 000 | sto tysięcy                                                             |
+|       1 000 000 | milion                                                                  |
+|       1 234 567 | milion dwieście trzydzieści cztery tysiące pięćset sześćdziesiąt siedem |
+|      10 000 000 | dziesięć milionów                                                       |
+|     100 000 000 | sto milionów                                                            |
+|   1 000 000 000 | miliard                                                                 |
+|  10 000 000 000 | dziesięć miliardów                                                      |
+| 100 000 000 000 | sto miliardów                                                           |
 
 ## Building the number
 

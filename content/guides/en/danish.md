@@ -78,16 +78,21 @@
 |    800 | otte hundrede     |
 |    900 | ni hundrede       |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Danish                                                                   |
-| --------: | ------------------------------------------------------------------------ |
-|     1.000 | et tusind                                                                |
-|     2.000 | to tusind                                                                |
-|    10.000 | ti tusind                                                                |
-|   100.000 | et hundrede tusind                                                       |
-| 1.000.000 | en million                                                               |
-| 1.234.567 | en million to hundrede og fireogtredive tusind fem hundrede og syvogtres |
+|          Number | Danish                                                                   |
+| --------------: | ------------------------------------------------------------------------ |
+|           1.000 | et tusind                                                                |
+|           2.000 | to tusind                                                                |
+|          10.000 | ti tusind                                                                |
+|         100.000 | et hundrede tusind                                                       |
+|       1.000.000 | en million                                                               |
+|       1.234.567 | en million to hundrede og fireogtredive tusind fem hundrede og syvogtres |
+|      10.000.000 | ti millioner                                                             |
+|     100.000.000 | et hundrede millioner                                                    |
+|   1.000.000.000 | en milliard                                                              |
+|  10.000.000.000 | ti milliarder                                                            |
+| 100.000.000.000 | et hundrede milliarder                                                   |
 
 ## Reading backwards within the tens
 

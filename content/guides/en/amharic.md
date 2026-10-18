@@ -78,16 +78,21 @@
 |    800 | ስምንት መቶ    |
 |    900 | ዘጠኝ መቶ     |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Amharic                                   |
-| --------: | ----------------------------------------- |
-|     1,000 | አንድ ሺ                                     |
-|     2,000 | ሁለት ሺ                                     |
-|    10,000 | አስር ሺ                                     |
-|   100,000 | አንድ መቶ ሺ                                  |
-| 1,000,000 | አንድ ሚሊዮን                                  |
-| 1,234,567 | አንድ ሚሊዮን ሁለት መቶ ሰላሳ አራት ሺ አምስት መቶ ስልሳ ሰባት |
+|          Number | Amharic                                   |
+| --------------: | ----------------------------------------- |
+|           1,000 | አንድ ሺ                                     |
+|           2,000 | ሁለት ሺ                                     |
+|          10,000 | አስር ሺ                                     |
+|         100,000 | አንድ መቶ ሺ                                  |
+|       1,000,000 | አንድ ሚሊዮን                                  |
+|       1,234,567 | አንድ ሚሊዮን ሁለት መቶ ሰላሳ አራት ሺ አምስት መቶ ስልሳ ሰባት |
+|      10,000,000 | አስር ሚሊዮን                                  |
+|     100,000,000 | አንድ መቶ ሚሊዮን                               |
+|   1,000,000,000 | አንድ ቢሊዮን                                  |
+|  10,000,000,000 | አስር ቢሊዮን                                  |
+| 100,000,000,000 | አንድ መቶ ቢሊዮን                               |
 
 ## Tens followed by units
 
@@ -110,17 +115,19 @@ Type the number's words, not those symbols.
 The Latin-script setting transliterates the same number words. Its spelling
 follows the converter's convention; other dictionaries may romanize them differently.
 
-| Number | Amharic, Latin script |
-| -----: | --------------------- |
-|      1 | and                   |
-|      2 | hulet                 |
-|      3 | sost                  |
-|     10 | asir                  |
-|     12 | asra hulet            |
-|     20 | haya                  |
-|     21 | haya **and**          |
-|    100 | and meto              |
-|  1,000 | and shi               |
+|        Number | Amharic, Latin script |
+| ------------: | --------------------- |
+|             1 | and                   |
+|             2 | hulet                 |
+|             3 | sost                  |
+|            10 | asir                  |
+|            12 | asra hulet            |
+|            20 | haya                  |
+|            21 | haya **and**          |
+|           100 | and meto              |
+|         1,000 | and shi               |
+|     1,000,000 | and miliyon           |
+| 1,000,000,000 | and billiyon          |
 
 ## Sources
 

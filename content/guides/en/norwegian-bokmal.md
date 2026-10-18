@@ -78,16 +78,21 @@
 |    800 | åtte hundre      |
 |    900 | ni hundre        |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Norwegian Bokmål                                                 |
-| --------: | ---------------------------------------------------------------- |
-|     1 000 | ett tusen                                                        |
-|     2 000 | to tusen                                                         |
-|    10 000 | ti tusen                                                         |
-|   100 000 | ett hundre tusen                                                 |
-| 1 000 000 | en million                                                       |
-| 1 234 567 | en million to hundre og trettifire tusen fem hundre og sekstisyv |
+|          Number | Norwegian Bokmål                                                 |
+| --------------: | ---------------------------------------------------------------- |
+|           1 000 | ett tusen                                                        |
+|           2 000 | to tusen                                                         |
+|          10 000 | ti tusen                                                         |
+|         100 000 | ett hundre tusen                                                 |
+|       1 000 000 | en million                                                       |
+|       1 234 567 | en million to hundre og trettifire tusen fem hundre og sekstisyv |
+|      10 000 000 | ti millioner                                                     |
+|     100 000 000 | ett hundre millioner                                             |
+|   1 000 000 000 | en milliard                                                      |
+|  10 000 000 000 | ti milliarder                                                    |
+| 100 000 000 000 | ett hundre milliarder                                            |
 
 ## Tens before units
 

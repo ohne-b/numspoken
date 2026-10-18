@@ -78,16 +78,21 @@
 |    800 | lapan ratus    |
 |    900 | sembilan ratus |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Malay                                                              |
-| --------: | ------------------------------------------------------------------ |
-|     1,000 | seribu                                                             |
-|     2,000 | dua ribu                                                           |
-|    10,000 | sepuluh ribu                                                       |
-|   100,000 | seratus ribu                                                       |
-| 1,000,000 | sejuta                                                             |
-| 1,234,567 | sejuta dua ratus tiga puluh empat ribu lima ratus enam puluh tujuh |
+|          Number | Malay                                                              |
+| --------------: | ------------------------------------------------------------------ |
+|           1,000 | seribu                                                             |
+|           2,000 | dua ribu                                                           |
+|          10,000 | sepuluh ribu                                                       |
+|         100,000 | seratus ribu                                                       |
+|       1,000,000 | sejuta                                                             |
+|       1,234,567 | sejuta dua ratus tiga puluh empat ribu lima ratus enam puluh tujuh |
+|      10,000,000 | sepuluh juta                                                       |
+|     100,000,000 | seratus juta                                                       |
+|   1,000,000,000 | sebilion                                                           |
+|  10,000,000,000 | sepuluh bilion                                                     |
+| 100,000,000,000 | seratus bilion                                                     |
 
 ## Belas and puluh
 

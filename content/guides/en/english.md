@@ -78,16 +78,21 @@
 |    800 | eight hundred   |
 |    900 | nine hundred    |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | English                                                               |
-| --------: | --------------------------------------------------------------------- |
-|     1,000 | one thousand                                                          |
-|     2,000 | two thousand                                                          |
-|    10,000 | ten thousand                                                          |
-|   100,000 | one hundred thousand                                                  |
-| 1,000,000 | one million                                                           |
-| 1,234,567 | one million two hundred thirty-four thousand five hundred sixty-seven |
+|          Number | English                                                               |
+| --------------: | --------------------------------------------------------------------- |
+|           1,000 | one thousand                                                          |
+|           2,000 | two thousand                                                          |
+|          10,000 | ten thousand                                                          |
+|         100,000 | one hundred thousand                                                  |
+|       1,000,000 | one million                                                           |
+|       1,234,567 | one million two hundred thirty-four thousand five hundred sixty-seven |
+|      10,000,000 | ten million                                                           |
+|     100,000,000 | one hundred million                                                   |
+|   1,000,000,000 | one billion                                                           |
+|  10,000,000,000 | ten billion                                                           |
+| 100,000,000,000 | one hundred billion                                                   |
 
 ## Tens and units
 
@@ -115,17 +120,26 @@ their own convention for _and_; the number words themselves stay the same.
 
 ## Indian grouping
 
-India, Bangladesh and Pakistan use _lakh_ for 100,000. The comma grouping
-follows it: 12,34,567 means 1,234,567.
+India, Bangladesh and Pakistan use _lakh_ for 100,000 and _crore_ for
+10,000,000. The comma grouping follows it: 12,34,567 means 1,234,567.
 
-|    Number | English                                                       |
-| --------: | ------------------------------------------------------------- |
-|  1,00,000 | one lakh                                                      |
-| 10,00,000 | ten lakh                                                      |
-| 12,34,567 | twelve lakh thirty-four thousand five hundred and sixty-seven |
+At higher values, these practice settings use _arab_ (1,000,000,000)
+and _kharab_ (100,000,000,000).
+
+|            Number | English                                                       |
+| ----------------: | ------------------------------------------------------------- |
+|          1,00,000 | one lakh                                                      |
+|         10,00,000 | ten lakh                                                      |
+|         12,34,567 | twelve lakh thirty-four thousand five hundred and sixty-seven |
+|       1,00,00,000 | one crore                                                     |
+|      10,00,00,000 | ten crore                                                     |
+|    1,00,00,00,000 | one arab                                                      |
+|   10,00,00,00,000 | ten arab                                                      |
+| 1,00,00,00,00,000 | one kharab                                                    |
 
 The other English variants use _one hundred thousand_ for 100,000.
 
 ## Sources
 
 - [English numbers — Omniglot](https://www.omniglot.com/language/numbers/english.htm)
+- [Indian number scales — Nagaland Statistical Handbook, conversion tables](https://statistics.nagaland.gov.in/storage/statistical_data/2016/911601130214.pdf#page=5)

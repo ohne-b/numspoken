@@ -78,16 +78,21 @@
 |    800 | oitocentos   |
 |    900 | novecentos   |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Portuguese                                                            |
-| --------: | --------------------------------------------------------------------- |
-|     1.000 | mil                                                                   |
-|     2.000 | dois mil                                                              |
-|    10.000 | dez mil                                                               |
-|   100.000 | cem mil                                                               |
-| 1.000.000 | um milhão                                                             |
-| 1.234.567 | um milhão duzentos e trinta e quatro mil quinhentos e sessenta e sete |
+|          Number | Portuguese                                                            |
+| --------------: | --------------------------------------------------------------------- |
+|           1.000 | mil                                                                   |
+|           2.000 | dois mil                                                              |
+|          10.000 | dez mil                                                               |
+|         100.000 | cem mil                                                               |
+|       1.000.000 | um milhão                                                             |
+|       1.234.567 | um milhão duzentos e trinta e quatro mil quinhentos e sessenta e sete |
+|      10.000.000 | dez milhões                                                           |
+|     100.000.000 | cem milhões                                                           |
+|   1.000.000.000 | um bilhão                                                             |
+|  10.000.000.000 | dez bilhões                                                           |
+| 100.000.000.000 | cem bilhões                                                           |
 
 ## Joining with e
 
@@ -109,15 +114,19 @@ _mil e dois_, _mil e duzentos_.
 ## European Portuguese
 
 The chart uses Brazilian spelling. Portugal differs at 16, 17 and 19.
-The rest of the joining pattern is the same.
+For 1,000,000,000, Brazil uses _um bilhão_; Portugal uses _mil milhões_.
 
-| Number | Portuguese |
-| -----: | ---------- |
-|     16 | dezasseis  |
-|     17 | dezassete  |
-|     19 | dezanove   |
+|          Number | Portuguese      |
+| --------------: | --------------- |
+|              16 | dezasseis       |
+|              17 | dezassete       |
+|              19 | dezanove        |
+|   1 000 000 000 | mil milhões     |
+|  10 000 000 000 | dez mil milhões |
+| 100 000 000 000 | cem mil milhões |
 
 ## Sources
 
 - [Portuguese numbers — Omniglot](https://www.omniglot.com/language/numbers/portuguese.htm)
 - [Joining number groups — Ciberdúvidas](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-conjuncao-e-nos-numerais/31900)
+- [Million and billion — Ciberdúvidas](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/milesimo-milionesimo/31914)

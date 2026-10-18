@@ -78,16 +78,21 @@
 |    800 | osm set   |
 |    900 | devět set |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Czech                                                   |
-| --------: | ------------------------------------------------------- |
-|     1 000 | tisíc                                                   |
-|     2 000 | dva tisíce                                              |
-|    10 000 | deset tisíc                                             |
-|   100 000 | sto tisíc                                               |
-| 1 000 000 | milion                                                  |
-| 1 234 567 | milion dvě stě třicet čtyři tisíce pět set šedesát sedm |
+|          Number | Czech                                                   |
+| --------------: | ------------------------------------------------------- |
+|           1 000 | tisíc                                                   |
+|           2 000 | dva tisíce                                              |
+|          10 000 | deset tisíc                                             |
+|         100 000 | sto tisíc                                               |
+|       1 000 000 | milion                                                  |
+|       1 234 567 | milion dvě stě třicet čtyři tisíce pět set šedesát sedm |
+|      10 000 000 | deset milionů                                           |
+|     100 000 000 | sto milionů                                             |
+|   1 000 000 000 | miliarda                                                |
+|  10 000 000 000 | deset miliard                                           |
+| 100 000 000 000 | sto miliard                                             |
 
 ## Tens and units
 

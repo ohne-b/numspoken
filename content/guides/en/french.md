@@ -83,16 +83,21 @@
 |    800 | huit cents   |
 |    900 | neuf cents   |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | French                                                           |
-| --------: | ---------------------------------------------------------------- |
-|     1 000 | mille                                                            |
-|     2 000 | deux mille                                                       |
-|    10 000 | dix mille                                                        |
-|   100 000 | cent mille                                                       |
-| 1 000 000 | un million                                                       |
-| 1 234 567 | un million deux cent trente-quatre mille cinq cent soixante-sept |
+|          Number | French                                                           |
+| --------------: | ---------------------------------------------------------------- |
+|           1 000 | mille                                                            |
+|           2 000 | deux mille                                                       |
+|          10 000 | dix mille                                                        |
+|         100 000 | cent mille                                                       |
+|       1 000 000 | un million                                                       |
+|       1 234 567 | un million deux cent trente-quatre mille cinq cent soixante-sept |
+|      10 000 000 | dix millions                                                     |
+|     100 000 000 | cent millions                                                    |
+|   1 000 000 000 | un milliard                                                      |
+|  10 000 000 000 | dix milliards                                                    |
+| 100 000 000 000 | cent milliards                                                   |
 
 ## The last three tens
 

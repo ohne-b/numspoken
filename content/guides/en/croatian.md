@@ -78,16 +78,21 @@
 |    800 | osamsto   |
 |    900 | devetsto  |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Croatian                                                           |
-| --------: | ------------------------------------------------------------------ |
-|     1.000 | jedna tisuća                                                       |
-|     2.000 | dvije tisuće                                                       |
-|    10.000 | deset tisuća                                                       |
-|   100.000 | sto tisuća                                                         |
-| 1.000.000 | jedan milijun                                                      |
-| 1.234.567 | jedan milijun dvjesto trideset četiri tisuće petsto šezdeset sedam |
+|          Number | Croatian                                                           |
+| --------------: | ------------------------------------------------------------------ |
+|           1.000 | jedna tisuća                                                       |
+|           2.000 | dvije tisuće                                                       |
+|          10.000 | deset tisuća                                                       |
+|         100.000 | sto tisuća                                                         |
+|       1.000.000 | jedan milijun                                                      |
+|       1.234.567 | jedan milijun dvjesto trideset četiri tisuće petsto šezdeset sedam |
+|      10.000.000 | deset milijuna                                                     |
+|     100.000.000 | sto milijuna                                                       |
+|   1.000.000.000 | jedna milijarda                                                    |
+|  10.000.000.000 | deset milijarda                                                    |
+| 100.000.000.000 | sto milijarda                                                      |
 
 ## Separate words
 

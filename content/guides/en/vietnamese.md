@@ -78,16 +78,21 @@
 |    800 | tám trăm        |
 |    900 | chín trăm       |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Vietnamese                                                 |
-| --------: | ---------------------------------------------------------- |
-|     1.000 | một nghìn                                                  |
-|     2.000 | hai nghìn                                                  |
-|    10.000 | mười nghìn                                                 |
-|   100.000 | một trăm nghìn                                             |
-| 1.000.000 | một triệu                                                  |
-| 1.234.567 | một triệu hai trăm ba mươi bốn nghìn năm trăm sáu mươi bảy |
+|          Number | Vietnamese                                                 |
+| --------------: | ---------------------------------------------------------- |
+|           1.000 | một nghìn                                                  |
+|           2.000 | hai nghìn                                                  |
+|          10.000 | mười nghìn                                                 |
+|         100.000 | một trăm nghìn                                             |
+|       1.000.000 | một triệu                                                  |
+|       1.234.567 | một triệu hai trăm ba mươi bốn nghìn năm trăm sáu mươi bảy |
+|      10.000.000 | mười triệu                                                 |
+|     100.000.000 | một trăm triệu                                             |
+|   1.000.000.000 | một tỷ                                                     |
+|  10.000.000.000 | mười tỷ                                                    |
+| 100.000.000.000 | một trăm tỷ                                                |
 
 ## Mười and mươi
 

@@ -78,16 +78,21 @@
 |    800 | achthundert    |
 |    900 | neunhundert    |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | German                                                                   |
-| --------: | ------------------------------------------------------------------------ |
-|     1.000 | eintausend                                                               |
-|     2.000 | zweitausend                                                              |
-|    10.000 | zehntausend                                                              |
-|   100.000 | einhunderttausend                                                        |
-| 1.000.000 | eine Million                                                             |
-| 1.234.567 | eine Million zweihundertvierunddreißigtausendfünfhundertsiebenundsechzig |
+|          Number | German                                                                   |
+| --------------: | ------------------------------------------------------------------------ |
+|           1.000 | eintausend                                                               |
+|           2.000 | zweitausend                                                              |
+|          10.000 | zehntausend                                                              |
+|         100.000 | einhunderttausend                                                        |
+|       1.000.000 | eine Million                                                             |
+|       1.234.567 | eine Million zweihundertvierunddreißigtausendfünfhundertsiebenundsechzig |
+|      10.000.000 | zehn Millionen                                                           |
+|     100.000.000 | einhundert Millionen                                                     |
+|   1.000.000.000 | eine Milliarde                                                           |
+|  10.000.000.000 | zehn Milliarden                                                          |
+| 100.000.000.000 | einhundert Milliarden                                                    |
 
 ## Units come first
 

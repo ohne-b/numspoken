@@ -78,16 +78,21 @@
 |    800 | delapan ratus  |
 |    900 | sembilan ratus |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Indonesian                                                            |
-| --------: | --------------------------------------------------------------------- |
-|     1.000 | seribu                                                                |
-|     2.000 | dua ribu                                                              |
-|    10.000 | sepuluh ribu                                                          |
-|   100.000 | seratus ribu                                                          |
-| 1.000.000 | satu juta                                                             |
-| 1.234.567 | satu juta dua ratus tiga puluh empat ribu lima ratus enam puluh tujuh |
+|          Number | Indonesian                                                            |
+| --------------: | --------------------------------------------------------------------- |
+|           1.000 | seribu                                                                |
+|           2.000 | dua ribu                                                              |
+|          10.000 | sepuluh ribu                                                          |
+|         100.000 | seratus ribu                                                          |
+|       1.000.000 | satu juta                                                             |
+|       1.234.567 | satu juta dua ratus tiga puluh empat ribu lima ratus enam puluh tujuh |
+|      10.000.000 | sepuluh juta                                                          |
+|     100.000.000 | seratus juta                                                          |
+|   1.000.000.000 | satu miliar                                                           |
+|  10.000.000.000 | sepuluh miliar                                                        |
+| 100.000.000.000 | seratus miliar                                                        |
 
 ## Belas and puluh
 

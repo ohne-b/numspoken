@@ -78,16 +78,21 @@
 |    800 | kahdeksansataa |
 |    900 | yhdeksänsataa  |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Finnish                                                                     |
-| --------: | --------------------------------------------------------------------------- |
-|     1 000 | tuhat                                                                       |
-|     2 000 | kaksituhatta                                                                |
-|    10 000 | kymmenentuhatta                                                             |
-|   100 000 | satatuhatta                                                                 |
-| 1 000 000 | miljoona                                                                    |
-| 1 234 567 | miljoonakaksisataakolmekymmentäneljätuhattaviisisataakuusikymmentäseitsemän |
+|          Number | Finnish                                                                     |
+| --------------: | --------------------------------------------------------------------------- |
+|           1 000 | tuhat                                                                       |
+|           2 000 | kaksituhatta                                                                |
+|          10 000 | kymmenentuhatta                                                             |
+|         100 000 | satatuhatta                                                                 |
+|       1 000 000 | miljoona                                                                    |
+|       1 234 567 | miljoonakaksisataakolmekymmentäneljätuhattaviisisataakuusikymmentäseitsemän |
+|      10 000 000 | kymmenenmiljoonaa                                                           |
+|     100 000 000 | satamiljoonaa                                                               |
+|   1 000 000 000 | miljardi                                                                    |
+|  10 000 000 000 | kymmenenmiljardia                                                           |
+| 100 000 000 000 | satamiljardia                                                               |
 
 ## Teens and tens
 

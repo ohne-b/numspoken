@@ -78,16 +78,21 @@
 |    800 | opt sute   |
 |    900 | nouă sute  |
 
-### Thousands and millions
+### Thousands and above
 
-|    Number | Romanian                                                                 |
-| --------: | ------------------------------------------------------------------------ |
-|     1.000 | o mie                                                                    |
-|     2.000 | două mii                                                                 |
-|    10.000 | zece mii                                                                 |
-|   100.000 | o sută de mii                                                            |
-| 1.000.000 | un milion                                                                |
-| 1.234.567 | un milion două sute treizeci și patru de mii cinci sute șaizeci și șapte |
+|          Number | Romanian                                                                 |
+| --------------: | ------------------------------------------------------------------------ |
+|           1.000 | o mie                                                                    |
+|           2.000 | două mii                                                                 |
+|          10.000 | zece mii                                                                 |
+|         100.000 | o sută de mii                                                            |
+|       1.000.000 | un milion                                                                |
+|       1.234.567 | un milion două sute treizeci și patru de mii cinci sute șaizeci și șapte |
+|      10.000.000 | zece milioane                                                            |
+|     100.000.000 | o sută de milioane                                                       |
+|   1.000.000.000 | un miliard                                                               |
+|  10.000.000.000 | zece miliarde                                                            |
+| 100.000.000.000 | o sută de miliarde                                                       |
 
 ## Tens and units
 
@@ -110,6 +115,10 @@ _o sută de mii_.
 The hundreds and thousands are feminine, so use forms such as
 _două_ with them even when the standalone number is _doi_.
 
+One million is _un milion_; one billion is _un miliard_. After larger
+counts, use _milioane_ and _miliarde_: _zece milioane_, _o sută de miliarde_.
+
 ## Sources
 
 - [Romanian numbers — Omniglot](https://www.omniglot.com/language/numbers/romanian.htm)
+- [Miliard — DEX](https://dexonline.ro/definitie/miliard)
