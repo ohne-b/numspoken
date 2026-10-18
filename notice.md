@@ -8,7 +8,7 @@ noncommercial use, not an OSI-approved open-source license. Third-party componen
 retain their own licenses; this project's license does not replace their rights.
 
 - Number spellings: [n2words](https://github.com/forzagreen/n2words), MIT.
-- Interface: React, Vite, Tailwind CSS and Base UI, MIT.
+- Interface: React, Vite, Tailwind CSS and [material](https://md3.io/) by Floor IO, MIT.
 - Markdown: react-markdown, remark-gfm and their unified dependencies, MIT.
 - Icons: [Material Design Icons](https://pictogrammers.com/library/mdi/), Apache 2.0;
   the React renderer is MIT. Brand icons are trademarks of their respective owners.

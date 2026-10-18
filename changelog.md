@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Material controls from md3.io and a rebuilt searchable language picker.
+- Separate range hints and errors for From and To.
+
 ## 0.1.0 - 2026-10-18
 
 First release of numspoken.

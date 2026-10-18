@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useReducer, useRef, useState } from 'react';
+import type { IconButtonElement } from 'material/elements';
 import { Icon } from '@mdi/react';
 import { mdiCheck, mdiEyeOutline, mdiRefresh, mdiSkipNext } from '@mdi/js';
 import type { Preferences } from '../../app/preferences';
@@ -33,7 +34,7 @@ export function PracticeView({
     () => !document.hidden && document.hasFocus(),
   );
   const inputRef = useRef<HTMLTextAreaElement>(null);
-  const restartRef = useRef<HTMLButtonElement>(null);
+  const restartRef = useRef<IconButtonElement>(null);
   const language = languageFor(preferences.locale);
   const resourceKey = `${language.code}:${session.number}:${session.questionId}:${retry}`;
   const answer = resource?.key === resourceKey ? resource.answer : undefined;
