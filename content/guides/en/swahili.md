@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Swahili                                                               |
-| --------------: | --------------------------------------------------------------------- |
-|           1,000 | elfu moja                                                             |
-|           2,000 | elfu mbili                                                            |
-|          10,000 | elfu kumi                                                             |
-|         100,000 | elfu mia moja                                                         |
-|       1,000,000 | milioni moja                                                          |
-|       1,234,567 | milioni moja elfu mia mbili thelathini na nne mia tano sitini na saba |
-|      10,000,000 | milioni kumi                                                          |
-|     100,000,000 | milioni mia moja                                                      |
-|   1,000,000,000 | bilioni moja                                                          |
-|  10,000,000,000 | bilioni kumi                                                          |
-| 100,000,000,000 | bilioni mia moja                                                      |
+|          Number | Swahili                                                                                                                     |
+| --------------: | --------------------------------------------------------------------------------------------------------------------------- |
+|           1,000 | elfu moja                                                                                                                   |
+|           2,000 | elfu mbili                                                                                                                  |
+|          10,000 | elfu kumi                                                                                                                   |
+|         100,000 | elfu mia moja                                                                                                               |
+|       1,000,000 | milioni moja                                                                                                                |
+|      10,000,000 | milioni kumi                                                                                                                |
+|     100,000,000 | milioni mia moja                                                                                                            |
+|   1,000,000,000 | bilioni moja                                                                                                                |
+|  10,000,000,000 | bilioni kumi                                                                                                                |
+| 100,000,000,000 | bilioni mia moja                                                                                                            |
+| 123,456,789,123 | bilioni mia moja ishirini na tatu milioni mia nne hamsini na sita elfu mia saba themanini na tisa mia moja ishirini na tatu |
 
 ## Joining tens and units
 

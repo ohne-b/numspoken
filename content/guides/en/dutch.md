@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Dutch                                                               |
-| --------------: | ------------------------------------------------------------------- |
-|           1.000 | duizend                                                             |
-|           2.000 | tweeduizend                                                         |
-|          10.000 | tienduizend                                                         |
-|         100.000 | honderdduizend                                                      |
-|       1.000.000 | één miljoen                                                         |
-|       1.234.567 | één miljoen tweehonderdvierendertigduizend vijfhonderdzevenenzestig |
-|      10.000.000 | tien miljoen                                                        |
-|     100.000.000 | honderd miljoen                                                     |
-|   1.000.000.000 | één miljard                                                         |
-|  10.000.000.000 | tien miljard                                                        |
-| 100.000.000.000 | honderd miljard                                                     |
+|          Number | Dutch                                                                                                               |
+| --------------: | ------------------------------------------------------------------------------------------------------------------- |
+|           1.000 | duizend                                                                                                             |
+|           2.000 | tweeduizend                                                                                                         |
+|          10.000 | tienduizend                                                                                                         |
+|         100.000 | honderdduizend                                                                                                      |
+|       1.000.000 | één miljoen                                                                                                         |
+|      10.000.000 | tien miljoen                                                                                                        |
+|     100.000.000 | honderd miljoen                                                                                                     |
+|   1.000.000.000 | één miljard                                                                                                         |
+|  10.000.000.000 | tien miljard                                                                                                        |
+| 100.000.000.000 | honderd miljard                                                                                                     |
+| 123.456.789.123 | honderddrieëntwintig miljard vierhonderdzesenvijftig miljoen zevenhonderdnegenentachtigduizend honderddrieëntwintig |
 
 ## Units before tens
 

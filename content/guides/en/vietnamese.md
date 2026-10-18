@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Vietnamese                                                 |
-| --------------: | ---------------------------------------------------------- |
-|           1.000 | một nghìn                                                  |
-|           2.000 | hai nghìn                                                  |
-|          10.000 | mười nghìn                                                 |
-|         100.000 | một trăm nghìn                                             |
-|       1.000.000 | một triệu                                                  |
-|       1.234.567 | một triệu hai trăm ba mươi bốn nghìn năm trăm sáu mươi bảy |
-|      10.000.000 | mười triệu                                                 |
-|     100.000.000 | một trăm triệu                                             |
-|   1.000.000.000 | một tỷ                                                     |
-|  10.000.000.000 | mười tỷ                                                    |
-| 100.000.000.000 | một trăm tỷ                                                |
+|          Number | Vietnamese                                                                                            |
+| --------------: | ----------------------------------------------------------------------------------------------------- |
+|           1.000 | một nghìn                                                                                             |
+|           2.000 | hai nghìn                                                                                             |
+|          10.000 | mười nghìn                                                                                            |
+|         100.000 | một trăm nghìn                                                                                        |
+|       1.000.000 | một triệu                                                                                             |
+|      10.000.000 | mười triệu                                                                                            |
+|     100.000.000 | một trăm triệu                                                                                        |
+|   1.000.000.000 | một tỷ                                                                                                |
+|  10.000.000.000 | mười tỷ                                                                                               |
+| 100.000.000.000 | một trăm tỷ                                                                                           |
+| 123.456.789.123 | một trăm hai mươi ba tỷ bốn trăm năm mươi sáu triệu bảy trăm tám mươi chín nghìn một trăm hai mươi ba |
 
 ## Mười and mươi
 

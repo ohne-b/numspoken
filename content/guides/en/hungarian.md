@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Hungarian                                        |
-| --------------: | ------------------------------------------------ |
-|            1000 | ezer                                             |
-|            2000 | kétezer                                          |
-|          10 000 | tízezer                                          |
-|         100 000 | százezer                                         |
-|       1 000 000 | egymillió                                        |
-|       1 234 567 | egymillió-kétszázharmincnégyezer-ötszázhatvanhét |
-|      10 000 000 | tízmillió                                        |
-|     100 000 000 | százmillió                                       |
-|   1 000 000 000 | egymilliárd                                      |
-|  10 000 000 000 | tízmilliárd                                      |
-| 100 000 000 000 | százmilliárd                                     |
+|          Number | Hungarian                                                                                |
+| --------------: | ---------------------------------------------------------------------------------------- |
+|            1000 | ezer                                                                                     |
+|            2000 | kétezer                                                                                  |
+|          10 000 | tízezer                                                                                  |
+|         100 000 | százezer                                                                                 |
+|       1 000 000 | egymillió                                                                                |
+|      10 000 000 | tízmillió                                                                                |
+|     100 000 000 | százmillió                                                                               |
+|   1 000 000 000 | egymilliárd                                                                              |
+|  10 000 000 000 | tízmilliárd                                                                              |
+| 100 000 000 000 | százmilliárd                                                                             |
+| 123 456 789 123 | százhuszonhárommilliárd-négyszázötvenhatmillió-hétszáznyolcvankilencezer-százhuszonhárom |
 
 ## Tizen and huszon
 

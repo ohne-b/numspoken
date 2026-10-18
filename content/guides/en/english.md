@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | English                                                               |
-| --------------: | --------------------------------------------------------------------- |
-|           1,000 | one thousand                                                          |
-|           2,000 | two thousand                                                          |
-|          10,000 | ten thousand                                                          |
-|         100,000 | one hundred thousand                                                  |
-|       1,000,000 | one million                                                           |
-|       1,234,567 | one million two hundred thirty-four thousand five hundred sixty-seven |
-|      10,000,000 | ten million                                                           |
-|     100,000,000 | one hundred million                                                   |
-|   1,000,000,000 | one billion                                                           |
-|  10,000,000,000 | ten billion                                                           |
-| 100,000,000,000 | one hundred billion                                                   |
+|          Number | English                                                                                                                     |
+| --------------: | --------------------------------------------------------------------------------------------------------------------------- |
+|           1,000 | one thousand                                                                                                                |
+|           2,000 | two thousand                                                                                                                |
+|          10,000 | ten thousand                                                                                                                |
+|         100,000 | one hundred thousand                                                                                                        |
+|       1,000,000 | one million                                                                                                                 |
+|      10,000,000 | ten million                                                                                                                 |
+|     100,000,000 | one hundred million                                                                                                         |
+|   1,000,000,000 | one billion                                                                                                                 |
+|  10,000,000,000 | ten billion                                                                                                                 |
+| 100,000,000,000 | one hundred billion                                                                                                         |
+| 123,456,789,123 | one hundred twenty-three billion four hundred fifty-six million seven hundred eighty-nine thousand one hundred twenty-three |
 
 ## Tens and units
 
@@ -107,13 +107,13 @@ _nine thousand_.
 The chart uses US English. British English puts _and_ before the last
 tens or units: 142 is _one hundred and forty-two_.
 
-|    Number | English                                                                       |
-| --------: | ----------------------------------------------------------------------------- |
-|       101 | one hundred and one                                                           |
-|       110 | one hundred and ten                                                           |
-|       121 | one hundred and twenty-one                                                    |
-|     1,001 | one thousand and one                                                          |
-| 1,234,567 | one million two hundred and thirty-four thousand five hundred and sixty-seven |
+|          Number | English                                                                                                                                     |
+| --------------: | ------------------------------------------------------------------------------------------------------------------------------------------- |
+|             101 | one hundred and one                                                                                                                         |
+|             110 | one hundred and ten                                                                                                                         |
+|             121 | one hundred and twenty-one                                                                                                                  |
+|           1,001 | one thousand and one                                                                                                                        |
+| 123,456,789,123 | one hundred and twenty-three billion four hundred and fifty-six million seven hundred and eighty-nine thousand one hundred and twenty-three |
 
 The US setting accepts these forms too. The other regional settings use
 their own convention for _and_; the number words themselves stay the same.
@@ -126,16 +126,16 @@ India, Bangladesh and Pakistan use _lakh_ for 100,000 and _crore_ for
 At higher values, these practice settings use _arab_ (1,000,000,000)
 and _kharab_ (100,000,000,000).
 
-|            Number | English                                                       |
-| ----------------: | ------------------------------------------------------------- |
-|          1,00,000 | one lakh                                                      |
-|         10,00,000 | ten lakh                                                      |
-|         12,34,567 | twelve lakh thirty-four thousand five hundred and sixty-seven |
-|       1,00,00,000 | one crore                                                     |
-|      10,00,00,000 | ten crore                                                     |
-|    1,00,00,00,000 | one arab                                                      |
-|   10,00,00,00,000 | ten arab                                                      |
-| 1,00,00,00,00,000 | one kharab                                                    |
+|            Number | English                                                                                                          |
+| ----------------: | ---------------------------------------------------------------------------------------------------------------- |
+|          1,00,000 | one lakh                                                                                                         |
+|         10,00,000 | ten lakh                                                                                                         |
+|       1,00,00,000 | one crore                                                                                                        |
+|      10,00,00,000 | ten crore                                                                                                        |
+|    1,00,00,00,000 | one arab                                                                                                         |
+|   10,00,00,00,000 | ten arab                                                                                                         |
+| 1,00,00,00,00,000 | one kharab                                                                                                       |
+| 1,23,45,67,89,123 | one kharab twenty-three arab forty-five crore sixty-seven lakh eighty-nine thousand one hundred and twenty-three |
 
 The other English variants use _one hundred thousand_ for 100,000.
 

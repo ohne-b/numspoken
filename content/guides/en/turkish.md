@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Turkish                                              |
-| --------------: | ---------------------------------------------------- |
-|           1.000 | bin                                                  |
-|           2.000 | iki bin                                              |
-|          10.000 | on bin                                               |
-|         100.000 | yüz bin                                              |
-|       1.000.000 | bir milyon                                           |
-|       1.234.567 | bir milyon iki yüz otuz dört bin beş yüz altmış yedi |
-|      10.000.000 | on milyon                                            |
-|     100.000.000 | yüz milyon                                           |
-|   1.000.000.000 | bir milyar                                           |
-|  10.000.000.000 | on milyar                                            |
-| 100.000.000.000 | yüz milyar                                           |
+|          Number | Turkish                                                                              |
+| --------------: | ------------------------------------------------------------------------------------ |
+|           1.000 | bin                                                                                  |
+|           2.000 | iki bin                                                                              |
+|          10.000 | on bin                                                                               |
+|         100.000 | yüz bin                                                                              |
+|       1.000.000 | bir milyon                                                                           |
+|      10.000.000 | on milyon                                                                            |
+|     100.000.000 | yüz milyon                                                                           |
+|   1.000.000.000 | bir milyar                                                                           |
+|  10.000.000.000 | on milyar                                                                            |
+| 100.000.000.000 | yüz milyar                                                                           |
+| 123.456.789.123 | yüz yirmi üç milyar dört yüz elli altı milyon yedi yüz seksen dokuz bin yüz yirmi üç |
 
 ## Largest part first
 

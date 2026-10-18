@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Swedish                                               |
-| --------------: | ----------------------------------------------------- |
-|           1 000 | tusen                                                 |
-|           2 000 | tvåtusen                                              |
-|          10 000 | tiotusen                                              |
-|         100 000 | hundratusen                                           |
-|       1 000 000 | en miljon                                             |
-|       1 234 567 | en miljon tvåhundratrettiofyratusenfemhundrasextiosju |
-|      10 000 000 | tio miljoner                                          |
-|     100 000 000 | hundra miljoner                                       |
-|   1 000 000 000 | en miljard                                            |
-|  10 000 000 000 | tio miljarder                                         |
-| 100 000 000 000 | hundra miljarder                                      |
+|          Number | Swedish                                                                                    |
+| --------------: | ------------------------------------------------------------------------------------------ |
+|           1 000 | tusen                                                                                      |
+|           2 000 | tvåtusen                                                                                   |
+|          10 000 | tiotusen                                                                                   |
+|         100 000 | hundratusen                                                                                |
+|       1 000 000 | en miljon                                                                                  |
+|      10 000 000 | tio miljoner                                                                               |
+|     100 000 000 | hundra miljoner                                                                            |
+|   1 000 000 000 | en miljard                                                                                 |
+|  10 000 000 000 | tio miljarder                                                                              |
+| 100 000 000 000 | hundra miljarder                                                                           |
+| 123 456 789 123 | hundratjugotre miljarder fyrahundrafemtiosex miljoner sjuhundraåttioniotusenhundratjugotre |
 
 ## Tens first
 

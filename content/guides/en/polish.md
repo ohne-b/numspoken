@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Polish                                                                  |
-| --------------: | ----------------------------------------------------------------------- |
-|            1000 | tysiąc                                                                  |
-|            2000 | dwa tysiące                                                             |
-|          10 000 | dziesięć tysięcy                                                        |
-|         100 000 | sto tysięcy                                                             |
-|       1 000 000 | milion                                                                  |
-|       1 234 567 | milion dwieście trzydzieści cztery tysiące pięćset sześćdziesiąt siedem |
-|      10 000 000 | dziesięć milionów                                                       |
-|     100 000 000 | sto milionów                                                            |
-|   1 000 000 000 | miliard                                                                 |
-|  10 000 000 000 | dziesięć miliardów                                                      |
-| 100 000 000 000 | sto miliardów                                                           |
+|          Number | Polish                                                                                                                            |
+| --------------: | --------------------------------------------------------------------------------------------------------------------------------- |
+|            1000 | tysiąc                                                                                                                            |
+|            2000 | dwa tysiące                                                                                                                       |
+|          10 000 | dziesięć tysięcy                                                                                                                  |
+|         100 000 | sto tysięcy                                                                                                                       |
+|       1 000 000 | milion                                                                                                                            |
+|      10 000 000 | dziesięć milionów                                                                                                                 |
+|     100 000 000 | sto milionów                                                                                                                      |
+|   1 000 000 000 | miliard                                                                                                                           |
+|  10 000 000 000 | dziesięć miliardów                                                                                                                |
+| 100 000 000 000 | sto miliardów                                                                                                                     |
+| 123 456 789 123 | sto dwadzieścia trzy miliardy czterysta pięćdziesiąt sześć milionów siedemset osiemdziesiąt dziewięć tysięcy sto dwadzieścia trzy |
 
 ## Building the number
 

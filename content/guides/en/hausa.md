@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Hausa                                                                               |
-| --------------: | ----------------------------------------------------------------------------------- |
-|           1,000 | dubu                                                                                |
-|           2,000 | dubu biyu                                                                           |
-|          10,000 | dubu goma                                                                           |
-|         100,000 | dubu ɗari                                                                           |
-|       1,000,000 | miliyan ɗaya                                                                        |
-|       1,234,567 | miliyan ɗaya da dubu ɗari biyu da talatin da huɗu da ɗari biyar da sittin da bakwai |
-|      10,000,000 | miliyan goma                                                                        |
-|     100,000,000 | miliyan ɗari                                                                        |
-|   1,000,000,000 | biliyan ɗaya                                                                        |
-|  10,000,000,000 | biliyan goma                                                                        |
-| 100,000,000,000 | biliyan ɗari                                                                        |
+|          Number | Hausa                                                                                                                                   |
+| --------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
+|           1,000 | dubu                                                                                                                                    |
+|           2,000 | dubu biyu                                                                                                                               |
+|          10,000 | dubu goma                                                                                                                               |
+|         100,000 | dubu ɗari                                                                                                                               |
+|       1,000,000 | miliyan ɗaya                                                                                                                            |
+|      10,000,000 | miliyan goma                                                                                                                            |
+|     100,000,000 | miliyan ɗari                                                                                                                            |
+|   1,000,000,000 | biliyan ɗaya                                                                                                                            |
+|  10,000,000,000 | biliyan goma                                                                                                                            |
+| 100,000,000,000 | biliyan ɗari                                                                                                                            |
+| 123,456,789,123 | biliyan ɗari da ashirin da uku da miliyan ɗari huɗu da hamsin da shida da dubu ɗari bakwai da tamanin da tara da ɗari da ashirin da uku |
 
 ## Sha and da
 

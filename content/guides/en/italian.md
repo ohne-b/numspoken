@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Italian                                                      |
-| --------------: | ------------------------------------------------------------ |
-|            1000 | mille                                                        |
-|            2000 | duemila                                                      |
-|          10.000 | diecimila                                                    |
-|         100.000 | centomila                                                    |
-|       1.000.000 | un milione                                                   |
-|       1.234.567 | un milione duecentotrentaquattromilacinquecentosessantasette |
-|      10.000.000 | dieci milioni                                                |
-|     100.000.000 | cento milioni                                                |
-|   1.000.000.000 | un miliardo                                                  |
-|  10.000.000.000 | dieci miliardi                                               |
-| 100.000.000.000 | cento miliardi                                               |
+|          Number | Italian                                                                                       |
+| --------------: | --------------------------------------------------------------------------------------------- |
+|            1000 | mille                                                                                         |
+|            2000 | duemila                                                                                       |
+|          10.000 | diecimila                                                                                     |
+|         100.000 | centomila                                                                                     |
+|       1.000.000 | un milione                                                                                    |
+|      10.000.000 | dieci milioni                                                                                 |
+|     100.000.000 | cento milioni                                                                                 |
+|   1.000.000.000 | un miliardo                                                                                   |
+|  10.000.000.000 | dieci miliardi                                                                                |
+| 100.000.000.000 | cento miliardi                                                                                |
+| 123.456.789.123 | centoventitré miliardi quattrocentocinquantasei milioni settecentottantanovemilacentoventitré |
 
 ## Dropping a vowel
 

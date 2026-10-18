@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Filipino                                                                               |
-| --------------: | -------------------------------------------------------------------------------------- |
-|           1,000 | isang libo                                                                             |
-|           2,000 | dalawang libo                                                                          |
-|          10,000 | sampung libo                                                                           |
-|         100,000 | isang daang libo                                                                       |
-|       1,000,000 | isang milyon                                                                           |
-|       1,234,567 | isang milyon at dalawang daang tatlumpu't apat na libo at limang daang animnapu't pito |
-|      10,000,000 | sampung milyon                                                                         |
-|     100,000,000 | isang daang milyon                                                                     |
-|   1,000,000,000 | isang bilyon                                                                           |
-|  10,000,000,000 | sampung bilyon                                                                         |
-| 100,000,000,000 | isang daang bilyon                                                                     |
+|          Number | Filipino                                                                                                                                                  |
+| --------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|           1,000 | isang libo                                                                                                                                                |
+|           2,000 | dalawang libo                                                                                                                                             |
+|          10,000 | sampung libo                                                                                                                                              |
+|         100,000 | isang daang libo                                                                                                                                          |
+|       1,000,000 | isang milyon                                                                                                                                              |
+|      10,000,000 | sampung milyon                                                                                                                                            |
+|     100,000,000 | isang daang milyon                                                                                                                                        |
+|   1,000,000,000 | isang bilyon                                                                                                                                              |
+|  10,000,000,000 | sampung bilyon                                                                                                                                            |
+| 100,000,000,000 | isang daang bilyon                                                                                                                                        |
+| 123,456,789,123 | isang daang dalawampu't tatlong bilyon at apat na daang limampu't anim na milyon at pitong daang walumpu't siyam na libo at isang daang dalawampu't tatlo |
 
 ## The joining part
 

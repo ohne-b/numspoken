@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Malay                                                              |
-| --------------: | ------------------------------------------------------------------ |
-|           1,000 | seribu                                                             |
-|           2,000 | dua ribu                                                           |
-|          10,000 | sepuluh ribu                                                       |
-|         100,000 | seratus ribu                                                       |
-|       1,000,000 | sejuta                                                             |
-|       1,234,567 | sejuta dua ratus tiga puluh empat ribu lima ratus enam puluh tujuh |
-|      10,000,000 | sepuluh juta                                                       |
-|     100,000,000 | seratus juta                                                       |
-|   1,000,000,000 | sebilion                                                           |
-|  10,000,000,000 | sepuluh bilion                                                     |
-| 100,000,000,000 | seratus bilion                                                     |
+|          Number | Malay                                                                                                                       |
+| --------------: | --------------------------------------------------------------------------------------------------------------------------- |
+|           1,000 | seribu                                                                                                                      |
+|           2,000 | dua ribu                                                                                                                    |
+|          10,000 | sepuluh ribu                                                                                                                |
+|         100,000 | seratus ribu                                                                                                                |
+|       1,000,000 | sejuta                                                                                                                      |
+|      10,000,000 | sepuluh juta                                                                                                                |
+|     100,000,000 | seratus juta                                                                                                                |
+|   1,000,000,000 | sebilion                                                                                                                    |
+|  10,000,000,000 | sepuluh bilion                                                                                                              |
+| 100,000,000,000 | seratus bilion                                                                                                              |
+| 123,456,789,123 | seratus dua puluh tiga bilion empat ratus lima puluh enam juta tujuh ratus lapan puluh sembilan ribu seratus dua puluh tiga |
 
 ## Belas and puluh
 

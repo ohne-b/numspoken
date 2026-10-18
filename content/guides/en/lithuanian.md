@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Lithuanian                                                                                 |
-| --------------: | ------------------------------------------------------------------------------------------ |
-|           1 000 | vienas tūkstantis                                                                          |
-|           2 000 | du tūkstančiai                                                                             |
-|          10 000 | dešimt tūkstančių                                                                          |
-|         100 000 | vienas šimtas tūkstančių                                                                   |
-|       1 000 000 | vienas milijonas                                                                           |
-|       1 234 567 | vienas milijonas du šimtai trisdešimt keturi tūkstančiai penki šimtai šešiasdešimt septyni |
-|      10 000 000 | dešimt milijonų                                                                            |
-|     100 000 000 | vienas šimtas milijonų                                                                     |
-|   1 000 000 000 | vienas milijardas                                                                          |
-|  10 000 000 000 | dešimt milijardų                                                                           |
-| 100 000 000 000 | vienas šimtas milijardų                                                                    |
+|          Number | Lithuanian                                                                                                                                                        |
+| --------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|           1 000 | vienas tūkstantis                                                                                                                                                 |
+|           2 000 | du tūkstančiai                                                                                                                                                    |
+|          10 000 | dešimt tūkstančių                                                                                                                                                 |
+|         100 000 | vienas šimtas tūkstančių                                                                                                                                          |
+|       1 000 000 | vienas milijonas                                                                                                                                                  |
+|      10 000 000 | dešimt milijonų                                                                                                                                                   |
+|     100 000 000 | vienas šimtas milijonų                                                                                                                                            |
+|   1 000 000 000 | vienas milijardas                                                                                                                                                 |
+|  10 000 000 000 | dešimt milijardų                                                                                                                                                  |
+| 100 000 000 000 | vienas šimtas milijardų                                                                                                                                           |
+| 123 456 789 123 | vienas šimtas dvidešimt trys milijardai keturi šimtai penkiasdešimt šeši milijonai septyni šimtai aštuoniasdešimt devyni tūkstančiai vienas šimtas dvidešimt trys |
 
 ## Counting forms
 

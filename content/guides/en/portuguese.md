@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Portuguese                                                            |
-| --------------: | --------------------------------------------------------------------- |
-|           1.000 | mil                                                                   |
-|           2.000 | dois mil                                                              |
-|          10.000 | dez mil                                                               |
-|         100.000 | cem mil                                                               |
-|       1.000.000 | um milhão                                                             |
-|       1.234.567 | um milhão duzentos e trinta e quatro mil quinhentos e sessenta e sete |
-|      10.000.000 | dez milhões                                                           |
-|     100.000.000 | cem milhões                                                           |
-|   1.000.000.000 | um bilhão                                                             |
-|  10.000.000.000 | dez bilhões                                                           |
-| 100.000.000.000 | cem bilhões                                                           |
+|          Number | Portuguese                                                                                                                |
+| --------------: | ------------------------------------------------------------------------------------------------------------------------- |
+|           1.000 | mil                                                                                                                       |
+|           2.000 | dois mil                                                                                                                  |
+|          10.000 | dez mil                                                                                                                   |
+|         100.000 | cem mil                                                                                                                   |
+|       1.000.000 | um milhão                                                                                                                 |
+|      10.000.000 | dez milhões                                                                                                               |
+|     100.000.000 | cem milhões                                                                                                               |
+|   1.000.000.000 | um bilhão                                                                                                                 |
+|  10.000.000.000 | dez bilhões                                                                                                               |
+| 100.000.000.000 | cem bilhões                                                                                                               |
+| 123.456.789.123 | cento e vinte e três bilhões quatrocentos e cinquenta e seis milhões setecentos e oitenta e nove mil cento e vinte e três |
 
 ## Joining with e
 

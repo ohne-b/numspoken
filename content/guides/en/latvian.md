@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Latvian                                                                    |
-| --------------: | -------------------------------------------------------------------------- |
-|            1000 | tūkstotis                                                                  |
-|            2000 | divi tūkstoši                                                              |
-|          10 000 | desmit tūkstoši                                                            |
-|         100 000 | simts tūkstoši                                                             |
-|       1 000 000 | miljons                                                                    |
-|       1 234 567 | miljons divi simti trīsdesmit četri tūkstoši pieci simti sešdesmit septiņi |
-|      10 000 000 | desmit miljoni                                                             |
-|     100 000 000 | simts miljoni                                                              |
-|   1 000 000 000 | miljards                                                                   |
-|  10 000 000 000 | desmit miljardi                                                            |
-| 100 000 000 000 | simts miljardi                                                             |
+|          Number | Latvian                                                                                                                          |
+| --------------: | -------------------------------------------------------------------------------------------------------------------------------- |
+|            1000 | tūkstotis                                                                                                                        |
+|            2000 | divi tūkstoši                                                                                                                    |
+|          10 000 | desmit tūkstoši                                                                                                                  |
+|         100 000 | simts tūkstoši                                                                                                                   |
+|       1 000 000 | miljons                                                                                                                          |
+|      10 000 000 | desmit miljoni                                                                                                                   |
+|     100 000 000 | simts miljoni                                                                                                                    |
+|   1 000 000 000 | miljards                                                                                                                         |
+|  10 000 000 000 | desmit miljardi                                                                                                                  |
+| 100 000 000 000 | simts miljardi                                                                                                                   |
+| 123 456 789 123 | simts divdesmit trīs miljardi četri simti piecdesmit seši miljoni septiņi simti astoņdesmit deviņi tūkstoši simts divdesmit trīs |
 
 ## Tens and units
 

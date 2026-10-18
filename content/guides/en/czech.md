@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Czech                                                   |
-| --------------: | ------------------------------------------------------- |
-|           1 000 | tisíc                                                   |
-|           2 000 | dva tisíce                                              |
-|          10 000 | deset tisíc                                             |
-|         100 000 | sto tisíc                                               |
-|       1 000 000 | milion                                                  |
-|       1 234 567 | milion dvě stě třicet čtyři tisíce pět set šedesát sedm |
-|      10 000 000 | deset milionů                                           |
-|     100 000 000 | sto milionů                                             |
-|   1 000 000 000 | miliarda                                                |
-|  10 000 000 000 | deset miliard                                           |
-| 100 000 000 000 | sto miliard                                             |
+|          Number | Czech                                                                                               |
+| --------------: | --------------------------------------------------------------------------------------------------- |
+|           1 000 | tisíc                                                                                               |
+|           2 000 | dva tisíce                                                                                          |
+|          10 000 | deset tisíc                                                                                         |
+|         100 000 | sto tisíc                                                                                           |
+|       1 000 000 | milion                                                                                              |
+|      10 000 000 | deset milionů                                                                                       |
+|     100 000 000 | sto milionů                                                                                         |
+|   1 000 000 000 | miliarda                                                                                            |
+|  10 000 000 000 | deset miliard                                                                                       |
+| 100 000 000 000 | sto miliard                                                                                         |
+| 123 456 789 123 | sto dvacet tři miliardy čtyři sta padesát šest milionů sedm set osmdesát devět tisíc sto dvacet tři |
 
 ## Tens and units
 

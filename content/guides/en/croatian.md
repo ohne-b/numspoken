@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Croatian                                                           |
-| --------------: | ------------------------------------------------------------------ |
-|           1.000 | jedna tisuća                                                       |
-|           2.000 | dvije tisuće                                                       |
-|          10.000 | deset tisuća                                                       |
-|         100.000 | sto tisuća                                                         |
-|       1.000.000 | jedan milijun                                                      |
-|       1.234.567 | jedan milijun dvjesto trideset četiri tisuće petsto šezdeset sedam |
-|      10.000.000 | deset milijuna                                                     |
-|     100.000.000 | sto milijuna                                                       |
-|   1.000.000.000 | jedna milijarda                                                    |
-|  10.000.000.000 | deset milijarda                                                    |
-| 100.000.000.000 | sto milijarda                                                      |
+|          Number | Croatian                                                                                                    |
+| --------------: | ----------------------------------------------------------------------------------------------------------- |
+|           1.000 | jedna tisuća                                                                                                |
+|           2.000 | dvije tisuće                                                                                                |
+|          10.000 | deset tisuća                                                                                                |
+|         100.000 | sto tisuća                                                                                                  |
+|       1.000.000 | jedan milijun                                                                                               |
+|      10.000.000 | deset milijuna                                                                                              |
+|     100.000.000 | sto milijuna                                                                                                |
+|   1.000.000.000 | jedna milijarda                                                                                             |
+|  10.000.000.000 | deset milijarda                                                                                             |
+| 100.000.000.000 | sto milijarda                                                                                               |
+| 123.456.789.123 | sto dvadeset tri milijarde četiristo pedeset šest milijuna sedamsto osamdeset devet tisuća sto dvadeset tri |
 
 ## Separate words
 

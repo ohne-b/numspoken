@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Romanian                                                                 |
-| --------------: | ------------------------------------------------------------------------ |
-|           1.000 | o mie                                                                    |
-|           2.000 | două mii                                                                 |
-|          10.000 | zece mii                                                                 |
-|         100.000 | o sută de mii                                                            |
-|       1.000.000 | un milion                                                                |
-|       1.234.567 | un milion două sute treizeci și patru de mii cinci sute șaizeci și șapte |
-|      10.000.000 | zece milioane                                                            |
-|     100.000.000 | o sută de milioane                                                       |
-|   1.000.000.000 | un miliard                                                               |
-|  10.000.000.000 | zece miliarde                                                            |
-| 100.000.000.000 | o sută de miliarde                                                       |
+|          Number | Romanian                                                                                                                               |
+| --------------: | -------------------------------------------------------------------------------------------------------------------------------------- |
+|           1.000 | o mie                                                                                                                                  |
+|           2.000 | două mii                                                                                                                               |
+|          10.000 | zece mii                                                                                                                               |
+|         100.000 | o sută de mii                                                                                                                          |
+|       1.000.000 | un milion                                                                                                                              |
+|      10.000.000 | zece milioane                                                                                                                          |
+|     100.000.000 | o sută de milioane                                                                                                                     |
+|   1.000.000.000 | un miliard                                                                                                                             |
+|  10.000.000.000 | zece miliarde                                                                                                                          |
+| 100.000.000.000 | o sută de miliarde                                                                                                                     |
+| 123.456.789.123 | o sută douăzeci și trei de miliarde patru sute cincizeci și șase de milioane șapte sute optzeci și nouă de mii o sută douăzeci și trei |
 
 ## Tens and units
 

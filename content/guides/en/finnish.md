@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Finnish                                                                     |
-| --------------: | --------------------------------------------------------------------------- |
-|           1 000 | tuhat                                                                       |
-|           2 000 | kaksituhatta                                                                |
-|          10 000 | kymmenentuhatta                                                             |
-|         100 000 | satatuhatta                                                                 |
-|       1 000 000 | miljoona                                                                    |
-|       1 234 567 | miljoonakaksisataakolmekymmentäneljätuhattaviisisataakuusikymmentäseitsemän |
-|      10 000 000 | kymmenenmiljoonaa                                                           |
-|     100 000 000 | satamiljoonaa                                                               |
-|   1 000 000 000 | miljardi                                                                    |
-|  10 000 000 000 | kymmenenmiljardia                                                           |
-| 100 000 000 000 | satamiljardia                                                               |
+|          Number | Finnish                                                                                                                                  |
+| --------------: | ---------------------------------------------------------------------------------------------------------------------------------------- |
+|           1 000 | tuhat                                                                                                                                    |
+|           2 000 | kaksituhatta                                                                                                                             |
+|          10 000 | kymmenentuhatta                                                                                                                          |
+|         100 000 | satatuhatta                                                                                                                              |
+|       1 000 000 | miljoona                                                                                                                                 |
+|      10 000 000 | kymmenenmiljoonaa                                                                                                                        |
+|     100 000 000 | satamiljoonaa                                                                                                                            |
+|   1 000 000 000 | miljardi                                                                                                                                 |
+|  10 000 000 000 | kymmenenmiljardia                                                                                                                        |
+| 100 000 000 000 | satamiljardia                                                                                                                            |
+| 123 456 789 123 | satakaksikymmentäkolmemiljardianeljäsataaviisikymmentäkuusimiljoonaaseitsemänsataakahdeksankymmentäyhdeksäntuhattasatakaksikymmentäkolme |
 
 ## Teens and tens
 

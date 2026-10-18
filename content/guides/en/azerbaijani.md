@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|          Number | Azerbaijani                                           |
-| --------------: | ----------------------------------------------------- |
-|           1.000 | min                                                   |
-|           2.000 | iki min                                               |
-|          10.000 | on min                                                |
-|         100.000 | yüz min                                               |
-|       1.000.000 | bir milyon                                            |
-|       1.234.567 | bir milyon iki yüz otuz dörd min beş yüz altmış yeddi |
-|      10.000.000 | on milyon                                             |
-|     100.000.000 | yüz milyon                                            |
-|   1.000.000.000 | bir milyard                                           |
-|  10.000.000.000 | on milyard                                            |
-| 100.000.000.000 | yüz milyard                                           |
+|          Number | Azerbaijani                                                                               |
+| --------------: | ----------------------------------------------------------------------------------------- |
+|           1.000 | min                                                                                       |
+|           2.000 | iki min                                                                                   |
+|          10.000 | on min                                                                                    |
+|         100.000 | yüz min                                                                                   |
+|       1.000.000 | bir milyon                                                                                |
+|      10.000.000 | on milyon                                                                                 |
+|     100.000.000 | yüz milyon                                                                                |
+|   1.000.000.000 | bir milyard                                                                               |
+|  10.000.000.000 | on milyard                                                                                |
+| 100.000.000.000 | yüz milyard                                                                               |
+| 123.456.789.123 | yüz iyirmi üç milyard dörd yüz əlli altı milyon yeddi yüz səksən doqquz min yüz iyirmi üç |
 
 ## Tens before units
 
