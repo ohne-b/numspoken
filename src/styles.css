@@ -184,6 +184,8 @@ main {
   color: var(--text);
 }
 .icon-button {
+  --mtrl-button-shape: 50%;
+  --mtrl-button-shape-pressed: 50%;
   position: relative;
   display: inline-flex;
   align-items: center;
