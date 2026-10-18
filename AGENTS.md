@@ -1,6 +1,6 @@
 # Agent instructions
 
-Read CONTRIBUTING.md before editing or reviewing. This is the canonical harness;
+Read contributing.md before editing or reviewing. This is the canonical harness;
 do not create alternate agent instruction files or checked-in planning documents.
 
 - Use descriptive feat/ or fix/ branches and conventional commits, with no assistant branding.

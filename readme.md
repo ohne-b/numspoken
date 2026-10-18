@@ -3,7 +3,7 @@
   <h1>numspoken</h1>
   <p>Practise writing numbers in different languages.</p>
   <p>
-    <a href="LICENSE.md"><img alt="License: PolyForm Noncommercial" src="https://img.shields.io/badge/license-PolyForm_Noncommercial-E56F51?style=flat-square" /></a>
+    <a href="license.md"><img alt="License: PolyForm Noncommercial" src="https://img.shields.io/badge/license-PolyForm_Noncommercial-E56F51?style=flat-square" /></a>
   </p>
 </div>
 
@@ -28,13 +28,13 @@ Open `http://127.0.0.1:5173/numspoken/`.
 
 ## Contributing and hosting
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). To deploy to GitHub Pages, run **Validation**
+See [contributing.md](contributing.md). To deploy to GitHub Pages, run **Validation**
 on `main` with **publish** enabled.
 
 ## License and credits
 
-Source available for noncommercial use under [PolyForm Noncommercial 1.0.0](LICENSE.md).
-Third-party code and assets retain their original licenses; see [NOTICE.md](NOTICE.md).
+Source available for noncommercial use under [PolyForm Noncommercial 1.0.0](license.md).
+Third-party code and assets retain their original licenses; see [notice.md](notice.md).
 
 Inspired by [learn-numbers](https://github.com/J-Wass/learn-numbers)
 and [diminumero](https://github.com/stefanwezel/diminumero).

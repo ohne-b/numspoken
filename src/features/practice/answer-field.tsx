@@ -1,7 +1,7 @@
 import { useLayoutEffect, useRef, type RefObject } from 'react';
 import type { Language } from '../../lib/languages';
 import { fontFamilies } from '../../lib/fonts';
-import type { Feedback } from '../../lib/validateAnswer';
+import type { Feedback } from '../../lib/validate-answer';
 
 interface Props {
   value: string;

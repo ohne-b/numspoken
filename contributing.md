@@ -38,6 +38,6 @@ language checks. Font additions need the original license and representative scr
 
 ## Licensing
 
-Contributions are offered under [PolyForm Noncommercial 1.0.0](LICENSE.md).
+Contributions are offered under [PolyForm Noncommercial 1.0.0](license.md).
 Retain third-party notices and do not copy code from repositories without a suitable license.
 Behavioral inspiration from diminumero is acknowledged; its code is not included.

@@ -3,7 +3,7 @@
 Required Notice: Copyright 2026 ohne-b (https://github.com/ohne-b).
 
 numspoken's original code and supplied coral artwork are licensed under
-[PolyForm Noncommercial 1.0.0](LICENSE.md). This is source-available software for
+[PolyForm Noncommercial 1.0.0](license.md). This is source-available software for
 noncommercial use, not an OSI-approved open-source license. Third-party components
 retain their own licenses; this project's license does not replace their rights.
 

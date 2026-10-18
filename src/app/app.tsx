@@ -1,13 +1,13 @@
 import { lazy, Suspense, useLayoutEffect, useState } from 'react';
 import { mdiCogOutline, mdiWeatherNight, mdiWhiteBalanceSunny } from '@mdi/js';
-import { IconButton } from '../ui/IconButton';
-import { BrandFooter } from '../ui/BrandFooter';
-import { PracticeView } from '../features/practice/PracticeView';
-import { usePreferences } from './usePreferences';
+import { IconButton } from '../ui/icon-button';
+import { BrandFooter } from '../ui/brand-footer';
+import { PracticeView } from '../features/practice/practice-view';
+import { usePreferences } from './use-preferences';
 import { practiceKey } from './preferences';
-import { navigate, useView } from './useView';
+import { navigate, useView } from './use-view';
 
-const SettingsView = lazy(() => import('../features/settings/SettingsView'));
+const SettingsView = lazy(() => import('../features/settings/settings-view'));
 export function App() {
   const { preferences, update, storageAvailable } = usePreferences();
   const view = useView();

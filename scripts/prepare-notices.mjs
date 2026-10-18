@@ -35,6 +35,6 @@ for (const [location, metadata] of Object.entries(lock.packages)) {
   }
   index.push('');
 }
-await cp('LICENSE.md', path.join(output, 'project-license.md'));
-await cp('NOTICE.md', path.join(output, 'project-notice.md'));
+await cp('license.md', path.join(output, 'project-license.md'));
+await cp('notice.md', path.join(output, 'project-notice.md'));
 await writeFile(path.join(output, 'index.md'), index.join('\n'));

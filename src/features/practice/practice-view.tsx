@@ -3,12 +3,12 @@ import { Icon } from '@mdi/react';
 import { mdiCheck, mdiEyeOutline, mdiRefresh, mdiSkipNext } from '@mdi/js';
 import type { Preferences } from '../../app/preferences';
 import { formatNumber, languageFor } from '../../lib/languages';
-import { loadConverter, type Answer } from '../../lib/numberWords';
+import { loadConverter, type Answer } from '../../lib/number-words';
 import { loadFont } from '../../lib/fonts';
-import { randomNumber } from '../../lib/randomNumber';
-import { validateAnswer } from '../../lib/validateAnswer';
-import { IconButton } from '../../ui/IconButton';
-import { AnswerField } from './AnswerField';
+import { randomNumber } from '../../lib/random-number';
+import { validateAnswer } from '../../lib/validate-answer';
+import { IconButton } from '../../ui/icon-button';
+import { AnswerField } from './answer-field';
 import { createSession, sessionReducer } from './session';
 
 export function PracticeView({

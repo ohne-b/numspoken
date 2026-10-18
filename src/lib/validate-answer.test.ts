@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { languageFor } from './languages';
-import { validateAnswer } from './validateAnswer';
+import { validateAnswer } from './validate-answer';
 
 describe('answer feedback', () => {
   const en = languageFor('en-US');

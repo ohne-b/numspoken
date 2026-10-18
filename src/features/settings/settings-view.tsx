@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from 'react';
 import { Switch } from '@base-ui/react/switch';
 import { mdiArrowLeft } from '@mdi/js';
 import { validRange, type Preferences } from '../../app/preferences';
-import { navigate } from '../../app/useView';
-import { IconButton } from '../../ui/IconButton';
-import { LanguagePicker } from './LanguagePicker';
+import { navigate } from '../../app/use-view';
+import { IconButton } from '../../ui/icon-button';
+import { LanguagePicker } from './language-picker';
 
 export default function SettingsView({
   preferences,

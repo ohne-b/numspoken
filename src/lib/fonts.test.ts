@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { expect, it } from 'vitest';
 import { languages } from './languages';
-import { loadConverter } from './numberWords';
+import { loadConverter } from './number-words';
 
 it('declares font coverage for representative generated text in every script', async () => {
   for (const language of languages) {

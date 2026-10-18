@@ -2,8 +2,8 @@ import { describe, expect, it } from 'vitest';
 import { readdir } from 'node:fs/promises';
 import fixtures from '../../tests/fixtures/number-words.json';
 import { languages, localeLoaders, isLocale, formatNumber } from './languages';
-import { loadConverter } from './numberWords';
-import { validateAnswer } from './validateAnswer';
+import { loadConverter } from './number-words';
+import { validateAnswer } from './validate-answer';
 
 it('exposes every regional/script variant shipped by the library', async () => {
   const exported = (await readdir('node_modules/n2words/src'))

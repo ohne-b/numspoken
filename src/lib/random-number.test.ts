@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest';
-import { randomNumber } from './randomNumber';
+import { randomNumber } from './random-number';
 
 it('samples every allowed value once across evenly spaced probability buckets', () => {
   for (const previous of [undefined, 0, 1, 2, 3]) {
