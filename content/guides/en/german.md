@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | German                                                    |
-| --------: | --------------------------------------------------------- |
-|     1.000 | eintausend                                                |
-|     2.000 | zweitausend                                               |
-|    10.000 | zehntausend                                               |
-|   100.000 | einhunderttausend                                         |
-|   123.456 | einhundertdreiundzwanzigtausendvierhundertsechsundfünfzig |
-| 1.000.000 | eine Million                                              |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | German                                                                   |
+| --------: | ------------------------------------------------------------------------ |
+|     1.000 | eintausend                                                               |
+|     2.000 | zweitausend                                                              |
+|    10.000 | zehntausend                                                              |
+|   100.000 | einhunderttausend                                                        |
+| 1.000.000 | eine Million                                                             |
+| 1.234.567 | eine Million zweihundertvierunddreißigtausendfünfhundertsiebenundsechzig |
 
 ## Units come first
 

@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Latvian                                                   |
-| --------: | --------------------------------------------------------- |
-|      1000 | tūkstotis                                                 |
-|      2000 | divi tūkstoši                                             |
-|    10 000 | desmit tūkstoši                                           |
-|   100 000 | simts tūkstoši                                            |
-|   123 456 | simts divdesmit trīs tūkstoši četri simti piecdesmit seši |
-| 1 000 000 | miljons                                                   |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Latvian                                                                    |
+| --------: | -------------------------------------------------------------------------- |
+|      1000 | tūkstotis                                                                  |
+|      2000 | divi tūkstoši                                                              |
+|    10 000 | desmit tūkstoši                                                            |
+|   100 000 | simts tūkstoši                                                             |
+| 1 000 000 | miljons                                                                    |
+| 1 234 567 | miljons divi simti trīsdesmit četri tūkstoši pieci simti sešdesmit septiņi |
 
 ## Tens and units
 

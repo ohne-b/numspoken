@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Tamil                                                |
-| --------: | ---------------------------------------------------- |
-|     1,000 | ஒரு ஆயிரம்                                           |
-|     2,000 | இரண்டு ஆயிரம்                                        |
-|    10,000 | பத்து ஆயிரம்                                         |
-|  1,00,000 | ஒரு லட்சம்                                           |
-|  1,23,456 | ஒரு லட்சம் இருபத்திமூன்று ஆயிரம் நானூற்று ஐம்பத்தாறு |
-| 10,00,000 | பத்து லட்சம்                                         |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Tamil                                                         |
+| --------: | ------------------------------------------------------------- |
+|     1,000 | ஒரு ஆயிரம்                                                    |
+|     2,000 | இரண்டு ஆயிரம்                                                 |
+|    10,000 | பத்து ஆயிரம்                                                  |
+|  1,00,000 | ஒரு லட்சம்                                                    |
+| 10,00,000 | பத்து லட்சம்                                                  |
+| 12,34,567 | பன்னிரண்டு லட்சம் முப்பத்திநான்கு ஆயிரம் ஐந்நூற்று அறுபத்தேழு |
 
 ## Joining forms
 
@@ -109,7 +107,7 @@ when another number follows.
 ## Thousands and lakh
 
 _ஆயிரம்_ means thousand and _லட்சம்_ means 100,000.
-Read 1,23,456 as one lakh, twenty-three thousand, four hundred fifty-six.
+Read 12,34,567 as twelve lakh, thirty-four thousand, five hundred sixty-seven.
 
 Written and spoken Tamil can join these parts differently. The chart
 uses the written forms expected here. Vowel signs and consonant marks

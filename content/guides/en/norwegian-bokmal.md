@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Norwegian Bokmål                                     |
-| --------: | ---------------------------------------------------- |
-|     1 000 | ett tusen                                            |
-|     2 000 | to tusen                                             |
-|    10 000 | ti tusen                                             |
-|   100 000 | ett hundre tusen                                     |
-|   123 456 | ett hundre og tjuetre tusen fire hundre og femtiseks |
-| 1 000 000 | en million                                           |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Norwegian Bokmål                                                 |
+| --------: | ---------------------------------------------------------------- |
+|     1 000 | ett tusen                                                        |
+|     2 000 | to tusen                                                         |
+|    10 000 | ti tusen                                                         |
+|   100 000 | ett hundre tusen                                                 |
+| 1 000 000 | en million                                                       |
+| 1 234 567 | en million to hundre og trettifire tusen fem hundre og sekstisyv |
 
 ## Tens before units
 

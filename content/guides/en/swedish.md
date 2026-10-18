@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Swedish                                |
-| --------: | -------------------------------------- |
-|     1 000 | tusen                                  |
-|     2 000 | tvåtusen                               |
-|    10 000 | tiotusen                               |
-|   100 000 | hundratusen                            |
-|   123 456 | hundratjugotretusenfyrahundrafemtiosex |
-| 1 000 000 | en miljon                              |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Swedish                                               |
+| --------: | ----------------------------------------------------- |
+|     1 000 | tusen                                                 |
+|     2 000 | tvåtusen                                              |
+|    10 000 | tiotusen                                              |
+|   100 000 | hundratusen                                           |
+| 1 000 000 | en miljon                                             |
+| 1 234 567 | en miljon tvåhundratrettiofyratusenfemhundrasextiosju |
 
 ## Tens first
 

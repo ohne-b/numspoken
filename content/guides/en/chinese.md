@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Chinese              |
-| --------: | -------------------- |
-|     1,000 | 一千                 |
-|     2,000 | 二千                 |
-|    10,000 | 一万                 |
-|   100,000 | 十万                 |
-|   123,456 | 十二万三千四百五十六 |
-| 1,000,000 | 一百万               |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Chinese                    |
+| --------: | -------------------------- |
+|     1,000 | 一千                       |
+|     2,000 | 二千                       |
+|    10,000 | 一万                       |
+|   100,000 | 十万                       |
+| 1,000,000 | 一百万                     |
+| 1,234,567 | 一百二十三万四千五百六十七 |
 
 ## Place values
 
@@ -105,20 +103,20 @@ _一千零一_. Several consecutive empty places need only one _零_.
 
 ## Groups of ten thousand
 
-_万_ means 10,000. Read 123,456 as twelve ten-thousands, then 3,456:
-_十二万三千四百五十六_. This grouping differs from English thousands.
+_万_ means 10,000. Read 1,234,567 as 123 ten-thousands, then 4,567:
+_一百二十三万四千五百六十七_. This grouping differs from English thousands.
 
 ## Scripts
 
 The main chart uses simplified characters. The Taiwan setting uses
 traditional characters. The value and word order stay the same.
 
-|  Number | Simplified           | Traditional          |
-| ------: | -------------------- | -------------------- |
-|      10 | 十                   | 十                   |
-|      12 | 十二                 | 十二                 |
-|  10,000 | 一万                 | 一萬                 |
-| 123,456 | 十二万三千四百五十六 | 十二萬三千四百五十六 |
+|    Number | Simplified                 | Traditional                |
+| --------: | -------------------------- | -------------------------- |
+|        10 | 十                         | 十                         |
+|        12 | 十二                       | 十二                       |
+|    10,000 | 一万                       | 一萬                       |
+| 1,234,567 | 一百二十三万四千五百六十七 | 一百二十三萬四千五百六十七 |
 
 ## Everyday and financial characters
 

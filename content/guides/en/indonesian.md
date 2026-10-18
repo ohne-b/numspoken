@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Indonesian                                              |
-| --------: | ------------------------------------------------------- |
-|     1.000 | seribu                                                  |
-|     2.000 | dua ribu                                                |
-|    10.000 | sepuluh ribu                                            |
-|   100.000 | seratus ribu                                            |
-|   123.456 | seratus dua puluh tiga ribu empat ratus lima puluh enam |
-| 1.000.000 | satu juta                                               |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Indonesian                                                            |
+| --------: | --------------------------------------------------------------------- |
+|     1.000 | seribu                                                                |
+|     2.000 | dua ribu                                                              |
+|    10.000 | sepuluh ribu                                                          |
+|   100.000 | seratus ribu                                                          |
+| 1.000.000 | satu juta                                                             |
+| 1.234.567 | satu juta dua ratus tiga puluh empat ribu lima ratus enam puluh tujuh |
 
 ## Belas and puluh
 
@@ -109,7 +107,8 @@ Then read the remainder from largest to smallest, without a word for “and”.
 
 ## A larger example
 
-123,456 is _seratus dua puluh tiga ribu empat ratus lima puluh enam_.
+1,234,567 is _satu juta dua ratus tiga puluh empat ribu
+lima ratus enam puluh tujuh_.
 The word _ribu_ separates the thousands group from the final three digits.
 1,000,000 is _satu juta_.
 

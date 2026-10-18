@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Vietnamese                                       |
-| --------: | ------------------------------------------------ |
-|     1.000 | một nghìn                                        |
-|     2.000 | hai nghìn                                        |
-|    10.000 | mười nghìn                                       |
-|   100.000 | một trăm nghìn                                   |
-|   123.456 | một trăm hai mươi ba nghìn bốn trăm năm mươi sáu |
-| 1.000.000 | một triệu                                        |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Vietnamese                                                 |
+| --------: | ---------------------------------------------------------- |
+|     1.000 | một nghìn                                                  |
+|     2.000 | hai nghìn                                                  |
+|    10.000 | mười nghìn                                                 |
+|   100.000 | một trăm nghìn                                             |
+| 1.000.000 | một triệu                                                  |
+| 1.234.567 | một triệu hai trăm ba mươi bốn nghìn năm trăm sáu mươi bảy |
 
 ## Mười and mươi
 

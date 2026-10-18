@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | English                                                  |
-| --------: | -------------------------------------------------------- |
-|     1,000 | one thousand                                             |
-|     2,000 | two thousand                                             |
-|    10,000 | ten thousand                                             |
-|   100,000 | one hundred thousand                                     |
-|   123,456 | one hundred twenty-three thousand four hundred fifty-six |
-| 1,000,000 | one million                                              |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | English                                                               |
+| --------: | --------------------------------------------------------------------- |
+|     1,000 | one thousand                                                          |
+|     2,000 | two thousand                                                          |
+|    10,000 | ten thousand                                                          |
+|   100,000 | one hundred thousand                                                  |
+| 1,000,000 | one million                                                           |
+| 1,234,567 | one million two hundred thirty-four thousand five hundred sixty-seven |
 
 ## Tens and units
 
@@ -104,13 +102,13 @@ _nine thousand_.
 The chart uses US English. British English puts _and_ before the last
 tens or units: 142 is _one hundred and forty-two_.
 
-|  Number | English                                                          |
-| ------: | ---------------------------------------------------------------- |
-|     101 | one hundred and one                                              |
-|     110 | one hundred and ten                                              |
-|     121 | one hundred and twenty-one                                       |
-|   1,001 | one thousand and one                                             |
-| 123,456 | one hundred and twenty-three thousand four hundred and fifty-six |
+|    Number | English                                                                       |
+| --------: | ----------------------------------------------------------------------------- |
+|       101 | one hundred and one                                                           |
+|       110 | one hundred and ten                                                           |
+|       121 | one hundred and twenty-one                                                    |
+|     1,001 | one thousand and one                                                          |
+| 1,234,567 | one million two hundred and thirty-four thousand five hundred and sixty-seven |
 
 The US setting accepts these forms too. The other regional settings use
 their own convention for _and_; the number words themselves stay the same.
@@ -118,13 +116,13 @@ their own convention for _and_; the number words themselves stay the same.
 ## Indian grouping
 
 India, Bangladesh and Pakistan use _lakh_ for 100,000. The comma grouping
-follows it: 1,23,456 means 123,456.
+follows it: 12,34,567 means 1,234,567.
 
-|    Number | English                                                   |
-| --------: | --------------------------------------------------------- |
-|  1,00,000 | one lakh                                                  |
-|  1,23,456 | one lakh twenty-three thousand four hundred and fifty-six |
-| 10,00,000 | ten lakh                                                  |
+|    Number | English                                                       |
+| --------: | ------------------------------------------------------------- |
+|  1,00,000 | one lakh                                                      |
+| 10,00,000 | ten lakh                                                      |
+| 12,34,567 | twelve lakh thirty-four thousand five hundred and sixty-seven |
 
 The other English variants use _one hundred thousand_ for 100,000.
 

@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Hungarian                            |
-| --------: | ------------------------------------ |
-|      1000 | ezer                                 |
-|      2000 | kétezer                              |
-|    10 000 | tízezer                              |
-|   100 000 | százezer                             |
-|   123 456 | százhuszonháromezer-négyszázötvenhat |
-| 1 000 000 | egymillió                            |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Hungarian                                        |
+| --------: | ------------------------------------------------ |
+|      1000 | ezer                                             |
+|      2000 | kétezer                                          |
+|    10 000 | tízezer                                          |
+|   100 000 | százezer                                         |
+| 1 000 000 | egymillió                                        |
+| 1 234 567 | egymillió-kétszázharmincnégyezer-ötszázhatvanhét |
 
 ## Tizen and huszon
 

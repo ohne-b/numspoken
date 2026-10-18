@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Italian                                   |
-| --------: | ----------------------------------------- |
-|      1000 | mille                                     |
-|      2000 | duemila                                   |
-|    10.000 | diecimila                                 |
-|   100.000 | centomila                                 |
-|   123.456 | centoventitremilaquattrocentocinquantasei |
-| 1.000.000 | un milione                                |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Italian                                                      |
+| --------: | ------------------------------------------------------------ |
+|      1000 | mille                                                        |
+|      2000 | duemila                                                      |
+|    10.000 | diecimila                                                    |
+|   100.000 | centomila                                                    |
+| 1.000.000 | un milione                                                   |
+| 1.234.567 | un milione duecentotrentaquattromilacinquecentosessantasette |
 
 ## Dropping a vowel
 

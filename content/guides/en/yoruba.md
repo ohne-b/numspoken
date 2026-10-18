@@ -171,16 +171,14 @@
 
 ### Thousands and millions
 
-|    Number | Yoruba                                                           |
-| --------: | ---------------------------------------------------------------- |
-|     1,000 | ẹgbẹ̀rún kan                                                      |
-|     2,000 | ẹgbẹ̀rún èjì                                                      |
-|    10,000 | ẹgbàárùn                                                         |
-|   100,000 | ẹgbẹ̀rún ọgọ́rùn                                                   |
-|   123,456 | ẹgbẹ̀rún ọgọ́rùn ó lé ẹ̀ta lé lógún, ó lé irinwó ó lé ẹ̀rindínlógóta |
-| 1,000,000 | mílíọ̀nù kan                                                      |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Yoruba                                                                               |
+| --------: | ------------------------------------------------------------------------------------ |
+|     1,000 | ẹgbẹ̀rún kan                                                                          |
+|     2,000 | ẹgbẹ̀rún èjì                                                                          |
+|    10,000 | ẹgbàárùn                                                                             |
+|   100,000 | ẹgbẹ̀rún ọgọ́rùn                                                                       |
+| 1,000,000 | mílíọ̀nù kan                                                                          |
+| 1,234,567 | mílíọ̀nù kan, ẹgbẹ̀rún igba ó lé ẹ̀rin lé lọgbọ̀n, ó lé àrùn ọgọ́rùn ó lé ẹ̀tadínláàádọ́rin |
 
 ## Adding and subtracting
 

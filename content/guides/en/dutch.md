@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Dutch                                               |
-| --------: | --------------------------------------------------- |
-|     1.000 | duizend                                             |
-|     2.000 | tweeduizend                                         |
-|    10.000 | tienduizend                                         |
-|   100.000 | honderdduizend                                      |
-|   123.456 | honderddrieëntwintigduizend vierhonderdzesenvijftig |
-| 1.000.000 | één miljoen                                         |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Dutch                                                               |
+| --------: | ------------------------------------------------------------------- |
+|     1.000 | duizend                                                             |
+|     2.000 | tweeduizend                                                         |
+|    10.000 | tienduizend                                                         |
+|   100.000 | honderdduizend                                                      |
+| 1.000.000 | één miljoen                                                         |
+| 1.234.567 | één miljoen tweehonderdvierendertigduizend vijfhonderdzevenenzestig |
 
 ## Units before tens
 

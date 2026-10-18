@@ -171,16 +171,14 @@
 
 ### Thousands and millions
 
-|    Number | Urdu                            |
-| --------: | ------------------------------- |
-|     1,000 | ایک ہزار                        |
-|     2,000 | دو ہزار                         |
-|    10,000 | دس ہزار                         |
-|   100,000 | ایک لاکھ                        |
-|   123,456 | ایک لاکھ تیئیس ہزار چار سو چھپن |
-| 1,000,000 | دس لاکھ                         |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Urdu                                |
+| --------: | ----------------------------------- |
+|     1,000 | ایک ہزار                            |
+|     2,000 | دو ہزار                             |
+|    10,000 | دس ہزار                             |
+|   100,000 | ایک لاکھ                            |
+| 1,000,000 | دس لاکھ                             |
+| 1,234,567 | بارہ لاکھ چونتیس ہزار پانچ سو سڑسٹھ |
 
 ## Below 100
 
@@ -196,7 +194,7 @@ Compare _ایک_, _گیارہ_, _اکیس_ and _اکتیس_.
 _سو_ means hundred, _ہزار_ means thousand and _لاکھ_ means
 100,000. The count comes before the place word.
 
-Read 1,23,456 as one lakh, twenty-three thousand, four hundred fifty-six.
+Read 12,34,567 as twelve lakh, thirty-four thousand, five hundred sixty-seven.
 The final three digits form one group, followed by groups of two.
 
 ## Script

@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Lithuanian                                                                |
-| --------: | ------------------------------------------------------------------------- |
-|     1 000 | vienas tūkstantis                                                         |
-|     2 000 | du tūkstančiai                                                            |
-|    10 000 | dešimt tūkstančių                                                         |
-|   100 000 | vienas šimtas tūkstančių                                                  |
-|   123 456 | vienas šimtas dvidešimt trys tūkstančiai keturi šimtai penkiasdešimt šeši |
-| 1 000 000 | vienas milijonas                                                          |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Lithuanian                                                                                 |
+| --------: | ------------------------------------------------------------------------------------------ |
+|     1 000 | vienas tūkstantis                                                                          |
+|     2 000 | du tūkstančiai                                                                             |
+|    10 000 | dešimt tūkstančių                                                                          |
+|   100 000 | vienas šimtas tūkstančių                                                                   |
+| 1 000 000 | vienas milijonas                                                                           |
+| 1 234 567 | vienas milijonas du šimtai trisdešimt keturi tūkstančiai penki šimtai šešiasdešimt septyni |
 
 ## Counting forms
 

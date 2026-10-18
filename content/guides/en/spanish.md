@@ -81,16 +81,14 @@
 
 ### Thousands and millions
 
-|    Number | Spanish                                              |
-| --------: | ---------------------------------------------------- |
-|     1.000 | mil                                                  |
-|     2.000 | dos mil                                              |
-|    10.000 | diez mil                                             |
-|   100.000 | cien mil                                             |
-|   123.456 | ciento veintitrés mil cuatrocientos cincuenta y seis |
-| 1.000.000 | un millón                                            |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Spanish                                                              |
+| --------: | -------------------------------------------------------------------- |
+|     1.000 | mil                                                                  |
+|     2.000 | dos mil                                                              |
+|    10.000 | diez mil                                                             |
+|   100.000 | cien mil                                                             |
+| 1.000.000 | un millón                                                            |
+| 1.234.567 | un millón doscientos treinta y cuatro mil quinientos sesenta y siete |
 
 ## Joining the parts
 

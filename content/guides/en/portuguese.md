@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Portuguese                                               |
-| --------: | -------------------------------------------------------- |
-|     1.000 | mil                                                      |
-|     2.000 | dois mil                                                 |
-|    10.000 | dez mil                                                  |
-|   100.000 | cem mil                                                  |
-|   123.456 | cento e vinte e três mil quatrocentos e cinquenta e seis |
-| 1.000.000 | um milhão                                                |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Portuguese                                                            |
+| --------: | --------------------------------------------------------------------- |
+|     1.000 | mil                                                                   |
+|     2.000 | dois mil                                                              |
+|    10.000 | dez mil                                                               |
+|   100.000 | cem mil                                                               |
+| 1.000.000 | um milhão                                                             |
+| 1.234.567 | um milhão duzentos e trinta e quatro mil quinhentos e sessenta e sete |
 
 ## Joining with e
 
@@ -101,8 +99,9 @@ Exactly 100 is _cem_. With a remainder it becomes _cento_: _cento e um_.
 
 ## Thousands
 
-1,000 is just _mil_. Read 123,456 as a thousands group followed by a
-hundreds group: _cento e vinte e três mil quatrocentos e cinquenta e seis_.
+1,000 is just _mil_. Read 1,234,567 as a million, then thousands,
+then hundreds: _um milhão duzentos e trinta e quatro mil
+quinhentos e sessenta e sete_.
 
 Use _e_ after _mil_ before a remainder under 100 or an exact hundred:
 _mil e dois_, _mil e duzentos_.

@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Japanese             |
-| --------: | -------------------- |
-|     1,000 | 千                   |
-|     2,000 | 二千                 |
-|    10,000 | 一万                 |
-|   100,000 | 十万                 |
-|   123,456 | 十二万三千四百五十六 |
-| 1,000,000 | 百万                 |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Japanese                 |
+| --------: | ------------------------ |
+|     1,000 | 千                       |
+|     2,000 | 二千                     |
+|    10,000 | 一万                     |
+|   100,000 | 十万                     |
+| 1,000,000 | 百万                     |
+| 1,234,567 | 百二十三万四千五百六十七 |
 
 ## Reading the characters
 
@@ -106,8 +104,8 @@ between the nonzero parts. Zero by itself is _零_.
 
 ## Ten-thousand groups
 
-_万_ means 10,000. Read 123,456 as twelve ten-thousands plus 3,456:
-_十二万三千四百五十六_.
+_万_ means 10,000. Read 1,234,567 as 123 ten-thousands plus 4,567:
+_百二十三万四千五百六十七_.
 
 ## Spoken forms
 

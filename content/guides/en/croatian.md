@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Croatian                                       |
-| --------: | ---------------------------------------------- |
-|     1.000 | jedna tisuća                                   |
-|     2.000 | dvije tisuće                                   |
-|    10.000 | deset tisuća                                   |
-|   100.000 | sto tisuća                                     |
-|   123.456 | sto dvadeset tri tisuće četiristo pedeset šest |
-| 1.000.000 | jedan milijun                                  |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Croatian                                                           |
+| --------: | ------------------------------------------------------------------ |
+|     1.000 | jedna tisuća                                                       |
+|     2.000 | dvije tisuće                                                       |
+|    10.000 | deset tisuća                                                       |
+|   100.000 | sto tisuća                                                         |
+| 1.000.000 | jedan milijun                                                      |
+| 1.234.567 | jedan milijun dvjesto trideset četiri tisuće petsto šezdeset sedam |
 
 ## Separate words
 

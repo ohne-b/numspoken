@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Finnish                                                   |
-| --------: | --------------------------------------------------------- |
-|     1 000 | tuhat                                                     |
-|     2 000 | kaksituhatta                                              |
-|    10 000 | kymmenentuhatta                                           |
-|   100 000 | satatuhatta                                               |
-|   123 456 | satakaksikymmentäkolmetuhattaneljäsataaviisikymmentäkuusi |
-| 1 000 000 | miljoona                                                  |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Finnish                                                                     |
+| --------: | --------------------------------------------------------------------------- |
+|     1 000 | tuhat                                                                       |
+|     2 000 | kaksituhatta                                                                |
+|    10 000 | kymmenentuhatta                                                             |
+|   100 000 | satatuhatta                                                                 |
+| 1 000 000 | miljoona                                                                    |
+| 1 234 567 | miljoonakaksisataakolmekymmentäneljätuhattaviisisataakuusikymmentäseitsemän |
 
 ## Teens and tens
 
@@ -109,8 +107,8 @@ not the standalone words _sata_ and _tuhat_.
 
 ## Reading a long number
 
-In 123,456, read 123 first, attach _tuhatta_, then add 456.
-The result is one long word. There is no word for “and” between groups.
+In 1,234,567, start with _miljoona_, then 234 with _tuhatta_,
+then 567. Write the parts together, without a word for “and”.
 
 ## Sources
 

@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Hausa                                                       |
-| --------: | ----------------------------------------------------------- |
-|     1,000 | dubu                                                        |
-|     2,000 | dubu biyu                                                   |
-|    10,000 | dubu goma                                                   |
-|   100,000 | dubu ɗari                                                   |
-|   123,456 | dubu ɗari da ashirin da uku da ɗari huɗu da hamsin da shida |
-| 1,000,000 | miliyan ɗaya                                                |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Hausa                                                                               |
+| --------: | ----------------------------------------------------------------------------------- |
+|     1,000 | dubu                                                                                |
+|     2,000 | dubu biyu                                                                           |
+|    10,000 | dubu goma                                                                           |
+|   100,000 | dubu ɗari                                                                           |
+| 1,000,000 | miliyan ɗaya                                                                        |
+| 1,234,567 | miliyan ɗaya da dubu ɗari biyu da talatin da huɗu da ɗari biyar da sittin da bakwai |
 
 ## Sha and da
 

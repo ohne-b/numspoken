@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Azerbaijani                          |
-| --------: | ------------------------------------ |
-|     1.000 | min                                  |
-|     2.000 | iki min                              |
-|    10.000 | on min                               |
-|   100.000 | yüz min                              |
-|   123.456 | yüz iyirmi üç min dörd yüz əlli altı |
-| 1.000.000 | bir milyon                           |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Azerbaijani                                           |
+| --------: | ----------------------------------------------------- |
+|     1.000 | min                                                   |
+|     2.000 | iki min                                               |
+|    10.000 | on min                                                |
+|   100.000 | yüz min                                               |
+| 1.000.000 | bir milyon                                            |
+| 1.234.567 | bir milyon iki yüz otuz dörd min beş yüz altmış yeddi |
 
 ## Tens before units
 
@@ -104,8 +102,9 @@ and 80 is _səksən_.
 100 is _yüz_, and 1,000 is _min_. For larger multiples, put the count
 first: _iki yüz_, _üç min_.
 
-Read 123,456 in descending groups: _yüz iyirmi üç min_, then
-_dörd yüz əlli altı_. No word for “and” goes between the groups.
+Read 1,234,567 in descending groups: _bir milyon_,
+_iki yüz otuz dörd min_, then _beş yüz altmış yeddi_.
+No word for “and” goes between the groups.
 
 ## Letters to keep distinct
 

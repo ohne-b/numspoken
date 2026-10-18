@@ -171,16 +171,14 @@
 
 ### Thousands and millions
 
-|    Number | Hindi                          |
-| --------: | ------------------------------ |
-|     1,000 | एक हज़ार                       |
-|     2,000 | दो हज़ार                       |
-|    10,000 | दस हज़ार                       |
-|  1,00,000 | एक लाख                         |
-|  1,23,456 | एक लाख तेईस हज़ार चार सौ छप्पन |
-| 10,00,000 | दस लाख                         |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Hindi                               |
+| --------: | ----------------------------------- |
+|     1,000 | एक हज़ार                            |
+|     2,000 | दो हज़ार                            |
+|    10,000 | दस हज़ार                            |
+|  1,00,000 | एक लाख                              |
+| 10,00,000 | दस लाख                              |
+| 12,34,567 | बारह लाख चौंतीस हज़ार पाँच सौ सड़सठ |
 
 ## Below 100
 
@@ -195,7 +193,7 @@ _उनतालीस_ is 39. 89 and 99 do not follow that shortcut.
 
 _सौ_ is 100, _हज़ार_ is 1,000, and _लाख_ is 100,000.
 After the final three digits, commas divide groups of two:
-1,23,456 is one lakh, twenty-three thousand, four hundred fifty-six.
+12,34,567 is twelve lakh, thirty-four thousand, five hundred sixty-seven.
 
 ## Spelling in this chart
 

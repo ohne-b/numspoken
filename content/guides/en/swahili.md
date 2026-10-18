@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Swahili                                                |
-| --------: | ------------------------------------------------------ |
-|     1,000 | elfu moja                                              |
-|     2,000 | elfu mbili                                             |
-|    10,000 | elfu kumi                                              |
-|   100,000 | elfu mia moja                                          |
-|   123,456 | elfu mia moja ishirini na tatu mia nne hamsini na sita |
-| 1,000,000 | milioni moja                                           |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Swahili                                                               |
+| --------: | --------------------------------------------------------------------- |
+|     1,000 | elfu moja                                                             |
+|     2,000 | elfu mbili                                                            |
+|    10,000 | elfu kumi                                                             |
+|   100,000 | elfu mia moja                                                         |
+| 1,000,000 | milioni moja                                                          |
+| 1,234,567 | milioni moja elfu mia mbili thelathini na nne mia tano sitini na saba |
 
 ## Joining tens and units
 
@@ -105,7 +103,7 @@ _arobaini_ (40) and _sabini_ (70).
 100 is _mia moja_ and 200 is _mia mbili_. For thousands, use
 _elfu moja_, _elfu mbili_. The place-value word comes first.
 
-Read 123,456 as a count of thousands, then its remaining hundreds,
+Read 1,234,567 as a million, a count of thousands, then hundreds,
 tens and units. Keep each part as a separate word.
 
 ## With nouns

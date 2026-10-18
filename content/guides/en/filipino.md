@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Filipino                                                             |
-| --------: | -------------------------------------------------------------------- |
-|     1,000 | isang libo                                                           |
-|     2,000 | dalawang libo                                                        |
-|    10,000 | sampung libo                                                         |
-|   100,000 | isang daang libo                                                     |
-|   123,456 | isang daang dalawampu't tatlong libo at apat na daang limampu't anim |
-| 1,000,000 | isang milyon                                                         |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Filipino                                                                               |
+| --------: | -------------------------------------------------------------------------------------- |
+|     1,000 | isang libo                                                                             |
+|     2,000 | dalawang libo                                                                          |
+|    10,000 | sampung libo                                                                           |
+|   100,000 | isang daang libo                                                                       |
+| 1,000,000 | isang milyon                                                                           |
+| 1,234,567 | isang milyon at dalawang daang tatlumpu't apat na libo at limang daang animnapu't pito |
 
 ## The joining part
 

@@ -171,16 +171,14 @@
 
 ### Thousands and millions
 
-|    Number | Marathi                         |
-| --------: | ------------------------------- |
-|     1,000 | एक हजार                         |
-|     2,000 | दोन हजार                        |
-|    10,000 | दहा हजार                        |
-|  1,00,000 | एक लाख                          |
-|  1,23,456 | एक लाख तेवीस हजार चारशे छप्पन्न |
-| 10,00,000 | दहा लाख                         |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Marathi                           |
+| --------: | --------------------------------- |
+|     1,000 | एक हजार                           |
+|     2,000 | दोन हजार                          |
+|    10,000 | दहा हजार                          |
+|  1,00,000 | एक लाख                            |
+| 10,00,000 | दहा लाख                           |
+| 12,34,567 | बारा लाख चौतीस हजार पाचशे सदुसष्ठ |
 
 ## The first hundred
 
@@ -201,8 +199,8 @@ the same _-शे_ pattern.
 
 ## Thousands and lakh
 
-_हजार_ means thousand; _लाख_ means 100,000. Read 1,23,456
-as one lakh, twenty-three thousand, four hundred fifty-six.
+_हजार_ means thousand; _लाख_ means 100,000. Read 12,34,567
+as twelve lakh, thirty-four thousand, five hundred sixty-seven.
 The comma groups follow those units.
 
 ## Sources

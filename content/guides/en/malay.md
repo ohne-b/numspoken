@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Malay                                                   |
-| --------: | ------------------------------------------------------- |
-|     1,000 | seribu                                                  |
-|     2,000 | dua ribu                                                |
-|    10,000 | sepuluh ribu                                            |
-|   100,000 | seratus ribu                                            |
-|   123,456 | seratus dua puluh tiga ribu empat ratus lima puluh enam |
-| 1,000,000 | sejuta                                                  |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Malay                                                              |
+| --------: | ------------------------------------------------------------------ |
+|     1,000 | seribu                                                             |
+|     2,000 | dua ribu                                                           |
+|    10,000 | sepuluh ribu                                                       |
+|   100,000 | seratus ribu                                                       |
+| 1,000,000 | sejuta                                                             |
+| 1,234,567 | sejuta dua ratus tiga puluh empat ribu lima ratus enam puluh tujuh |
 
 ## Belas and puluh
 

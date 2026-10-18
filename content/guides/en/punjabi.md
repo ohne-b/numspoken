@@ -171,16 +171,14 @@
 
 ### Thousands and millions
 
-|    Number | Punjabi                        |
-| --------: | ------------------------------ |
-|     1,000 | ਇੱਕ ਹਜ਼ਾਰ                      |
-|     2,000 | ਦੋ ਹਜ਼ਾਰ                       |
-|    10,000 | ਦੱਸ ਹਜ਼ਾਰ                      |
-|  1,00,000 | ਇੱਕ ਲੱਖ                        |
-|  1,23,456 | ਇੱਕ ਲੱਖ ਤੇਈ ਹਜ਼ਾਰ ਚਾਰ ਸੌ ਛਪੰਜਾ |
-| 10,00,000 | ਦੱਸ ਲੱਖ                        |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Punjabi                           |
+| --------: | --------------------------------- |
+|     1,000 | ਇੱਕ ਹਜ਼ਾਰ                         |
+|     2,000 | ਦੋ ਹਜ਼ਾਰ                          |
+|    10,000 | ਦੱਸ ਹਜ਼ਾਰ                         |
+|  1,00,000 | ਇੱਕ ਲੱਖ                           |
+| 10,00,000 | ਦੱਸ ਲੱਖ                           |
+| 12,34,567 | ਬਾਰਾਂ ਲੱਖ ਚੌਂਤੀ ਹਜ਼ਾਰ ਪੰਜ ਸੌ ਸੜਸਠ |
 
 ## Whole words below 100
 
@@ -196,7 +194,7 @@ _ਇੱਕ_ and _ਇਕੱਤੀ_: it marks a doubled consonant.
 _ਸੌ_ is hundred, _ਹਜ਼ਾਰ_ is thousand, and _ਲੱਖ_ is 100,000.
 Put the count before the place word, then add any remainder.
 
-1,23,456 reads as one lakh, twenty-three thousand, four hundred fifty-six.
+12,34,567 reads as twelve lakh, thirty-four thousand, five hundred sixty-seven.
 The last three digits are one group; earlier comma groups have two digits.
 
 ## Script

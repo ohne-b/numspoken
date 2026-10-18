@@ -85,16 +85,14 @@
 
 ### Thousands and millions
 
-|    Number | French                                           |
-| --------: | ------------------------------------------------ |
-|     1 000 | mille                                            |
-|     2 000 | deux mille                                       |
-|    10 000 | dix mille                                        |
-|   100 000 | cent mille                                       |
-|   123 456 | cent vingt-trois mille quatre cent cinquante-six |
-| 1 000 000 | un million                                       |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | French                                                           |
+| --------: | ---------------------------------------------------------------- |
+|     1 000 | mille                                                            |
+|     2 000 | deux mille                                                       |
+|    10 000 | dix mille                                                        |
+|   100 000 | cent mille                                                       |
+| 1 000 000 | un million                                                       |
+| 1 234 567 | un million deux cent trente-quatre mille cinq cent soixante-sept |
 
 ## The last three tens
 

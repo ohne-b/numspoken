@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Polish                                                    |
-| --------: | --------------------------------------------------------- |
-|      1000 | tysiąc                                                    |
-|      2000 | dwa tysiące                                               |
-|    10 000 | dziesięć tysięcy                                          |
-|   100 000 | sto tysięcy                                               |
-|   123 456 | sto dwadzieścia trzy tysiące czterysta pięćdziesiąt sześć |
-| 1 000 000 | milion                                                    |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Polish                                                                  |
+| --------: | ----------------------------------------------------------------------- |
+|      1000 | tysiąc                                                                  |
+|      2000 | dwa tysiące                                                             |
+|    10 000 | dziesięć tysięcy                                                        |
+|   100 000 | sto tysięcy                                                             |
+| 1 000 000 | milion                                                                  |
+| 1 234 567 | milion dwieście trzydzieści cztery tysiące pięćset sześćdziesiąt siedem |
 
 ## Building the number
 

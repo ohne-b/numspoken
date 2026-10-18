@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Danish                                                          |
-| --------: | --------------------------------------------------------------- |
-|     1.000 | et tusind                                                       |
-|     2.000 | to tusind                                                       |
-|    10.000 | ti tusind                                                       |
-|   100.000 | et hundrede tusind                                              |
-|   123.456 | et hundrede og treogtyve tusind firehundrede og seksoghalvtreds |
-| 1.000.000 | en million                                                      |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Danish                                                                 |
+| --------: | ---------------------------------------------------------------------- |
+|     1.000 | et tusind                                                              |
+|     2.000 | to tusind                                                              |
+|    10.000 | ti tusind                                                              |
+|   100.000 | et hundrede tusind                                                     |
+| 1.000.000 | en million                                                             |
+| 1.234.567 | en million tohundrede og fireogtredive tusind femhundrede og syvogtres |
 
 ## Reading backwards within the tens
 

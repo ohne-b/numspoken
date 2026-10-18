@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Telugu                                    |
-| --------: | ----------------------------------------- |
-|     1,000 | వెయ్యి                                    |
-|     2,000 | రెండు వేలు                                |
-|    10,000 | పది వేలు                                  |
-|  1,00,000 | లక్ష                                      |
-|  1,23,456 | లక్ష ఇరవై మూడు వేలు నాలుగు వందలు యాభై ఆరు |
-| 10,00,000 | పది లక్షలు                                |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Telugu                                                |
+| --------: | ----------------------------------------------------- |
+|     1,000 | వెయ్యి                                                |
+|     2,000 | రెండు వేలు                                            |
+|    10,000 | పది వేలు                                              |
+|  1,00,000 | లక్ష                                                  |
+| 10,00,000 | పది లక్షలు                                            |
+| 12,34,567 | పన్నెండు లక్షలు ముప్పై నాలుగు వేలు ఐదు వందలు అరవై ఏడు |
 
 ## Tens followed by units
 
@@ -110,8 +108,8 @@ _వెయ్యి_ after every number.
 ## Lakh
 
 _లక్ష_ is 100,000. For several lakh, use _లక్షలు_.
-The groups in 1,23,456 are one lakh, twenty-three thousand and
-four hundred fifty-six. The app displays 0–9 digits and expects
+The groups in 12,34,567 are twelve lakh, thirty-four thousand and
+five hundred sixty-seven. The app displays 0–9 digits and expects
 the answer in Telugu script.
 
 ## Sources

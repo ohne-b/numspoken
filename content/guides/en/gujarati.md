@@ -171,16 +171,14 @@
 
 ### Thousands and millions
 
-|    Number | Gujarati                         |
-| --------: | -------------------------------- |
-|     1,000 | એક હજાર                          |
-|     2,000 | બે હજાર                          |
-|    10,000 | દસ હજાર                          |
-|  1,00,000 | એક લાખ                           |
-|  1,23,456 | એક લાખ ત્રેવીસ હજાર ચાર સો છપ્પન |
-| 10,00,000 | દસ લાખ                           |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Gujarati                          |
+| --------: | --------------------------------- |
+|     1,000 | એક હજાર                           |
+|     2,000 | બે હજાર                           |
+|    10,000 | દસ હજાર                           |
+|  1,00,000 | એક લાખ                            |
+| 10,00,000 | દસ લાખ                            |
+| 12,34,567 | બાર લાખ ચોત્રીસ હજાર પાંચ સો સડસઠ |
 
 ## Learn the whole form
 
@@ -196,8 +194,8 @@ next ten. Other groups change the stem, so the full chart includes every number.
 Put the count before _સો_ (hundred), _હજાર_ (thousand) or
 _લાખ_ (100,000). The remainder follows as a separate word group.
 
-1,23,456 is one lakh, twenty-three thousand, four hundred fifty-six:
-_એક લાખ ત્રેવીસ હજાર ચાર સો છપ્પન_.
+12,34,567 is twelve lakh, thirty-four thousand, five hundred sixty-seven:
+_બાર લાખ ચોત્રીસ હજાર પાંચ સો સડસઠ_.
 
 Gujarati vowel signs are part of the answer. The displayed 0–9 digits
 do not change which script you type in.

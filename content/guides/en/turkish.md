@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Turkish                             |
-| --------: | ----------------------------------- |
-|     1.000 | bin                                 |
-|     2.000 | iki bin                             |
-|    10.000 | on bin                              |
-|   100.000 | yüz bin                             |
-|   123.456 | yüz yirmi üç bin dört yüz elli altı |
-| 1.000.000 | bir milyon                          |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Turkish                                              |
+| --------: | ---------------------------------------------------- |
+|     1.000 | bin                                                  |
+|     2.000 | iki bin                                              |
+|    10.000 | on bin                                               |
+|   100.000 | yüz bin                                              |
+| 1.000.000 | bir milyon                                           |
+| 1.234.567 | bir milyon iki yüz otuz dört bin beş yüz altmış yedi |
 
 ## Largest part first
 
@@ -105,7 +103,7 @@ Use _yüz_ for 100 and _bin_ for 1,000, without an initial _bir_.
 For several hundred or thousand, put the count first:
 _iki yüz_, _üç bin_.
 
-123,456 is _yüz yirmi üç bin dört yüz elli altı_.
+1,234,567 is _bir milyon iki yüz otuz dört bin beş yüz altmış yedi_.
 The word _bin_ separates the thousands group from the remainder.
 
 ## Dotted and dotless i

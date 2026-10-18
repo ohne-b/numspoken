@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Thai                                  |
-| --------: | ------------------------------------- |
-|     1,000 | หนึ่งพัน                              |
-|     2,000 | สองพัน                                |
-|    10,000 | หนึ่งหมื่น                            |
-|   100,000 | หนึ่งแสน                              |
-|   123,456 | หนึ่งแสนสองหมื่นสามพันสี่ร้อยห้าสิบหก |
-| 1,000,000 | หนึ่งล้าน                             |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Thai                                          |
+| --------: | --------------------------------------------- |
+|     1,000 | หนึ่งพัน                                      |
+|     2,000 | สองพัน                                        |
+|    10,000 | หนึ่งหมื่น                                    |
+|   100,000 | หนึ่งแสน                                      |
+| 1,000,000 | หนึ่งล้าน                                     |
+| 1,234,567 | หนึ่งล้านสองแสนสามหมื่นสี่พันห้าร้อยหกสิบเจ็ด |
 
 ## Two changes to remember
 
@@ -105,8 +103,8 @@ _สิบ_ is ten, _ร้อย_ is hundred, _พัน_ is thousand,
 _หมื่น_ is ten thousand, and _แสน_ is a hundred thousand.
 Put the count before each place word.
 
-Read 123,456 one place at a time: one hundred-thousand, two
-ten-thousands, three thousands, four hundreds, five tens and six.
+Read 1,234,567 one place at a time: one million, two hundred-thousands,
+three ten-thousands, four thousands, five hundreds, six tens and seven.
 Write the words together without spaces.
 
 ## Empty places

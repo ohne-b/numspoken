@@ -171,16 +171,14 @@
 
 ### Thousands and millions
 
-|    Number | Bangla                             |
-| --------: | ---------------------------------- |
-|     1,000 | এক হাজার                           |
-|     2,000 | দুই হাজার                          |
-|    10,000 | দশ হাজার                           |
-|  1,00,000 | এক লাখ                             |
-|  1,23,456 | এক লাখ তেইশ হাজার চার শত ছাপ্পান্ন |
-| 10,00,000 | দশ লাখ                             |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Bangla                                  |
+| --------: | --------------------------------------- |
+|     1,000 | এক হাজার                                |
+|     2,000 | দুই হাজার                               |
+|    10,000 | দশ হাজার                                |
+|  1,00,000 | এক লাখ                                  |
+| 10,00,000 | দশ লাখ                                  |
+| 12,34,567 | বারো লাখ চৌত্রিশ হাজার পাঁচ শত সাতষট্টি |
 
 ## The numbers below 100
 
@@ -194,7 +192,7 @@ _উনিশ_ is 19 and _উনত্রিশ_ is 29. That pattern has excepti
 ## Thousands and lakh
 
 _হাজার_ means thousand and _লাখ_ means 100,000. The groups in
-1,23,456 are one lakh, twenty-three thousand and four hundred fifty-six.
+12,34,567 are twelve lakh, thirty-four thousand and five hundred sixty-seven.
 
 The chart uses _শত_ for hundreds. Forms with _শো_ are common too,
 especially in everyday speech. Keep to the chart's form when practising here.

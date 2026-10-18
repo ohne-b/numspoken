@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Korean                |
-| --------: | --------------------- |
-|     1,000 | 천                    |
-|     2,000 | 이천                  |
-|    10,000 | 만                    |
-|   100,000 | 십만                  |
-|   123,456 | 십이만 삼천사백오십육 |
-| 1,000,000 | 백만                  |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Korean                    |
+| --------: | ------------------------- |
+|     1,000 | 천                        |
+|     2,000 | 이천                      |
+|    10,000 | 만                        |
+|   100,000 | 십만                      |
+| 1,000,000 | 백만                      |
+| 1,234,567 | 백이십삼만 사천오백육십칠 |
 
 ## Which Korean numbers
 
@@ -107,8 +105,8 @@ Zero on its own is _영_ here; _공_ is common when reading phone digits.
 
 ## Groups of ten thousand
 
-_만_ means 10,000. 123,456 is twelve ten-thousands plus 3,456:
-_십이만 삼천사백오십육_.
+_만_ means 10,000. 1,234,567 is 123 ten-thousands plus 4,567:
+_백이십삼만 사천오백육십칠_.
 
 Keep the spelling even when pronunciation changes across syllables.
 The final six in 16 is still written _육_, as in _십육_.

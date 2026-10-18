@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Romanian                                                    |
-| --------: | ----------------------------------------------------------- |
-|     1.000 | o mie                                                       |
-|     2.000 | două mii                                                    |
-|    10.000 | zece mii                                                    |
-|   100.000 | o sută de mii                                               |
-|   123.456 | o sută douăzeci și trei de mii patru sute cincizeci și șase |
-| 1.000.000 | un milion                                                   |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Romanian                                                                 |
+| --------: | ------------------------------------------------------------------------ |
+|     1.000 | o mie                                                                    |
+|     2.000 | două mii                                                                 |
+|    10.000 | zece mii                                                                 |
+|   100.000 | o sută de mii                                                            |
+| 1.000.000 | un milion                                                                |
+| 1.234.567 | un milion două sute treizeci și patru de mii cinci sute șaizeci și șapte |
 
 ## Tens and units
 

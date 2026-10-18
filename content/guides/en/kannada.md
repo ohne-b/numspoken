@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Kannada                                          |
-| --------: | ------------------------------------------------ |
-|     1,000 | ಒಂದು ಸಾವಿರ                                       |
-|     2,000 | ಎರಡು ಸಾವಿರ                                       |
-|    10,000 | ಹತ್ತು ಸಾವಿರ                                      |
-|   100,000 | ಒಂದು ಲಕ್ಷ                                        |
-|   123,456 | ಒಂದು ಲಕ್ಷ ಇಪ್ಪತ್ತಮೂರು ಸಾವಿರ ನಾಲ್ಕು ನೂರು ಐವತ್ತಾರು |
-| 1,000,000 | ಹತ್ತು ಲಕ್ಷ                                       |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Kannada                                             |
+| --------: | --------------------------------------------------- |
+|     1,000 | ಒಂದು ಸಾವಿರ                                          |
+|     2,000 | ಎರಡು ಸಾವಿರ                                          |
+|    10,000 | ಹತ್ತು ಸಾವಿರ                                         |
+|   100,000 | ಒಂದು ಲಕ್ಷ                                           |
+| 1,000,000 | ಹತ್ತು ಲಕ್ಷ                                          |
+| 1,234,567 | ಹನ್ನೆರಡು ಲಕ್ಷ ಮೂವತ್ತನಾಲ್ಕು ಸಾವಿರ ಐದು ನೂರು ಅರವತ್ತೇಳು |
 
 ## The joining forms
 
@@ -106,8 +104,8 @@ _ನೂರು_ means hundred, _ಸಾವಿರ_ means thousand, and _ಲಕ್�
 100,000. The chart keeps the separate count-and-place forms used in practice.
 Joined forms also occur in ordinary Kannada.
 
-Read 1,23,456 in three groups: one lakh, twenty-three thousand,
-four hundred fifty-six. The final three digits form one group; the
+Read 12,34,567 in three groups: twelve lakh, thirty-four thousand,
+five hundred sixty-seven. The final three digits form one group; the
 groups before it have two digits each.
 
 Vowel signs and joined consonants are part of the answer, even with

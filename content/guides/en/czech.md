@@ -80,16 +80,14 @@
 
 ### Thousands and millions
 
-|    Number | Czech                                        |
-| --------: | -------------------------------------------- |
-|     1 000 | tisíc                                        |
-|     2 000 | dva tisíce                                   |
-|    10 000 | deset tisíc                                  |
-|   100 000 | sto tisíc                                    |
-|   123 456 | sto dvacet tři tisíce čtyři sta padesát šest |
-| 1 000 000 | milion                                       |
-
-Practice stops at 999,999. The million is here for reference.
+|    Number | Czech                                                   |
+| --------: | ------------------------------------------------------- |
+|     1 000 | tisíc                                                   |
+|     2 000 | dva tisíce                                              |
+|    10 000 | deset tisíc                                             |
+|   100 000 | sto tisíc                                               |
+| 1 000 000 | milion                                                  |
+| 1 234 567 | milion dvě stě třicet čtyři tisíce pět set šedesát sedm |
 
 ## Tens and units
 
