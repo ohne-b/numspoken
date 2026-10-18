@@ -91,6 +91,7 @@ export default function GuideView({
       <div className="guide-heading">
         <IconButton
           label="Back to practice"
+          tooltip={false}
           path={mdiArrowLeft}
           onClick={() => navigate('practice')}
         />

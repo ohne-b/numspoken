@@ -53,6 +53,7 @@ export default function SettingsView({
       <div className="settings-heading">
         <IconButton
           label="Back to practice"
+          tooltip={false}
           path={mdiArrowLeft}
           onClick={() => navigate('practice')}
         />
