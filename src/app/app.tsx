@@ -104,8 +104,26 @@ export function App() {
       </header>
       <main
         onFocusCapture={(event) => {
-          // Native focus scrolling does not honor the header offset in every browser.
-          event.target.scrollIntoView({ block: 'nearest' });
+          const target = event.target;
+          if (target.closest('[popover]')) return;
+          if (view.name !== 'settings') {
+            target.scrollIntoView({ block: 'nearest' });
+            return;
+          }
+          // Let WebKit's native focus scrolling settle before correcting the header offset.
+          requestAnimationFrame(() =>
+            requestAnimationFrame(() => {
+              if (!target.matches(':focus-within')) return;
+              const bounds = target.getBoundingClientRect();
+              const header = document
+                .querySelector('.topbar')!
+                .getBoundingClientRect();
+              if (bounds.top < header.bottom)
+                window.scrollBy(0, bounds.top - header.bottom - 8);
+              else if (bounds.bottom > innerHeight)
+                window.scrollBy(0, bounds.bottom - innerHeight + 8);
+            }),
+          );
         }}
       >
         <PracticeView

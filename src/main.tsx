@@ -1,10 +1,11 @@
+import './styles.css';
 import { Component, StrictMode, type ReactNode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { mdiRefresh } from '@mdi/js';
 import { App } from './app/app';
 import { IconButton } from './ui/icon-button';
 import '@fontsource-variable/manrope';
-import './styles.css';
+import 'material/styles/base';
 
 class ErrorBoundary extends Component<
   { children: ReactNode },

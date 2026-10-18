@@ -1,12 +1,21 @@
 import { useEffect, useRef, useState } from 'react';
-import { Switch } from '@base-ui/react/switch';
+import { Switch, Radios, Radio } from 'material/react';
 import { mdiArrowLeft } from '@mdi/js';
 import { validRange, type Preferences } from '../../app/preferences';
 import { IconButton } from '../../ui/icon-button';
 import { LanguagePicker } from './language-picker';
 import { MAX_NUMBER } from '../../lib/random-number';
+import { RangeField } from './range-field';
 
 const rangeLimit = MAX_NUMBER.toLocaleString('en-US');
+
+function numberError(value: string) {
+  if (!value) return 'Enter a number.';
+  if (Number(value) < 0) return 'Min 0';
+  if (!/^\d+$/.test(value)) return 'Use whole numbers.';
+  if (Number(value) > MAX_NUMBER) return `Max ${rangeLimit}`;
+  return '';
+}
 
 export default function SettingsView({
   preferences,
@@ -26,6 +35,7 @@ export default function SettingsView({
     max: String(preferences.max),
   });
   const [pickerOpen, setPickerOpen] = useState(false);
+  const [editedBound, setEditedBound] = useState<'min' | 'max'>('min');
   const titleRef = useRef<HTMLHeadingElement>(null);
   useEffect(() => {
     titleRef.current?.focus();
@@ -40,13 +50,16 @@ export default function SettingsView({
     window.addEventListener('keydown', close);
     return () => window.removeEventListener('keydown', close);
   }, [pickerOpen, onBack]);
-  const rangeValid =
-    /^\d+$/.test(range.min) &&
-    /^\d+$/.test(range.max) &&
-    validRange(Number(range.min), Number(range.max));
+  const errors = { min: numberError(range.min), max: numberError(range.max) };
+  if (!errors.min && !errors.max && Number(range.min) > Number(range.max))
+    errors[editedBound] =
+      editedBound === 'min'
+        ? 'Must be no higher than To.'
+        : 'Must be no lower than From.';
   function changeRange(part: 'min' | 'max', value: string) {
     const next = { ...range, [part]: value };
     setRange(next);
+    setEditedBound(part);
     if (
       /^\d+$/.test(next.min) &&
       /^\d+$/.test(next.max) &&
@@ -76,38 +89,22 @@ export default function SettingsView({
         <fieldset>
           <legend>Number range</legend>
           <div className="range-fields">
-            <label>
-              From
-              <input
-                inputMode="numeric"
-                autoComplete="off"
-                value={range.min}
-                aria-invalid={!rangeValid}
-                aria-describedby="range-help"
-                onChange={(event) => changeRange('min', event.target.value)}
-              />
-            </label>
+            <RangeField
+              label="From"
+              value={range.min}
+              error={errors.min}
+              supportingText="Min 0"
+              onChange={(value) => changeRange('min', value)}
+            />
             <span aria-hidden="true">—</span>
-            <label>
-              To
-              <input
-                inputMode="numeric"
-                autoComplete="off"
-                value={range.max}
-                aria-invalid={!rangeValid}
-                aria-describedby="range-help"
-                onChange={(event) => changeRange('max', event.target.value)}
-              />
-            </label>
+            <RangeField
+              label="To"
+              value={range.max}
+              error={errors.max}
+              supportingText={`Max ${rangeLimit}`}
+              onChange={(value) => changeRange('max', value)}
+            />
           </div>
-          <p
-            id="range-help"
-            className={`field-help ${rangeValid ? '' : 'field-error'}`}
-          >
-            {rangeValid
-              ? `Whole numbers from 0 to ${rangeLimit}.`
-              : `Use a valid range from 0 to ${rangeLimit}. Your last valid range is kept.`}
-          </p>
         </fieldset>
         <div className="switch-row">
           <div>
@@ -116,49 +113,63 @@ export default function SettingsView({
               Allow accents and separator punctuation to differ.
             </p>
           </div>
-          <Switch.Root
+          <Switch
             id="forgiving"
             className="switch"
+            label="Forgiving spelling"
             checked={preferences.forgiving}
-            onCheckedChange={(forgiving) => update({ forgiving })}
-          >
-            <Switch.Thumb className="switch-thumb" />
-          </Switch.Root>
+            onChange={(event) => update({ forgiving: event.detail.checked })}
+          />
         </div>
         <fieldset>
           <legend>Practice mode</legend>
-          <div className="segmented">
+          <Radios
+            className="radio-options"
+            name="mode"
+            direction="horizontal"
+            aria-label="Practice mode"
+            value={preferences.mode}
+            onChange={(event) => {
+              const mode = event.detail.value;
+              if (mode === 'continuous' || mode === 'round') update({ mode });
+            }}
+          >
             {(['continuous', 'round'] as const).map((mode) => (
-              <label key={mode}>
-                <input
-                  type="radio"
-                  name="mode"
-                  checked={preferences.mode === mode}
-                  onChange={() => update({ mode })}
-                />
-                <span>
-                  {mode === 'continuous' ? 'Continuous' : 'Fixed round'}
-                </span>
-              </label>
+              <Radio
+                key={mode}
+                value={mode}
+                label={mode === 'continuous' ? 'Continuous' : 'Fixed round'}
+              />
             ))}
-          </div>
+          </Radios>
         </fieldset>
         {preferences.mode === 'round' && (
           <fieldset>
             <legend>Numbers per round</legend>
-            <div className="segmented">
+            <Radios
+              className="radio-options"
+              name="round-length"
+              direction="horizontal"
+              aria-label="Numbers per round"
+              value={String(preferences.roundLength)}
+              onChange={(event) => {
+                const roundLength = Number(event.detail.value);
+                if (
+                  roundLength === 10 ||
+                  roundLength === 20 ||
+                  roundLength === 50
+                )
+                  update({ roundLength });
+              }}
+            >
               {([10, 20, 50] as const).map((roundLength) => (
-                <label key={roundLength}>
-                  <input
-                    type="radio"
-                    name="roundLength"
-                    checked={preferences.roundLength === roundLength}
-                    onChange={() => update({ roundLength })}
-                  />
-                  <span>{roundLength}</span>
-                </label>
+                <Radio
+                  key={roundLength}
+                  value={String(roundLength)}
+                  label={String(roundLength)}
+                />
               ))}
-            </div>
+            </Radios>
           </fieldset>
         )}
       </div>
