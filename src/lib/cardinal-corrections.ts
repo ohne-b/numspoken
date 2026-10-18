@@ -9,9 +9,28 @@ type Cardinal = (value: number) => string;
 export function correctCardinal(locale: LocaleCode, raw: Cardinal): Cardinal {
   const convert: Cardinal = (n) => {
     if (!Number.isSafeInteger(n) || n < 0 || n > MAX_NUMBER) return raw(n);
-    if (locale.startsWith('es-'))
+    if (locale.startsWith('es-')) {
+      if (n >= 1_000_000_000) {
+        const millions = convert(Math.floor(n / 1_000_000))
+          .replace(/veintiuno$/, 'veintiún')
+          .replace(/uno$/, 'un');
+        return (
+          millions +
+          ' millones' +
+          (n % 1_000_000 ? ' ' + convert(n % 1_000_000) : '')
+        );
+      }
       return raw(n).replace(/\bdieciseis\b/g, 'dieciséis');
+    }
     if (locale === 'az-AZ') return raw(n).replace(/\bmilyar\b/g, 'milyard');
+    if ((locale === 'bn-BD' || locale === 'kn-IN') && n >= 1_000_000_000) {
+      const scale = locale === 'bn-BD' ? 10_000_000 : 1_000_000_000;
+      return (
+        convert(Math.floor(n / scale)) +
+        (locale === 'bn-BD' ? ' কোটি' : ' ಅಬ್ಜ') +
+        (n % scale ? ' ' + convert(n % scale) : '')
+      );
+    }
     if (locale === 'uk-UA') return raw(n).replaceAll('i', 'і');
     if (locale.startsWith('zh-'))
       return raw(n)
@@ -75,7 +94,7 @@ export function correctCardinal(locale: LocaleCode, raw: Cardinal): Cardinal {
         if (scale === 10_000_000)
           return (
             (count === 1 ? 'ஒரு' : compound(count)) +
-            ' கோடி' +
+            (rest ? ' கோடியே' : ' கோடி') +
             (rest ? ' ' + compound(rest) : '')
           );
         if (scale === 100_000)

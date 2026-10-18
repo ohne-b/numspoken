@@ -81,19 +81,19 @@
 
 ### Thousands and above
 
-|          Number | Spanish                                                              |
-| --------------: | -------------------------------------------------------------------- |
-|           1.000 | mil                                                                  |
-|           2.000 | dos mil                                                              |
-|          10.000 | diez mil                                                             |
-|         100.000 | cien mil                                                             |
-|       1.000.000 | un millón                                                            |
-|       1.234.567 | un millón doscientos treinta y cuatro mil quinientos sesenta y siete |
-|      10.000.000 | diez millones                                                        |
-|     100.000.000 | cien millones                                                        |
-|   1.000.000.000 | mil millones                                                         |
-|  10.000.000.000 | diez mil millones                                                    |
-| 100.000.000.000 | cien mil millones                                                    |
+|          Number | Spanish                                                                                                         |
+| --------------: | --------------------------------------------------------------------------------------------------------------- |
+|           1.000 | mil                                                                                                             |
+|           2.000 | dos mil                                                                                                         |
+|          10.000 | diez mil                                                                                                        |
+|         100.000 | cien mil                                                                                                        |
+|       1.000.000 | un millón                                                                                                       |
+|      10.000.000 | diez millones                                                                                                   |
+|     100.000.000 | cien millones                                                                                                   |
+|   1.000.000.000 | mil millones                                                                                                    |
+|  10.000.000.000 | diez mil millones                                                                                               |
+| 100.000.000.000 | cien mil millones                                                                                               |
+| 123.456.789.123 | ciento veintitrés mil cuatrocientos cincuenta y seis millones setecientos ochenta y nueve mil ciento veintitrés |
 
 ## Joining the parts
 
@@ -121,3 +121,4 @@ Spain, Mexico and the United States use the same number spellings here.
 ## Sources
 
 - [Cardinal numbers — Real Academia Española](https://www.rae.es/dpd/cardinales)
+- [Reading large numbers — FundéuRAE](https://www.fundeu.es/consulta/mil-millones-millardos/)

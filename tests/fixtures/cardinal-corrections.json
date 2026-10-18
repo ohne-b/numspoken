@@ -566,8 +566,8 @@
   {
     "locale": "ta-IN",
     "number": 100000000001,
-    "words": "பத்தாயிரம் கோடி ஒன்று",
-    "source": "https://www.tamildigitallibrary.in/admin/assets/book/TVA_BOK_0002316_%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A9%E0%AE%BF_%E0%AE%95%E0%AE%B3%E0%AE%9E%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%AA%E0%AF%8D_%E0%AE%AA%E0%AF%87%E0%AE%B0%E0%AE%95%E0%AE%B0%E0%AE%BE%E0%AE%A4%E0%AE%BF.pdf"
+    "words": "பத்தாயிரம் கோடியே ஒன்று",
+    "source": "https://chennaicorporation.gov.in/council/resolution/Council%20Resolution%2030.04.2025.pdf"
   },
   {
     "locale": "te-IN",
@@ -628,5 +628,65 @@
     "number": 10000001,
     "words": "కోటి ఒకటి",
     "source": "https://cdn1.byjus.com/wp-content/uploads/2021/09/TS-Board-Class-6-Maths-Textbook-2021-22Telugu-Medium.pdf"
+  },
+  {
+    "locale": "es-ES",
+    "number": 1001000000,
+    "words": "mil un millones",
+    "source": "https://www.fundeu.es/consulta/mil-millones-millardos/"
+  },
+  {
+    "locale": "es-ES",
+    "number": 1021000000,
+    "words": "mil veintiún millones",
+    "source": "https://www.fundeu.es/consulta/mil-millones-millardos/"
+  },
+  {
+    "locale": "es-ES",
+    "number": 123456789123,
+    "words": "ciento veintitrés mil cuatrocientos cincuenta y seis millones setecientos ochenta y nueve mil ciento veintitrés",
+    "source": "https://www.fundeu.es/consulta/mil-millones-millardos/"
+  },
+  {
+    "locale": "bn-BD",
+    "number": 1000000000,
+    "words": "এক শত কোটি",
+    "source": "https://accessibledictionary.gov.bd/bengali-to-bengali/?alp=&page=757"
+  },
+  {
+    "locale": "bn-BD",
+    "number": 10000000000,
+    "words": "এক হাজার কোটি",
+    "source": "https://accessibledictionary.gov.bd/bengali-to-bengali/?alp=&page=757"
+  },
+  {
+    "locale": "bn-BD",
+    "number": 100000000000,
+    "words": "দশ হাজার কোটি",
+    "source": "https://accessibledictionary.gov.bd/bengali-to-bengali/?alp=&page=757"
+  },
+  {
+    "locale": "kn-IN",
+    "number": 10000000000,
+    "words": "ಹತ್ತು ಅಬ್ಜ",
+    "source": "https://alar.ink/dictionary/kannada/english/%E0%B2%85%E0%B2%AC%E0%B3%8D%E0%B2%9C"
+  },
+  {
+    "locale": "kn-IN",
+    "number": 100000000000,
+    "words": "ಒಂದು ನೂರು ಅಬ್ಜ",
+    "source": "https://alar.ink/dictionary/kannada/english/%E0%B2%85%E0%B2%AC%E0%B3%8D%E0%B2%9C"
+  },
+  {
+    "locale": "kn-IN",
+    "number": 100000000001,
+    "words": "ಒಂದು ನೂರು ಅಬ್ಜ ಒಂದು",
+    "source": "https://alar.ink/dictionary/kannada/english/%E0%B2%85%E0%B2%AC%E0%B3%8D%E0%B2%9C"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 30000001,
+    "words": "மூன்று கோடியே ஒன்று",
+    "source": "https://chennaicorporation.gov.in/council/resolution/Council%20Resolution%2030.04.2025.pdf"
   }
 ]

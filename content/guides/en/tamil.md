@@ -80,19 +80,19 @@
 
 ### Thousands and above
 
-|            Number | Tamil                                                            |
-| ----------------: | ---------------------------------------------------------------- |
-|             1,000 | ஒரு ஆயிரம்                                                       |
-|             2,000 | இரண்டு ஆயிரம்                                                    |
-|            10,000 | பத்து ஆயிரம்                                                     |
-|          1,00,000 | ஒரு லட்சம்                                                       |
-|         10,00,000 | பத்து லட்சம்                                                     |
-|         12,34,567 | பன்னிரண்டு இலட்சத்து முப்பத்துநான்காயிரத்து ஐந்நூற்று அறுபத்தேழு |
-|       1,00,00,000 | ஒரு கோடி                                                         |
-|      10,00,00,000 | பத்து கோடி                                                       |
-|    1,00,00,00,000 | நூறு கோடி                                                        |
-|   10,00,00,00,000 | ஆயிரம் கோடி                                                      |
-| 1,00,00,00,00,000 | பத்தாயிரம் கோடி                                                  |
+|            Number | Tamil                                                                                                             |
+| ----------------: | ----------------------------------------------------------------------------------------------------------------- |
+|             1,000 | ஒரு ஆயிரம்                                                                                                        |
+|             2,000 | இரண்டு ஆயிரம்                                                                                                     |
+|            10,000 | பத்து ஆயிரம்                                                                                                      |
+|          1,00,000 | ஒரு லட்சம்                                                                                                        |
+|         10,00,000 | பத்து லட்சம்                                                                                                      |
+|       1,00,00,000 | ஒரு கோடி                                                                                                          |
+|      10,00,00,000 | பத்து கோடி                                                                                                        |
+|    1,00,00,00,000 | நூறு கோடி                                                                                                         |
+|   10,00,00,00,000 | ஆயிரம் கோடி                                                                                                       |
+| 1,00,00,00,00,000 | பத்தாயிரம் கோடி                                                                                                   |
+| 1,23,45,67,89,123 | பன்னிரண்டாயிரத்து முந்நூற்று நாற்பத்தைந்து கோடியே அறுபத்தேழு இலட்சத்து எண்பத்தொன்பதாயிரத்து நூற்று இருபத்துமூன்று |
 
 ## Joining forms
 
@@ -125,3 +125,4 @@ remain part of the answer.
 - [Joining large numbers — Tamil Virtual Academy](https://www.tamilvu.org/slet/lA100/lA100pd3.jsp?bookid=171&pno=16)
 - [Written number forms — Magudeshwaran](https://www.dinamalar.com/weekly/pattam/pattam/67109)
 - [Billion — Tamil Virtual Academy computing dictionary, p. 148](https://www.tamildigitallibrary.in/admin/assets/book/TVA_BOK_0002316_%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A9%E0%AE%BF_%E0%AE%95%E0%AE%B3%E0%AE%9E%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%AA%E0%AF%8D_%E0%AE%AA%E0%AF%87%E0%AE%B0%E0%AE%95%E0%AE%B0%E0%AE%BE%E0%AE%A4%E0%AE%BF.pdf)
+- [Compound crore amounts — Chennai Corporation, p. 166](https://chennaicorporation.gov.in/council/resolution/Council%20Resolution%2030.04.2025.pdf)
