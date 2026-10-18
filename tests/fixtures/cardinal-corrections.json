@@ -1,0 +1,711 @@
+[
+  {
+    "locale": "da-DK",
+    "number": 200,
+    "words": "to hundrede",
+    "source": "https://sproget.dk/typiske-problemer/et-eller-flere-ord/"
+  },
+  {
+    "locale": "da-DK",
+    "number": 567,
+    "words": "fem hundrede og syvogtres",
+    "source": "https://sproget.dk/typiske-problemer/et-eller-flere-ord/"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 23,
+    "words": "இருபத்துமூன்று",
+    "source": "https://www.dinamalar.com/weekly/pattam/pattam/67109"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 34,
+    "words": "முப்பத்துநான்கு",
+    "source": "https://www.dinamalar.com/weekly/pattam/pattam/67109"
+  },
+  {
+    "locale": "fi-FI",
+    "number": 200,
+    "words": "kaksisataa",
+    "source": "https://www.omniglot.com/language/numbers/finnish.htm"
+  },
+  {
+    "locale": "fi-FI",
+    "number": 10000,
+    "words": "kymmenentuhatta",
+    "source": "https://www.omniglot.com/language/numbers/finnish.htm"
+  },
+  {
+    "locale": "fi-FI",
+    "number": 2105,
+    "words": "kaksituhattasataviisi",
+    "source": "https://fsi-languages.yojik.eu/languages/FSI/Finnish/Conversational/Fsi-ConversationalFinnish-Textbook.pdf"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 21,
+    "words": "tjugoett",
+    "source": "https://www.omniglot.com/language/numbers/swedish.htm"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 105,
+    "words": "hundrafem",
+    "source": "https://www.omniglot.com/language/numbers/swedish.htm"
+  },
+  {
+    "locale": "nb-NO",
+    "number": 100,
+    "words": "ett hundre",
+    "source": "https://www.omniglot.com/language/numbers/norwegian.htm"
+  },
+  {
+    "locale": "nb-NO",
+    "number": 1005,
+    "words": "ett tusen og fem",
+    "source": "https://www.ntnu.edu/now2/4/yc"
+  },
+  {
+    "locale": "da-DK",
+    "number": 100,
+    "words": "et hundrede",
+    "source": "https://www.omniglot.com/language/numbers/danish.htm"
+  },
+  {
+    "locale": "da-DK",
+    "number": 142,
+    "words": "et hundrede og toogfyrre",
+    "source": "https://snl.no/danske_tall"
+  },
+  {
+    "locale": "ka-GE",
+    "number": 2000,
+    "words": "ორი ათასი",
+    "source": "https://www.pinhok.com/kb/georgian/694/numbers-in-georgian/"
+  },
+  {
+    "locale": "ka-GE",
+    "number": 2002,
+    "words": "ორი ათას ორი",
+    "source": "https://www.pinhok.com/kb/georgian/694/numbers-in-georgian/"
+  },
+  {
+    "locale": "el-GR",
+    "number": 101,
+    "words": "εκατόν ένα",
+    "source": "https://greek-talk.com/wp-content/uploads/2024/02/Greek-language-basics-sample.pdf"
+  },
+  {
+    "locale": "el-GR",
+    "number": 3000,
+    "words": "τρεις χιλιάδες",
+    "source": "https://www.omniglot.com/language/numbers/greek.htm"
+  },
+  {
+    "locale": "el-GR",
+    "number": 13000,
+    "words": "δεκατρείς χιλιάδες",
+    "source": "https://www.omniglot.com/language/numbers/greek.htm"
+  },
+  {
+    "locale": "ha-NG",
+    "number": 200,
+    "words": "ɗari biyu",
+    "source": "https://www.omniglot.com/language/numbers/hausa.htm"
+  },
+  {
+    "locale": "ha-NG",
+    "number": 2000,
+    "words": "dubu biyu",
+    "source": "https://www.omniglot.com/language/numbers/hausa.htm"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 21,
+    "words": "dalawampu't isa",
+    "source": "https://www.omniglot.com/language/numbers/tagalog.htm"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 400,
+    "words": "apat na daan",
+    "source": "https://www.omniglot.com/language/numbers/tagalog.htm"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 1000,
+    "words": "isang libo",
+    "source": "https://www.omniglot.com/language/numbers/tagalog.htm"
+  },
+  {
+    "locale": "mr-IN",
+    "number": 100,
+    "words": "शंभर",
+    "source": "https://www.omniglot.com/language/numbers/marathi.htm"
+  },
+  {
+    "locale": "mr-IN",
+    "number": 300,
+    "words": "तीनशे",
+    "source": "https://rmvs.marathi.gov.in/wp-content/uploads/2022/02/MayMarathi-Short-Bank.pdf"
+  },
+  {
+    "locale": "te-IN",
+    "number": 2000,
+    "words": "రెండు వేలు",
+    "source": "https://www.omniglot.com/language/numbers/telugu.htm"
+  },
+  {
+    "locale": "he-IL",
+    "number": 10000,
+    "words": "עשרת אלפים",
+    "source": "https://www.teachmehebrew.com/numbers-in-hebrew.html"
+  },
+  {
+    "locale": "he-IL",
+    "number": 13000,
+    "words": "שלושה עשר אלף",
+    "source": "https://www.teachmehebrew.com/numbers-in-hebrew.html"
+  },
+  {
+    "locale": "hbo-IL",
+    "number": 300,
+    "words": "שלש מאות",
+    "source": "https://en.wikisource.org/wiki/Gesenius%27_Hebrew_Grammar/97._Numerals._%28a%29_Cardinal_Numbers"
+  },
+  {
+    "locale": "uk-UA",
+    "number": 6,
+    "words": "шість",
+    "source": "https://www.omniglot.com/language/numbers/ukrainian.htm"
+  },
+  {
+    "locale": "uk-UA",
+    "number": 2000,
+    "words": "дві тисячі",
+    "source": "https://www.omniglot.com/language/numbers/ukrainian.htm"
+  },
+  {
+    "locale": "zh-Hans-CN",
+    "number": 12,
+    "words": "十二",
+    "source": "https://www.omniglot.com/language/numbers/chinese.htm"
+  },
+  {
+    "locale": "zh-Hant-TW",
+    "number": 12,
+    "words": "十二",
+    "source": "https://www.omniglot.com/language/numbers/chinese.htm"
+  },
+  {
+    "locale": "it-IT",
+    "number": 23000,
+    "words": "ventitremila",
+    "source": "https://www.treccani.it/enciclopedia/numerali_(Enciclopedia-dell%27Italiano)/"
+  },
+  {
+    "locale": "da-DK",
+    "number": 60,
+    "words": "tres",
+    "source": "https://ordnet.dk/ddo/ordbog/tres"
+  },
+  {
+    "locale": "da-DK",
+    "number": 61,
+    "words": "enogtres",
+    "source": "https://ordnet.dk/ddo/ordbog/tres"
+  },
+  {
+    "locale": "da-DK",
+    "number": 50,
+    "words": "halvtreds",
+    "source": "https://ordnet.dk/ddo/ordbog/halvtreds"
+  },
+  {
+    "locale": "sr-Cyrl-RS",
+    "number": 600,
+    "words": "шестсто",
+    "source": "https://skolaplus.rs/storage/uploads/books/10-2021/easy-start-srpski-jezik-3-177-C9.pdf"
+  },
+  {
+    "locale": "sr-Cyrl-RS",
+    "number": 900,
+    "words": "деветсто",
+    "source": "https://pravopis.elektronskaknjiga.com/brojevi/devesto.php"
+  },
+  {
+    "locale": "sr-Latn-RS",
+    "number": 600,
+    "words": "šeststo",
+    "source": "https://skolaplus.rs/storage/uploads/books/10-2021/easy-start-srpski-jezik-3-177-C9.pdf"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 21000,
+    "words": "tjugoettusen",
+    "source": "https://frageladan.isof.se/faqs/31080"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 21001,
+    "words": "tjugoettusenett",
+    "source": "https://frageladan.isof.se/faqs/31080"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 101000,
+    "words": "hundraettusen",
+    "source": "https://frageladan.isof.se/faqs/31080"
+  },
+  {
+    "locale": "it-IT",
+    "number": 2003,
+    "words": "duemilatré",
+    "source": "https://accademiadellacrusca.it/it/consulenza/quarantaquattro-gatti-in-fila-per-sei-col-resto-di-due-o-di-quando-e-come-scrivere-i-numeri-in-lettere/1077"
+  },
+  {
+    "locale": "it-IT",
+    "number": 23003,
+    "words": "ventitremilatré",
+    "source": "https://accademiadellacrusca.it/it/consulenza/quarantaquattro-gatti-in-fila-per-sei-col-resto-di-due-o-di-quando-e-come-scrivere-i-numeri-in-lettere/1077"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 12300,
+    "words": "tizenkétezer-háromszáz",
+    "source": "https://archive.nytud.hu/oszt/nyelvmuvelo/gyik/huszonotezren.html"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 22000,
+    "words": "huszonkétezer",
+    "source": "https://archive.nytud.hu/oszt/nyelvmuvelo/gyik/huszonotezren.html"
+  },
+  {
+    "locale": "pt-PT",
+    "number": 1200,
+    "words": "mil e duzentos",
+    "source": "https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-conjuncao-e-nos-numerais/31900"
+  },
+  {
+    "locale": "pt-PT",
+    "number": 1201,
+    "words": "mil duzentos e um",
+    "source": "https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-conjuncao-e-nos-numerais/31900"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 11,
+    "words": "labing-isa",
+    "source": "https://jblmflc.com/Tagalog/SF%20200%20Hour%20Tagalog%20Familiarization%20Course/SF_FAM_TAGALOG_SUPPORT%20FILES/TAGALOG%20PDF%20%26%20SOUND/PDF/Lesson%203.pdf"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 14,
+    "words": "labing-apat",
+    "source": "https://jblmflc.com/Tagalog/SF%20200%20Hour%20Tagalog%20Familiarization%20Course/SF_FAM_TAGALOG_SUPPORT%20FILES/TAGALOG%20PDF%20%26%20SOUND/PDF/Lesson%203.pdf"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 16,
+    "words": "labing-anim",
+    "source": "https://jblmflc.com/Tagalog/SF%20200%20Hour%20Tagalog%20Familiarization%20Course/SF_FAM_TAGALOG_SUPPORT%20FILES/TAGALOG%20PDF%20%26%20SOUND/PDF/Lesson%203.pdf"
+  },
+  {
+    "locale": "fil-PH",
+    "number": 11000,
+    "words": "labing-isang libo",
+    "source": "https://jblmflc.com/Tagalog/SF%20200%20Hour%20Tagalog%20Familiarization%20Course/SF_FAM_TAGALOG_SUPPORT%20FILES/TAGALOG%20PDF%20%26%20SOUND/PDF/Lesson%203.pdf"
+  },
+  {
+    "locale": "fa-IR",
+    "number": 300,
+    "words": "سیصد",
+    "source": "https://www.laits.utexas.edu/persian_teaching_resources/Persian_of_Iran_Today_Book_2_Vocabulary_List.pdf"
+  },
+  {
+    "locale": "fa-IR",
+    "number": 1001,
+    "words": "هزار و یک",
+    "source": "https://www.laits.utexas.edu/persian_teaching_resources/Persian_of_Iran_Today_Book_2_Vocabulary_List.pdf"
+  },
+  {
+    "locale": "fa-IR",
+    "number": 123589,
+    "words": "صد و بیست و سه هزار و پانصد و هشتاد و نه",
+    "source": "https://www.laits.utexas.edu/persian_teaching_resources/Persian_of_Iran_Today_Book_2_Vocabulary_List.pdf"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 13,
+    "words": "பதின்மூன்று",
+    "source": "https://www.tamilvu.org/courses/hg100/hg112/html/hg112kt1.htm"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 500,
+    "words": "ஐந்நூறு",
+    "source": "https://www.tamilvu.org/slet/pmdictionary/ldttamls.jsp?x=13961&y=14134"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 800,
+    "words": "எண்ணூறு",
+    "source": "https://www.tamilvu.org/slet/lA100/lA100pd3.jsp?bookid=171&pno=264"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 300,
+    "words": "முந்நூறு",
+    "source": "https://www.tamilvu.org/ta/courses-degree-a051-a0514-html-a051423-10061"
+  },
+  {
+    "locale": "ur-PK",
+    "number": 46,
+    "words": "چھیالیس",
+    "source": "https://rekhtadictionary.com/meaning-of-chhiyaaliis"
+  },
+  {
+    "locale": "yo-NG",
+    "number": 60,
+    "words": "ọgọ́ta",
+    "source": "https://www.omniglot.com/language/numbers/yoruba.htm"
+  },
+  {
+    "locale": "yo-NG",
+    "number": 80,
+    "words": "ọgọ́rin",
+    "source": "https://www.omniglot.com/language/numbers/yoruba.htm"
+  },
+  {
+    "locale": "zh-Hans-CN",
+    "number": 101000,
+    "words": "十万一千",
+    "source": "https://www.goken-net.co.jp/goken_sample/163.pdf"
+  },
+  {
+    "locale": "zh-Hant-TW",
+    "number": 101001,
+    "words": "十萬一千零一",
+    "source": "https://files.knihi.com/Knihi/skola/zvycajnyja/kitajskaja_mova/kitajskaja_mova.07kl.2019.belrus.pdf.zip/kitajskaja_mova.07kl.2019_2.belrus.pdf"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 102,
+    "words": "százkettő",
+    "source": "https://e-nyelv.hu/2025-01-01/ketezer-egy-es-ketezeregy/"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 2002,
+    "words": "kétezer-kettő",
+    "source": "https://e-nyelv.hu/2025-01-01/ketezer-egy-es-ketezeregy/"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 22002,
+    "words": "huszonkétezer-kettő",
+    "source": "https://e-nyelv.hu/2025-01-01/ketezer-egy-es-ketezeregy/"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 22,
+    "words": "huszonkettő",
+    "source": "https://e-nyelv.hu/2025-01-01/ketezer-egy-es-ketezeregy/"
+  },
+  {
+    "locale": "da-DK",
+    "number": 21000000,
+    "words": "enogtyve millioner",
+    "source": "https://sproget.dk/sprogviden/artikler-fra-blade-og-tidsskrifter/sprogbrevetdr/sprogbrev-nr-72/"
+  },
+  {
+    "locale": "da-DK",
+    "number": 101000000,
+    "words": "et hundrede og en million",
+    "source": "https://sproget.dk/sprogviden/artikler-fra-blade-og-tidsskrifter/sprogbrevetdr/sprogbrev-nr-72/"
+  },
+  {
+    "locale": "da-DK",
+    "number": 301000000,
+    "words": "tre hundrede og en million",
+    "source": "https://sproget.dk/sprogviden/artikler-fra-blade-og-tidsskrifter/sprogbrevetdr/sprogbrev-nr-72/"
+  },
+  {
+    "locale": "da-DK",
+    "number": 591000000,
+    "words": "fem hundrede og enoghalvfems millioner",
+    "source": "https://sproget.dk/sprogviden/artikler-fra-blade-og-tidsskrifter/sprogbrevetdr/sprogbrev-nr-72/"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 21000000,
+    "words": "tjugoen miljoner",
+    "source": "https://svenska.se/SAG.pdf"
+  },
+  {
+    "locale": "sv-SE",
+    "number": 101000000,
+    "words": "hundraen miljoner",
+    "source": "https://svenska.se/SAG.pdf"
+  },
+  {
+    "locale": "fi-FI",
+    "number": 2000000001,
+    "words": "kaksimiljardiayksi",
+    "source": "https://kielitoimistonohjepankki.fi/ohje/luvut-ja-numerot-numeroiden-ryhmittely/"
+  },
+  {
+    "locale": "el-GR",
+    "number": 3000000,
+    "words": "τρία εκατομμύρια",
+    "source": "https://ebooks.edu.gr/ebooks/v/html/8547/2334/Grammatiki-Neas-Ellinikis-Glossas_A-B-G-Gymnasiou_html-apli/index_C_04.html"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 22000000,
+    "words": "huszonkétmillió",
+    "source": "https://mnl.gov.hu/mnl/fml/i_vilaghaborus_emlekmuvek_patka"
+  },
+  {
+    "locale": "it-IT",
+    "number": 1000003,
+    "words": "un milione tre",
+    "source": "https://www.treccani.it/enciclopedia/numerali_(Enciclopedia-dell%27Italiano)/"
+  },
+  {
+    "locale": "it-IT",
+    "number": 23000000,
+    "words": "ventitré milioni",
+    "source": "https://www.treccani.it/enciclopedia/numerali_(Enciclopedia-dell%27Italiano)/"
+  },
+  {
+    "locale": "pt-PT",
+    "number": 1000000000,
+    "words": "mil milhões",
+    "source": "https://ciberduvidas-ql.iscte-iul.pt/artigos/rubricas/idioma/um-biliao-ou-mil-milhoes/5134"
+  },
+  {
+    "locale": "pt-PT",
+    "number": 1000000200,
+    "words": "mil milhões e duzentos",
+    "source": "https://ciberduvidas-ql.iscte-iul.pt/artigos/rubricas/idioma/um-biliao-ou-mil-milhoes/5134"
+  },
+  {
+    "locale": "pt-PT",
+    "number": 101000000000,
+    "words": "cento e um mil milhões",
+    "source": "https://ciberduvidas-ql.iscte-iul.pt/artigos/rubricas/idioma/um-biliao-ou-mil-milhoes/5134"
+  },
+  {
+    "locale": "he-IL",
+    "number": 2000000,
+    "words": "שני מיליון",
+    "source": "https://www.teachmehebrew.com/numbers-in-hebrew.html"
+  },
+  {
+    "locale": "he-IL",
+    "number": 3000000,
+    "words": "שלושה מיליון",
+    "source": "https://www.teachmehebrew.com/numbers-in-hebrew.html"
+  },
+  {
+    "locale": "hbo-IL",
+    "number": 300000000,
+    "words": "שלש מאות מיליון",
+    "source": "https://www.teachmehebrew.com/numbers-in-hebrew.html"
+  },
+  {
+    "locale": "ha-NG",
+    "number": 1000000000,
+    "words": "biliyan ɗaya",
+    "source": "https://casirmediapublishing.com/wp-content/uploads/2020/02/Pages-30-34-2019-4205.pdf"
+  },
+  {
+    "locale": "mr-IN",
+    "number": 1000000000,
+    "words": "एक अब्ज",
+    "source": "https://www.unicode.org/cldr/charts/43/verify/numbers/mr.html"
+  },
+  {
+    "locale": "mr-IN",
+    "number": 100000000000,
+    "words": "एक खर्व",
+    "source": "https://www.unicode.org/cldr/charts/43/verify/numbers/mr.html"
+  },
+  {
+    "locale": "te-IN",
+    "number": 101000000,
+    "words": "పది కోట్ల పది లక్షలు",
+    "source": "https://cdn1.byjus.com/wp-content/uploads/2021/09/TS-Board-Class-6-Maths-Textbook-2021-22Telugu-Medium.pdf"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 1234567,
+    "words": "பன்னிரண்டு இலட்சத்து முப்பத்துநான்காயிரத்து ஐந்நூற்று அறுபத்தேழு",
+    "source": "https://www.tamildigitallibrary.in/admin/assets/book/TVA_BOK_0000960_%E0%AE%95%E0%AE%A3%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81.pdf"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 1000000000,
+    "words": "நூறு கோடி",
+    "source": "https://www.tamildigitallibrary.in/admin/assets/book/TVA_BOK_0002316_%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A9%E0%AE%BF_%E0%AE%95%E0%AE%B3%E0%AE%9E%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%AA%E0%AF%8D_%E0%AE%AA%E0%AF%87%E0%AE%B0%E0%AE%95%E0%AE%B0%E0%AE%BE%E0%AE%A4%E0%AE%BF.pdf"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 10000000000,
+    "words": "ஆயிரம் கோடி",
+    "source": "https://www.tamildigitallibrary.in/admin/assets/book/TVA_BOK_0002316_%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A9%E0%AE%BF_%E0%AE%95%E0%AE%B3%E0%AE%9E%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%AA%E0%AF%8D_%E0%AE%AA%E0%AF%87%E0%AE%B0%E0%AE%95%E0%AE%B0%E0%AE%BE%E0%AE%A4%E0%AE%BF.pdf"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 100000000000,
+    "words": "பத்தாயிரம் கோடி",
+    "source": "https://www.tamildigitallibrary.in/admin/assets/book/TVA_BOK_0002316_%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A9%E0%AE%BF_%E0%AE%95%E0%AE%B3%E0%AE%9E%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%AA%E0%AF%8D_%E0%AE%AA%E0%AF%87%E0%AE%B0%E0%AE%95%E0%AE%B0%E0%AE%BE%E0%AE%A4%E0%AE%BF.pdf"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 100000000001,
+    "words": "பத்தாயிரம் கோடியே ஒன்று",
+    "source": "https://chennaicorporation.gov.in/council/resolution/Council%20Resolution%2030.04.2025.pdf"
+  },
+  {
+    "locale": "te-IN",
+    "number": 1000000000,
+    "words": "వంద కోట్లు",
+    "source": "https://cdn1.byjus.com/wp-content/uploads/2021/09/TS-Board-Class-6-Maths-Textbook-2021-22Telugu-Medium.pdf"
+  },
+  {
+    "locale": "te-IN",
+    "number": 10000000000,
+    "words": "వెయ్యి కోట్లు",
+    "source": "https://cdn1.byjus.com/wp-content/uploads/2021/09/TS-Board-Class-6-Maths-Textbook-2021-22Telugu-Medium.pdf"
+  },
+  {
+    "locale": "te-IN",
+    "number": 100000000000,
+    "words": "పది వేల కోట్లు",
+    "source": "https://cdn1.byjus.com/wp-content/uploads/2021/09/TS-Board-Class-6-Maths-Textbook-2021-22Telugu-Medium.pdf"
+  },
+  {
+    "locale": "te-IN",
+    "number": 100000000001,
+    "words": "పది వేల కోట్ల ఒకటి",
+    "source": "https://cdn1.byjus.com/wp-content/uploads/2021/09/TS-Board-Class-6-Maths-Textbook-2021-22Telugu-Medium.pdf"
+  },
+  {
+    "locale": "az-AZ",
+    "number": 1000000000,
+    "words": "bir milyard",
+    "source": "https://azleks.az/en/dictionary/milyard"
+  },
+  {
+    "locale": "az-AZ",
+    "number": 21000000010,
+    "words": "iyirmi bir milyard on",
+    "source": "https://azleks.az/en/dictionary/milyard"
+  },
+  {
+    "locale": "te-IN",
+    "number": 201,
+    "words": "రెండు వందల ఒకటి",
+    "source": "https://cdn1.byjus.com/wp-content/uploads/2021/09/TS-Board-Class-6-Maths-Textbook-2021-22Telugu-Medium.pdf"
+  },
+  {
+    "locale": "te-IN",
+    "number": 2000000000,
+    "words": "రెండు వందల కోట్లు",
+    "source": "https://cdn1.byjus.com/wp-content/uploads/2021/09/TS-Board-Class-6-Maths-Textbook-2021-22Telugu-Medium.pdf"
+  },
+  {
+    "locale": "te-IN",
+    "number": 45690255,
+    "words": "నాలుగు కోట్ల యాభై ఆరు లక్షల తొంభై వేల రెండు వందల యాభై ఐదు",
+    "source": "https://cdn1.byjus.com/wp-content/uploads/2021/09/TS-Board-Class-6-Maths-Textbook-2021-22Telugu-Medium.pdf"
+  },
+  {
+    "locale": "te-IN",
+    "number": 10000001,
+    "words": "కోటి ఒకటి",
+    "source": "https://cdn1.byjus.com/wp-content/uploads/2021/09/TS-Board-Class-6-Maths-Textbook-2021-22Telugu-Medium.pdf"
+  },
+  {
+    "locale": "es-ES",
+    "number": 1001000000,
+    "words": "mil un millones",
+    "source": "https://www.fundeu.es/consulta/mil-millones-millardos/"
+  },
+  {
+    "locale": "es-ES",
+    "number": 1021000000,
+    "words": "mil veintiún millones",
+    "source": "https://www.fundeu.es/consulta/mil-millones-millardos/"
+  },
+  {
+    "locale": "es-ES",
+    "number": 123456789123,
+    "words": "ciento veintitrés mil cuatrocientos cincuenta y seis millones setecientos ochenta y nueve mil ciento veintitrés",
+    "source": "https://www.fundeu.es/consulta/mil-millones-millardos/"
+  },
+  {
+    "locale": "bn-BD",
+    "number": 1000000000,
+    "words": "এক শত কোটি",
+    "source": "https://accessibledictionary.gov.bd/bengali-to-bengali/?alp=&page=757"
+  },
+  {
+    "locale": "bn-BD",
+    "number": 10000000000,
+    "words": "এক হাজার কোটি",
+    "source": "https://accessibledictionary.gov.bd/bengali-to-bengali/?alp=&page=757"
+  },
+  {
+    "locale": "bn-BD",
+    "number": 100000000000,
+    "words": "দশ হাজার কোটি",
+    "source": "https://accessibledictionary.gov.bd/bengali-to-bengali/?alp=&page=757"
+  },
+  {
+    "locale": "kn-IN",
+    "number": 10000000000,
+    "words": "ಹತ್ತು ಅಬ್ಜ",
+    "source": "https://alar.ink/dictionary/kannada/english/%E0%B2%85%E0%B2%AC%E0%B3%8D%E0%B2%9C"
+  },
+  {
+    "locale": "kn-IN",
+    "number": 100000000000,
+    "words": "ಒಂದು ನೂರು ಅಬ್ಜ",
+    "source": "https://alar.ink/dictionary/kannada/english/%E0%B2%85%E0%B2%AC%E0%B3%8D%E0%B2%9C"
+  },
+  {
+    "locale": "kn-IN",
+    "number": 100000000001,
+    "words": "ಒಂದು ನೂರು ಅಬ್ಜ ಒಂದು",
+    "source": "https://alar.ink/dictionary/kannada/english/%E0%B2%85%E0%B2%AC%E0%B3%8D%E0%B2%9C"
+  },
+  {
+    "locale": "ta-IN",
+    "number": 30000001,
+    "words": "மூன்று கோடியே ஒன்று",
+    "source": "https://chennaicorporation.gov.in/council/resolution/Council%20Resolution%2030.04.2025.pdf"
+  },
+  {
+    "locale": "pa-IN",
+    "number": 67,
+    "words": "ਸਤਾਠ",
+    "source": "https://centralbankofindia.co.in/sites/default/files/%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A4%BE%E0%A4%AC%E0%A5%80.pdf"
+  },
+  {
+    "locale": "pa-IN",
+    "number": 89,
+    "words": "ਉਨਾਨਵੇਂ",
+    "source": "https://www.ncertbooks.net/textbook/pdf/apjm108.pdf"
+  },
+  {
+    "locale": "pa-IN",
+    "number": 6789000,
+    "words": "ਸਤਾਠ ਲੱਖ ਉਨਾਨਵੇਂ ਹਜ਼ਾਰ",
+    "source": "https://centralbankofindia.co.in/sites/default/files/%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A4%BE%E0%A4%AC%E0%A5%80.pdf",
+    "additionalSource": "https://www.ncertbooks.net/textbook/pdf/apjm108.pdf"
+  }
+]

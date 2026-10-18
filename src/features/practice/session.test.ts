@@ -1,6 +1,6 @@
 import { expect, it } from 'vitest';
 import { createSession, sessionReducer } from './session';
-import { randomNumber } from '../../lib/randomNumber';
+import { randomNumber } from '../../lib/random-number';
 
 it('excludes the last displayed number when restarting a completed round', () => {
   const completed = sessionReducer(createSession(0), {

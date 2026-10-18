@@ -21,7 +21,7 @@
 
 ## Contribution checklist
 
-- [ ] I followed [CONTRIBUTING.md](https://github.com/ohne-b/numspoken/blob/main/CONTRIBUTING.md).
+- [ ] I followed [contributing.md](https://github.com/ohne-b/numspoken/blob/main/contributing.md).
 - [ ] Current main is incorporated; the diff contains no unrelated changes or secrets.
 - [ ] Applicable local checks and required CI pass on the final revision.
 - [ ] Independent review is complete and blocking findings are resolved.

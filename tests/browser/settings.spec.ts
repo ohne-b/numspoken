@@ -1,5 +1,58 @@
 import { expect, test } from '@playwright/test';
 import { answerField, openPractice } from './helpers';
+import { MAX_NUMBER } from '../../src/lib/random-number';
+
+test('saves twelve-digit ranges and rejects oversized input without truncating it', async ({
+  page,
+}) => {
+  await page.goto('./#/settings');
+  await page.getByLabel('From', { exact: true }).fill(String(MAX_NUMBER));
+  await page.getByLabel('To', { exact: true }).fill(String(MAX_NUMBER));
+  await expect(page.getByLabel('To', { exact: true })).toHaveAttribute(
+    'aria-invalid',
+    'false',
+  );
+  await page.getByLabel('To', { exact: true }).fill(String(MAX_NUMBER + 1));
+  await expect(page.getByLabel('To', { exact: true })).toHaveValue(
+    String(MAX_NUMBER + 1),
+  );
+  await expect(page.getByLabel('To', { exact: true })).toHaveAttribute(
+    'aria-invalid',
+    'true',
+  );
+  await page.getByRole('button', { name: 'Back to practice' }).click();
+  await expect(page.locator('.number')).toHaveText('999,999,999,999');
+  await page.reload();
+  await expect(page.locator('.number')).toHaveText('999,999,999,999');
+  await page.getByRole('button', { name: 'Reveal answer' }).click();
+  await expect(answerField(page)).toHaveValue(
+    'nine hundred ninety-nine billion nine hundred ninety-nine million nine hundred ninety-nine thousand nine hundred ninety-nine',
+  );
+});
+
+test('large grouped numbers and long answers fit small screens in both themes', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 320, height: 640 });
+  await openPractice(page, {
+    locale: 'en-IN',
+    min: MAX_NUMBER,
+    max: MAX_NUMBER,
+  });
+  await expect(page.locator('.number')).toHaveText('9,99,99,99,99,999');
+  for (const theme of ['dark', 'light']) {
+    if (theme === 'light')
+      await page.getByRole('button', { name: 'Switch to light mode' }).click();
+    await page.getByRole('button', { name: 'Reveal answer' }).click();
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth + 1,
+      ),
+    ).toBe(true);
+    await expect(answerField(page)).toBeVisible();
+    await page.getByRole('button', { name: 'Next number' }).click();
+  }
+});
 
 test('Escape closes settings when the header or footer has focus', async ({
   page,
