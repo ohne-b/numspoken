@@ -41,6 +41,8 @@ export function LanguagePicker({
   }
 
   function close() {
+    // Remove the search from the tab order before the browser handles Tab.
+    popup.current?.hidePopover();
     setOpen(false);
     field.current?.input.focus({ preventScroll: true });
   }

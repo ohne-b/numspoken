@@ -106,6 +106,10 @@ export function App() {
         onFocusCapture={(event) => {
           const target = event.target;
           if (target.closest('[popover]')) return;
+          if (view.name !== 'settings') {
+            target.scrollIntoView({ block: 'nearest' });
+            return;
+          }
           // Let WebKit's native focus scrolling settle before correcting the header offset.
           requestAnimationFrame(() =>
             requestAnimationFrame(() => {
