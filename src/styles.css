@@ -46,6 +46,8 @@
   --safe-left: env(safe-area-inset-left, 0px);
   --topbar-padding-top: max(20px, var(--safe-top));
   --topbar-padding-bottom: 12px;
+  /* Restore reading positions without Material's global scroll animation. */
+  scroll-behavior: auto;
   scroll-padding-top: calc(
     var(--topbar-padding-top) + 44px + var(--topbar-padding-bottom)
   );

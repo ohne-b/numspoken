@@ -67,6 +67,7 @@ test('settings returns to the same guide and reading position with the arrow or 
   await expect(
     page.getByRole('heading', { name: 'Sources', exact: true }),
   ).toBeVisible();
+  await expect(page.locator('html')).toHaveCSS('scroll-behavior', 'auto');
   for (const back of ['arrow', 'Escape']) {
     // Keyboard activation avoids Playwright's WebKit click scrolling the sticky header.
     await page.getByRole('button', { name: 'Open settings' }).focus();
