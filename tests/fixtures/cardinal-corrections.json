@@ -364,5 +364,29 @@
     "number": 101001,
     "words": "十萬一千零一",
     "source": "https://files.knihi.com/Knihi/skola/zvycajnyja/kitajskaja_mova/kitajskaja_mova.07kl.2019.belrus.pdf.zip/kitajskaja_mova.07kl.2019_2.belrus.pdf"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 102,
+    "words": "százkettő",
+    "source": "https://e-nyelv.hu/2025-01-01/ketezer-egy-es-ketezeregy/"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 2002,
+    "words": "kétezer-kettő",
+    "source": "https://e-nyelv.hu/2025-01-01/ketezer-egy-es-ketezeregy/"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 22002,
+    "words": "huszonkétezer-kettő",
+    "source": "https://e-nyelv.hu/2025-01-01/ketezer-egy-es-ketezeregy/"
+  },
+  {
+    "locale": "hu-HU",
+    "number": 22,
+    "words": "huszonkettő",
+    "source": "https://e-nyelv.hu/2025-01-01/ketezer-egy-es-ketezeregy/"
   }
 ]

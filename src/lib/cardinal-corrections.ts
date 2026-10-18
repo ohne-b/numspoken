@@ -27,7 +27,10 @@ export function correctCardinal(locale: LocaleCode, raw: Cardinal): Cardinal {
         .replaceAll('девестo', 'деветсто')
         .replaceAll('шесто', 'шестсто');
     if (locale === 'sr-Latn-RS') return raw(n).replaceAll('šesto', 'šeststo');
-    if (locale === 'hu-HU') return raw(n).replace(/kettő(?=ezer)/g, 'két');
+    if (locale === 'hu-HU')
+      return raw(n)
+        .replace(/kettő(?=ezer)/g, 'két')
+        .replace(/két$/, 'kettő');
     if (locale === 'pt-PT' && n >= 1000 && n % 1000 > 0 && n % 100 === 0)
       return raw(n - (n % 1000)) + ' e ' + raw(n % 1000);
     if (locale === 'ur-PK') return raw(n).replaceAll('چھالیس', 'چھیالیس');
