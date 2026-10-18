@@ -1,0 +1,119 @@
+# Telugu numbers
+
+## Quick reference
+
+### 0–9
+
+| Number | Telugu   |
+| -----: | -------- |
+|      0 | సున్నా   |
+|      1 | ఒకటి     |
+|      2 | రెండు    |
+|      3 | మూడు     |
+|      4 | నాలుగు   |
+|      5 | ఐదు      |
+|      6 | ఆరు      |
+|      7 | ఏడు      |
+|      8 | ఎనిమిది  |
+|      9 | తొమ్మిది |
+
+### 10–19
+
+| Number | Telugu      |
+| -----: | ----------- |
+|     10 | పది         |
+|     11 | పదకొండు     |
+|     12 | పన్నెండు    |
+|     13 | పదమూడు      |
+|     14 | పద్నాలుగు   |
+|     15 | పదిహేను     |
+|     16 | పదహారు      |
+|     17 | పదిహేడు     |
+|     18 | పద్దెనిమిది |
+|     19 | పంతొమ్మిది  |
+
+### 20–29
+
+| Number | Telugu            |
+| -----: | ----------------- |
+|     20 | ఇరవై              |
+|     21 | ఇరవై ఒక్కటి       |
+|     22 | ఇరవై **రెండు**    |
+|     23 | ఇరవై **మూడు**     |
+|     24 | ఇరవై **నాలుగు**   |
+|     25 | ఇరవై **ఐదు**      |
+|     26 | ఇరవై **ఆరు**      |
+|     27 | ఇరవై **ఏడు**      |
+|     28 | ఇరవై **ఎనిమిది**  |
+|     29 | ఇరవై **తొమ్మిది** |
+
+### Tens
+
+| Number | Telugu         |
+| -----: | -------------- |
+|     30 | ముప్పై         |
+|     31 | ముప్పై ఒకటి    |
+|     40 | నలభై           |
+|     50 | యాభై           |
+|     60 | అరవై           |
+|     70 | డెబ్బై         |
+|     80 | ఎనభై           |
+|     90 | తొంభై          |
+|     99 | తొంభై తొమ్మిది |
+
+## Larger numbers
+
+### Hundreds
+
+| Number | Telugu         |
+| -----: | -------------- |
+|    100 | వంద            |
+|    101 | వంద ఒకటి       |
+|    200 | రెండు వందలు    |
+|    300 | మూడు వందలు     |
+|    400 | నాలుగు వందలు   |
+|    500 | ఐదు వందలు      |
+|    600 | ఆరు వందలు      |
+|    700 | ఏడు వందలు      |
+|    800 | ఎనిమిది వందలు  |
+|    900 | తొమ్మిది వందలు |
+
+### Thousands and millions
+
+|    Number | Telugu                                    |
+| --------: | ----------------------------------------- |
+|     1,000 | వెయ్యి                                    |
+|     2,000 | రెండు వేలు                                |
+|    10,000 | పది వేలు                                  |
+|  1,00,000 | లక్ష                                      |
+|  1,23,456 | లక్ష ఇరవై మూడు వేలు నాలుగు వందలు యాభై ఆరు |
+| 10,00,000 | పది లక్షలు                                |
+
+Practice stops at 999,999. The million is here for reference.
+
+## Tens followed by units
+
+20 is _ఇరవై_. A following unit makes 21 _ఇరవై ఒక్కటి_,
+22 _ఇరవై రెండు_, and 23 _ఇరవై మూడు_.
+
+The teens have several shortened forms: _పదకొండు_ (11),
+_పన్నెండు_ (12), _పద్నాలుగు_ (14) and _పద్దెనిమిది_ (18).
+
+## Hundreds and thousands
+
+100 is _వంద_. Larger hundreds use _వందలు_: _రెండు వందలు_.
+1,000 is _వెయ్యి_, but 2,000 is _రెండు వేలు_.
+
+The place word changes with the count; don't keep the singular
+_వెయ్యి_ after every number.
+
+## Lakh
+
+_లక్ష_ is 100,000. For several lakh, use _లక్షలు_.
+The groups in 1,23,456 are one lakh, twenty-three thousand and
+four hundred fifty-six. The app displays 0–9 digits and expects
+the answer in Telugu script.
+
+## Sources
+
+- [Telugu numbers — Omniglot](https://www.omniglot.com/language/numbers/telugu.htm)
