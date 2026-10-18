@@ -33,7 +33,7 @@ test('small screens and 200% text keep controls reachable without horizontal scr
   ).toBe(true);
   await page.getByRole('button', { name: 'Open settings' }).click();
   await page.addStyleTag({ content: 'html { zoom: 2; }' });
-  await page.getByLabel('Fixed round', { exact: true }).check();
+  await page.getByText('Fixed round', { exact: true }).click();
   await page
     .getByRole('button', { name: 'Back to practice' })
     .scrollIntoViewIfNeeded();
@@ -117,8 +117,8 @@ test('phone safe areas and solid chrome follow both themes and keep short views 
   const bounds = await range.boundingBox();
   expect(bounds!.x).toBeGreaterThanOrEqual(59);
   expect(bounds!.x + bounds!.width).toBeLessThanOrEqual(844 - 59);
-  await page.getByLabel('Fixed round', { exact: true }).check();
-  await page.getByLabel('50', { exact: true }).check();
+  await page.getByText('Fixed round', { exact: true }).click();
+  await page.getByText('50', { exact: true }).click();
   await page.evaluate(() =>
     window.scrollTo(0, document.documentElement.scrollHeight),
   );
@@ -139,7 +139,7 @@ test('reverse tabbing keeps settings controls below the sticky header on short s
   page,
 }) => {
   await page.goto('./#/settings');
-  await page.getByLabel('Fixed round', { exact: true }).check();
+  await page.getByText('Fixed round', { exact: true }).click();
   for (const viewport of [
     { width: 844, height: 390, top: 0 },
     { width: 390, height: 300, top: 59 },
@@ -161,13 +161,16 @@ test('reverse tabbing keeps settings controls below the sticky header on short s
               .querySelector('.topbar')!
               .getBoundingClientRect();
             const focused = document.activeElement!.getBoundingClientRect();
-            return (
-              focused.top >= header.bottom - 1 &&
-              focused.bottom <= innerHeight + 1
-            );
+            return {
+              belowHeader: focused.top >= header.bottom - 1,
+              aboveBottom: focused.bottom <= innerHeight + 1,
+              tag: document.activeElement!.tagName,
+              top: focused.top,
+              header: header.bottom,
+            };
           }),
         )
-        .toBe(true);
+        .toMatchObject({ belowHeader: true, aboveBottom: true });
     }
     expect(controls).toBeGreaterThanOrEqual(6);
   }
