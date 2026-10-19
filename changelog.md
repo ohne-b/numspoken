@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- No repeated numbers until you've covered the range, including across rounds. The list clears on reload or a range change.
+
 ## 0.2.0 - 2026-10-18
 
 - Material controls from md3.io and a rebuilt searchable language picker.

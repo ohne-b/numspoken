@@ -1,9 +1,8 @@
-export function randomNumber(
+export function createNumberSequence(
   min: number,
   max: number,
-  previous?: number,
   random = Math.random,
-): number {
+) {
   if (
     !Number.isSafeInteger(min) ||
     !Number.isSafeInteger(max) ||
@@ -16,9 +15,26 @@ export function randomNumber(
     );
   }
   const count = max - min + 1;
-  if (count === 1) return min;
-  const omit = previous !== undefined && previous >= min && previous <= max;
-  const pick = min + Math.floor(random() * (count - Number(omit)));
-  return omit && pick >= previous ? pick + 1 : pick;
+  let remaining = count;
+  let previous = -1;
+  // Store only moved entries of a virtual shuffled range, even for twelve-digit ranges.
+  const swaps = new Map<number, number>();
+  const next = () => {
+    if (remaining === 0) {
+      remaining = count;
+      swaps.clear();
+    }
+    const omitPrevious = remaining === count && count > 1 && previous >= 0;
+    let index = Math.floor(random() * (remaining - Number(omitPrevious)));
+    if (omitPrevious && index >= previous) index++;
+    const value = swaps.get(index) ?? index;
+    const last = remaining - 1;
+    if (index !== last) swaps.set(index, swaps.get(last) ?? last);
+    swaps.delete(last);
+    remaining--;
+    previous = value;
+    return min + value;
+  };
+  return { first: next(), next };
 }
 export const MAX_NUMBER = 999_999_999_999;

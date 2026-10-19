@@ -26,6 +26,8 @@ Native textarea editing is mirrored for coloring; preserve IME, selection, undo,
 RTL and forced colors. Grading uses whole candidate answers and the longest correct prefix.
 Never strip combining marks globally. Input composition suspends grading and auto-advance.
 Session transitions count a departed problem once; reveal alone never counts or succeeds.
+Number selection uses an in-memory shuffled cycle per range, retained across rounds and
+non-range settings changes. Reloading or changing the range resets it. Never persist exclusions.
 Settings suspend practice; valid changes persist immediately and restart practice on return.
 Theme alone does not restart. Cancel stale async work/timers. Storage failure stays usable.
 

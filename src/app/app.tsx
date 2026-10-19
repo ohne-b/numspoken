@@ -127,7 +127,7 @@ export function App() {
         }}
       >
         <PracticeView
-          key={practiceKey(practicePreferences)}
+          key={`${practicePreferences.min}:${practicePreferences.max}`}
           preferences={practicePreferences}
           active={view.name === 'practice'}
         />
