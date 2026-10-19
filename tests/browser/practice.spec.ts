@@ -1,6 +1,100 @@
 import { expect, test } from '@playwright/test';
 import { answerField, openPractice } from './helpers';
 
+test('uses the whole range before repeating, including across completed rounds', async ({
+  page,
+}) => {
+  await page.addInitScript(() => {
+    Math.random = () => 0;
+  });
+  await openPractice(page, { min: 0, max: 11, mode: 'round', roundLength: 10 });
+  const seen: number[] = [];
+  for (let i = 0; i < 12; i++) {
+    await expect(answerField(page)).toBeEditable();
+    seen.push(Number(await page.locator('.number').textContent()));
+    if (i === 0) {
+      await page.getByRole('button', { name: 'Reveal answer' }).click();
+      await expect(page.locator('.number')).toHaveText('0');
+      await answerField(page).press('Enter');
+    } else {
+      await page.getByRole('button', { name: 'Skip number' }).click();
+    }
+    if (i === 9) {
+      await expect(
+        page.getByRole('heading', { name: 'Round complete' }),
+      ).toBeVisible();
+      await page.getByRole('button', { name: 'Start another round' }).click();
+    }
+  }
+  expect([...seen].sort((a, b) => a - b)).toEqual(
+    Array.from({ length: 12 }, (_, i) => i),
+  );
+  await expect(answerField(page)).toBeEditable();
+  await expect(page.locator('.number')).not.toHaveText(String(seen.at(-1)));
+});
+
+test('keeps exclusions through guides and settings but clears them on reload or a new range', async ({
+  page,
+}) => {
+  await page.addInitScript(() => {
+    Math.random = () => 0;
+  });
+  await openPractice(page, { min: 0, max: 4 });
+  await expect(page.locator('.number')).toHaveText('0');
+  await answerField(page).fill('zero');
+  await expect(page.locator('.number')).toHaveText('4', { timeout: 4000 });
+  await page.getByRole('button', { name: 'Number guide' }).click();
+  await page.getByRole('button', { name: 'Back to practice' }).click();
+  await expect(page.locator('.number')).toHaveText('4');
+  await page.getByRole('button', { name: 'Open settings' }).click();
+  await page.getByRole('button', { name: 'Back to practice' }).click();
+  await page.getByRole('button', { name: 'Switch to light mode' }).click();
+  await expect(page.locator('.number')).toHaveText('4');
+  await page.getByRole('button', { name: 'Open settings' }).click();
+  await page.getByRole('switch', { name: 'Forgiving spelling' }).click();
+  await page.getByRole('button', { name: 'Back to practice' }).click();
+  await expect(page.locator('.number')).toHaveText('3');
+  await page.getByRole('button', { name: 'Open settings' }).click();
+  await page.getByRole('combobox', { name: /Practice language/ }).click();
+  await page.getByRole('combobox', { name: 'Search languages' }).fill('German');
+  await page
+    .getByRole('option', { name: 'German, Germany', exact: true })
+    .click();
+  await page.getByRole('button', { name: 'Back to practice' }).click();
+  await expect(page.locator('.number')).toHaveText('2');
+  await expect(answerField(page)).toHaveAttribute('lang', 'de-DE');
+  expect(
+    await page.evaluate(() => ({
+      localKeys: Object.keys(localStorage),
+      preferenceKeys: Object.keys(
+        JSON.parse(localStorage.getItem('numspoken.preferences')!),
+      ).sort(),
+      sessionKeys: Object.keys(sessionStorage),
+    })),
+  ).toEqual({
+    localKeys: ['numspoken.preferences'],
+    preferenceKeys: [
+      'forgiving',
+      'locale',
+      'max',
+      'min',
+      'mode',
+      'roundLength',
+      'theme',
+      'version',
+    ],
+    sessionKeys: [],
+  });
+  await page.reload();
+  await expect(answerField(page)).toHaveAttribute('lang', 'de-DE');
+  await expect(page.locator('.number')).toHaveText('0');
+  await page.getByRole('button', { name: 'Open settings' }).click();
+  await page.getByRole('textbox', { name: 'To', exact: true }).fill('102');
+  await page.getByRole('textbox', { name: 'From', exact: true }).fill('100');
+  await page.getByRole('button', { name: 'Back to practice' }).click();
+  await expect(page.locator('.number')).toHaveText('100');
+});
+
 test('a new round does not repeat the last visible number in a two-number range', async ({
   page,
 }) => {

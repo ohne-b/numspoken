@@ -1,4 +1,11 @@
-import { useCallback, useEffect, useReducer, useRef, useState } from 'react';
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useReducer,
+  useRef,
+  useState,
+} from 'react';
 import type { IconButtonElement } from 'material/elements';
 import { Icon } from '@mdi/react';
 import { mdiCheck, mdiEyeOutline, mdiRefresh, mdiSkipNext } from '@mdi/js';
@@ -6,7 +13,7 @@ import type { Preferences } from '../../app/preferences';
 import { formatNumber, languageFor } from '../../lib/languages';
 import { loadConverter, type Answer } from '../../lib/number-words';
 import { loadFont } from '../../lib/fonts';
-import { randomNumber } from '../../lib/random-number';
+import { createNumberSequence } from '../../lib/random-number';
 import { validateAnswer } from '../../lib/validate-answer';
 import { IconButton } from '../../ui/icon-button';
 import { AnswerField } from './answer-field';
@@ -19,8 +26,13 @@ export function PracticeView({
   preferences: Preferences;
   active: boolean;
 }) {
-  const [session, dispatch] = useReducer(sessionReducer, preferences, (prefs) =>
-    createSession(randomNumber(prefs.min, prefs.max)),
+  const [sequence] = useState(() =>
+    createNumberSequence(preferences.min, preferences.max),
+  );
+  const [session, dispatch] = useReducer(
+    sessionReducer,
+    sequence.first,
+    createSession,
   );
   const [resource, setResource] = useState<{
     key: string;
@@ -35,6 +47,7 @@ export function PracticeView({
   );
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const restartRef = useRef<IconButtonElement>(null);
+  const previousPreferences = useRef(preferences);
   const language = languageFor(preferences.locale);
   const resourceKey = `${language.code}:${session.number}:${session.questionId}:${retry}`;
   const answer = resource?.key === resourceKey ? resource.answer : undefined;
@@ -47,6 +60,14 @@ export function PracticeView({
   );
   const correct =
     !!answer && feedback.complete && !session.revealed && !composing;
+
+  useLayoutEffect(() => {
+    if (previousPreferences.current === preferences) return;
+    previousPreferences.current = preferences;
+    setRetry(0);
+    setComposing(false);
+    dispatch({ type: 'restart', number: sequence.next() });
+  }, [preferences, sequence]);
 
   useEffect(() => {
     let current = true;
@@ -85,18 +106,22 @@ export function PracticeView({
   }, [active, answer, session.complete]);
 
   const next = useCallback(() => {
+    if (session.complete) return;
     setComposing(false);
     inputRef.current?.focus({ preventScroll: true });
+    const limit = preferences.mode === 'round' ? preferences.roundLength : null;
+    const complete = limit !== null && session.departed + 1 >= limit;
     dispatch({
       type: 'next',
-      number: randomNumber(preferences.min, preferences.max, session.number),
-      limit: preferences.mode === 'round' ? preferences.roundLength : null,
+      number: complete ? session.number : sequence.next(),
+      limit,
     });
   }, [
-    preferences.min,
-    preferences.max,
     preferences.mode,
     preferences.roundLength,
+    sequence,
+    session.complete,
+    session.departed,
     session.number,
   ]);
 
@@ -138,11 +163,7 @@ export function PracticeView({
             onClick={() =>
               dispatch({
                 type: 'restart',
-                number: randomNumber(
-                  preferences.min,
-                  preferences.max,
-                  session.number,
-                ),
+                number: sequence.next(),
               })
             }
           />
