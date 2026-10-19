@@ -11,6 +11,7 @@
 
 Type the number in words. Correct letters turn green. Choose from 50 languages and 72 variants.
 Set any whole-number range from 0 to 999,999,999,999.
+Numbers repeat only after you've covered the range. Reloading or changing the range starts fresh.
 The book opens number tables and a short guide for your language.
 
 **[Open numspoken](https://ohne-b.github.io/numspoken/)**
