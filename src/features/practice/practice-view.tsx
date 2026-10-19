@@ -48,6 +48,7 @@ export function PracticeView({
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const restartRef = useRef<IconButtonElement>(null);
   const previousPreferences = useRef(preferences);
+  const hasBeenActive = useRef(false);
   const language = languageFor(preferences.locale);
   const resourceKey = `${language.code}:${session.number}:${session.questionId}:${retry}`;
   const answer = resource?.key === resourceKey ? resource.answer : undefined;
@@ -62,12 +63,17 @@ export function PracticeView({
     !!answer && feedback.complete && !session.revealed && !composing;
 
   useLayoutEffect(() => {
-    if (previousPreferences.current === preferences) return;
-    previousPreferences.current = preferences;
-    setRetry(0);
-    setComposing(false);
-    dispatch({ type: 'restart', number: sequence.next() });
-  }, [preferences, sequence]);
+    if (previousPreferences.current !== preferences) {
+      previousPreferences.current = preferences;
+      setRetry(0);
+      setComposing(false);
+      dispatch({
+        type: 'restart',
+        number: hasBeenActive.current ? sequence.next() : sequence.first,
+      });
+    }
+    if (active) hasBeenActive.current = true;
+  }, [active, preferences, sequence]);
 
   useEffect(() => {
     let current = true;

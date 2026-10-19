@@ -95,6 +95,26 @@ test('keeps exclusions through guides and settings but clears them on reload or 
   await expect(page.locator('.number')).toHaveText('100');
 });
 
+test('does not exclude an unseen number when a visit starts in settings', async ({
+  page,
+}) => {
+  await page.addInitScript(() => {
+    Math.random = () => 0.5;
+  });
+  await openPractice(page, { min: 0, max: 4 });
+  await page.getByRole('button', { name: 'Open settings' }).click();
+  await page.reload();
+  await page.getByRole('switch', { name: 'Forgiving spelling' }).click();
+  await page.getByRole('button', { name: 'Back to practice' }).click();
+  const seen: number[] = [];
+  for (let i = 0; i < 5; i++) {
+    await expect(answerField(page)).toBeEditable();
+    seen.push(Number(await page.locator('.number').textContent()));
+    await page.getByRole('button', { name: 'Skip number' }).click();
+  }
+  expect([...seen].sort((a, b) => a - b)).toEqual([0, 1, 2, 3, 4]);
+});
+
 test('a new round does not repeat the last visible number in a two-number range', async ({
   page,
 }) => {
