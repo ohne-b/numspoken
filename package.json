@@ -44,7 +44,7 @@
     "@mdi/js": "7.4.47",
     "@mdi/react": "1.6.1",
     "flag-icons": "7.6.0",
-    "material": "3.2.0",
+    "material": "3.2.4",
     "n2words": "6.3.0",
     "react": "19.3.1",
     "react-dom": "19.3.1",
@@ -73,7 +73,7 @@
     "remark-parse": "11.0.0",
     "tailwindcss": "4.3.3",
     "typescript": "6.0.3",
-    "typescript-eslint": "8.71.2",
+    "typescript-eslint": "8.72.0",
     "unified": "11.0.5",
     "vite": "8.3.4",
     "vitest": "5.0.5"
